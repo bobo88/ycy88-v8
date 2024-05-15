@@ -65,7 +65,7 @@ export default defineConfig({
           height: 50px;
           line-height: 20px;
           border-radius: 6px;
-          background-color: #f8f9fa;
+          background-color: rgba(0,0,0,0.1);
           text-align: center;
           position: fixed;
           z-index: 99;
