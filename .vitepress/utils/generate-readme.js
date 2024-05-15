@@ -4,6 +4,26 @@ const path = require('path')
 const baseDir = './' // 项目根目录
 const readmePath = path.join(baseDir, 'README.md')
 
+// 默认的头部内容
+const defaultHeaderContent = `
+> **你我共勉**：掌握核心技术（道法术器），全方位涵盖技术团队规范、全栈技能、算法、主流技术和团队管理的关键元素。
+> 
+> 作者：yb
+>
+> 本站地址：https://fe.ycy88.com
+> 
+> 强烈推荐大家阅读了解 **【技术之外】** 这个篇章，「想」和「做」都很重要，但「想」要先行。知行合一，也是「知」在前面。
+
+![An image](https://fe.ycy88.com/images/beyond/bloom.png)
+
+\`\`\`
+别去做太多准备，那只会束缚你前进的决心和脚步。
+
+保持进击，随时复盘，及时调整。
+\`\`\`
+
+`
+
 // 获取Markdown文件的标题
 function getTitleFromMarkdown(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8')
@@ -74,7 +94,9 @@ function generateMarkdownForDirectory(dir, relativePath = '', level = 2) {
   return markdown
 }
 
-const markdownContent = `# 项目目录\n\n${generateMarkdownForDirectory(baseDir)}`
+const markdownContent = `${defaultHeaderContent}# 项目目录\n\n${generateMarkdownForDirectory(
+  baseDir
+)}`
 fs.writeFileSync(readmePath, markdownContent)
 
 console.log('README.md has been updated.')
