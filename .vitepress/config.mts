@@ -65,14 +65,14 @@ export default defineConfig({
           height: 50px;
           line-height: 20px;
           border-radius: 6px;
-          background-color: rgba(0,0,0,0.1);
+          background-color: #f8f9fa;
           text-align: center;
           position: fixed;
           z-index: 99;
           bottom: 50px;
           right: 20px;
           text-align: center;
-          border:1px solid #909399;
+          border:1px solid #eee;
         }
         .rounded-box .source-code {height:20px;line-height: 20px; color: #333;font-size: 14px;font-weight:bold;}
         .rounded-box a {display: block;height:20px;line-height: 20px; color: #409EFF;font-size: 14px;font-weight:bold;}
