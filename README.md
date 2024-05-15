@@ -25,7 +25,6 @@
 ## 数据结构与算法
 
 - [算法种类](algorithm/0_algorithm-types.md)
-- [0_hidden.md](algorithm/0_hidden.md)
 - [开始之前，说点什么好呢？](algorithm/0_preface.md)
 ### 基础知识
 
@@ -153,7 +152,6 @@
 - [架构思考复盘](architecture-design/think/index.md)
 ## Backend 专题
 
-- [0_hidden.md](backend/0_hidden.md)
 - [服务端架构师知识清单](backend/0_todolist.md)
 - [API 接口类型](backend/about-api.md)
 ### 基础知识
@@ -164,7 +162,6 @@
 - [知识清单 - 设计模式](backend/base/1_design-patterns.md)
 - [知识清单 - 分布式系统](backend/base/1_distributed-system.md)
 - [知识清单 - 编程语言和框架](backend/base/1_list-lang.md)
-- [知识清单 - 编程语言和框架](backend/base/1_list_hidden.md)
 - [知识清单 - 日志和监控](backend/base/1_log-monitor.md)
 - [知识清单 - 消息队列系统](backend/base/1_message-queue-system.md)
 - [知识清单 - 微服务架构](backend/base/1_microservice.md)
@@ -220,7 +217,6 @@
 - [你有多少颗树 🌲？](beyond-tech/about-trees.md)
 - [如何构建自己的知识体系](beyond-tech/about-zx-tixi.md)
 - [技术之外我们应该思考什么](beyond-tech/beyond-tech-think-about.md)
-- [boardmix 工具的模型思考？](beyond-tech/boardmix-model_hidden.md)
 - [💖 技术之外 💖](beyond-tech/index.md)
 ### 思维模型
 
@@ -261,7 +257,6 @@
 - [做事逻辑](beyond-tech/mental-model/39_tech.md)
 - [马斯洛需求理论](beyond-tech/mental-model/3_needs.md)
 - [沟通交流](beyond-tech/mental-model/40_communication.md)
-- [思维模型：查理芒格推荐的 100 个思维模型](beyond-tech/mental-model/40_mg-models_hidden.md)
 - [榜样的力量](beyond-tech/mental-model/41_fine-example.md)
 - [5why 分析法](beyond-tech/mental-model/4_5why.md)
 - [你是谁？](beyond-tech/mental-model/50_me.md)
@@ -358,12 +353,10 @@
 - [地图开发](devices/app/map.md)
 ### Electron 专题
 
-- [0_hidden.md](devices/electron/0_hidden.md)
 - [Electron 简介](devices/electron/1_introduction-to-electron.md)
 - [Electron 专题](devices/electron/index.md)
 ### Flutter 专题
 
-- [0_hidden.md](devices/flutter/0_hidden.md)
 - [Flutter 简介](devices/flutter/1_introduction-to-flutter.md)
 - [风格指南](devices/flutter/2_style-guide.md)
 - [环境搭建](devices/flutter/3_environment-construction.md)
@@ -375,7 +368,6 @@
 - [跨端解决方案](devices/index.md)
 ### React Native 专题
 
-- [0_hidden.md](devices/react-native/0_hidden.md)
 - [React Native 简介](devices/react-native/1_react-native.md)
 - [React Native 专题](devices/react-native/index.md)
 ### uni-app & Taro
@@ -388,7 +380,6 @@
 - [uni-app & Taro](devices/uni-taro/index.md)
 ## 效率提升
 
-- [0_hidden.md](efficiency/0_hidden.md)
 - [对比项目两个分支的代码差异](efficiency/20_compare-code-differences-between-two-branches-of-a-project.md)
 - [前端调试时开启服务器的几种方法](efficiency/Front-end-debugging-Enable-temporary-server.md)
 - [csv 的作用](efficiency/csv.md)
@@ -410,7 +401,6 @@
 - [yarn & git 相关报错](errors/yarn-git.md)
 ## 前端规范
 
-- [0_hidden.md](frontend/0_hidden.md)
 - [准备工作](frontend/1_preparation.md)
 - [开发流程](frontend/2_development-process.md)
 - [开发规范 Git 与 Jira 集成](frontend/3_development-specification-git-and-jira-integration.md)
@@ -509,7 +499,6 @@
 - [JS 系列](js/index.md)
 ### JS基础
 
-- [0_hidden.md](js/js-base/0_hidden.md)
 - [this](js/js-base/1_talk-about-this.md)
 - [ESlint实践](js/js-base/2_eslint-practice.md)
 - [图片懒加载](js/js-base/3_image-lazy-loading.md)
@@ -524,7 +513,6 @@
 - [如何将字符串型转换为数值型](js/js-base/string-to-number.md)
 ### JS进阶
 
-- [0_hidden.md](js/js-raise/0_hidden.md)
 - [缓存](js/js-raise/1_cache.md)
 - [防抖与节流](js/js-raise/3_anti-vibration-and-throttling.md)
 - [深拷贝&浅拷贝](js/js-raise/4_deep-copy.md)
@@ -540,7 +528,6 @@
 - [Promise 的作用](js/js-raise/promise.md)
 ### JS原理
 
-- [0_hidden.md](js/js-theory/0_hidden.md)
 - [原型与原型链](js/js-theory/1_prototype-and-prototypeChain.md)
 - [闭包](js/js-theory/2_closure.md)
 - [作用域 & 执行上下文](js/js-theory/3_scope.md)
@@ -549,7 +536,6 @@
 ## 规范 | 团队
 
 - [软件开发基本流程图](keywords/0_cicd-pipe.md)
-- [0_hidden.md](keywords/0_hidden.md)
 - [规范 | 团队](keywords/index.md)
 ### 团队规范
 
@@ -573,7 +559,6 @@
 - [需求和 Bug 的区别](keywords/standard/requirements-or-bugs.md)
 ### 团队管理
 
-- [隐藏](keywords/team-mgt/0_hidden.md)
 - [我是如何做项目经理的（一）](keywords/team-mgt/10_pm-1.md)
 - [我是如何做项目经理的（二）](keywords/team-mgt/10_pm-2.md)
 - [我是如何做项目经理的（三）](keywords/team-mgt/10_pm-3.md)
@@ -599,7 +584,6 @@
 - [团队建设 - 校招面试大纲参考](keywords/team-mgt/team-school-recruitment.md)
 - [管理的艺术](keywords/team-mgt/think-mgt.md)
 - [OKR 是什么](keywords/team-mgt/work-OKR.md)
-- [人才培养考核方案](keywords/team-mgt/work-construction-team-member-standards_hidden.md)
 - [甘特图进行项目管理](keywords/team-mgt/work-gantt-chart.md)
 - [项目里程碑和阶段交付物](keywords/team-mgt/work-internet-project-milestones-and-phase-deliverables.md)
 - [谈谈敏捷团队的建设](keywords/team-mgt/work-on-the-construction-of-agile-teams.md)
@@ -758,7 +742,6 @@
 - [团队标准工程搭建实践（二）](micro-fe/12_rapid-plat-2.md)
 - [团队标准工程搭建实践（三）](micro-fe/12_rapid-plat-3.md)
 - [团队标准工程搭建实践（四）](micro-fe/12_rapid-plat-4.md)
-- [待办事项](micro-fe/12_rapid_hidden.md)
 - [微前端（Micro-Frontends）](micro-fe/9_micro-frontend.md)
 - [微前端框架对比](micro-fe/compare.md)
 - [微前端架构设计](micro-fe/design.md)
@@ -777,7 +760,6 @@
 - [集成方案-版本控制和发布管理](micro-fe/solution-6.md)
 ## 小程序专题
 
-- [0_hidden.md](mp/0_hidden.md)
 ### 基础知识
 
 - [小程序的生命周期](mp/base/10_the-lifecycle-of-an-applet.md)
@@ -817,7 +799,6 @@
 - [移动端小程序 - 优化](mp/project/perf-scroll.md)
 ## Node专题
 
-- [0_hidden.md](node/0_hidden.md)
 ### Node 基础
 
 - [微服务 BFF 基础搭建](node/base/12_microservice-BFF-1.md)
@@ -889,7 +870,6 @@
 - [SSR 是什么？](performance/ssr.md)
 ## 协议相关专题
 
-- [0_hidden.md](protocol/0_hidden.md)
 - [知识清单 - 网络是怎么连接的](protocol/10_network-connect.md)
 - [知识清单 - 计算机网络分层结构](protocol/12_compute-network-layering.md)
 - [知识清单 - 应用层](protocol/14_application-layer.md)
@@ -908,7 +888,6 @@
 - [协议相关专题](protocol/index.md)
 ## React专题
 
-- [0_hidden.md](react/0_hidden.md)
 - [React 知识体系汇总](react/0_reactlist.md)
 ### 基础
 
@@ -940,7 +919,6 @@
 - [项目实践](react/project/index.md)
 ## 书籍阅读
 
-- [0_hidden.md](readbook/0_hidden.md)
 - [前端技术架构与工程](readbook/1_前端技术架构与工程.md)
 - [漫画计算机原理](readbook/5_漫画计算机原理.md)
 - [操作系统本质](readbook/6_操作系统本质.md)
@@ -968,13 +946,9 @@
 - [Runtime API Examples](test.md)
 ## 知行合一
 
-- [0_hidden.md](think/0_hidden.md)
-- [如何有序的自我提升](think/2_如何有序的自我提升_hidden.md)
 - [知行合一](think/index.md)
-- [todo-saas_hidden.md](think/todo-saas_hidden.md)
 ## 待办事项
 
-- [隐藏内容](todo/0_hidden.md)
 - [1-3-5 规划](todo/about-me.md)
 ### 事项清单
 
@@ -999,8 +973,6 @@
 - [每日一思](todo/m/index.md)
 ## 前端工程化
 
-- [0_hidden.md](tools/0_hidden.md)
-- [14_微前端_美团_hidden.md](tools/14_微前端_美团_hidden.md)
 ### 前端部分
 
 - [Monorepo](tools/fe/10_Monorepo.md)
@@ -1011,7 +983,6 @@
 - [封装通用组件库](tools/fe/20_encapsulate-common-component-library.md)
 - [脚手架的实现原理](tools/fe/21_the-realization-principle-of-scaffolding.md)
 - [PNPM](tools/fe/23_pnpm.md)
-- [Flutter 实践](tools/fe/24_flutter-do_hidden.md)
 - [yeoman](tools/fe/25_yeoman.md)
 - [Webpack](tools/fe/2_Webpack.md)
 - [Vite 的简介](tools/fe/3_Vite.md)
@@ -1037,7 +1008,6 @@
 - [团队协作](tools/team/index.md)
 ## Typescript 专题
 
-- [0_hidden.md](ts/0_hidden.md)
 ### TS 基础
 
 - [TS清单 - 数组](ts/base/10_array.md)
@@ -1088,7 +1058,6 @@
 - [LogicFlow 实例](visualization/project/logicflow.md)
 ## VUE 专题
 
-- [隐藏](vue/0_hidden.md)
 ### VUE 系列基础
 
 - [VUE 清单 - 组件通信](vue/base/10_component-communication.md)
