@@ -1,0 +1,22 @@
+# 技术领域
+
+- 机器学习（Machine Learning）
+  - 监督学习（Supervised Learning）
+  - 无监督学习（Unsupervised Learning）
+  - 强化学习（Reinforcement Learning）
+- 深度学习（Deep Learning）
+  - 卷积神经网络（Convolutional Neural Networks，CNN）
+  - 循环神经网络（Recurrent Neural Networks，RNN）
+  - 生成对抗网络（Generative Adversarial Networks，GAN）
+- 自然语言处理（Natural Language Processing，NLP）
+  - 词嵌入（Word Embeddings）
+  - 语言模型（Language Models）
+  - 机器翻译（Machine Translation）
+- 计算机视觉（Computer Vision）
+  - 图像分类（Image Classification）
+  - 目标检测（Object Detection）
+  - 图像分割（Image Segmentation）
+- 推荐系统（Recommendation Systems）
+  - 基于内容的推荐（Content-based Recommendation）
+  - 协同过滤推荐（Collaborative Filtering Recommendation）
+  - 混合推荐（Hybrid Recommendation）

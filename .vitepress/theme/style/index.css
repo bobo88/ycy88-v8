@@ -1,0 +1,35 @@
+.VPNavBarTitle {
+  display: inline-block;
+  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.VPNavBarTitle .title {
+  font-size: 28px;
+}
+.VPLink h2.text {
+  display: inline-block;
+  background: -webkit-linear-gradient(240deg, #647eff 60%, #42d392);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+}
+.VPSidebarItem .item h3.text{
+  /* font-weight: bold !important; */
+  /* color: -webkit-linear-gradient(240deg, #069 60%, #f60); */
+}
+
+.yb-title {
+  margin-bottom: 20px;
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+  letter-spacing: 2px;
+}
