@@ -63,7 +63,8 @@ function generateMarkdownForDirectory(dir, relativePath = '', level = 2) {
         relativeFilePath,
         level + 1
       )
-    } else if (file.endsWith('.md')) {
+    } else if (file.endsWith('.md') && !file.includes('_hidden')) {
+      // 添加过滤条件
       const title = getTitleFromMarkdown(fullPath)
       markdown += `- [${title}](${relativeFilePath})\n`
     }
