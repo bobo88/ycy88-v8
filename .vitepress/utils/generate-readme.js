@@ -41,6 +41,7 @@ function generateMarkdownForDirectory(dir, relativePath = '', level = 2) {
       stats.isDirectory() &&
       (file === '.vitepress' ||
         file === 'node_modules' ||
+        file === 'todo' ||
         file === '.git' ||
         file === 'public')
     ) {
