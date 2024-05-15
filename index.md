@@ -17,6 +17,7 @@ head:
     <!-- <img src="/images/yb.png" alt="V8程序" class="yb-img"> -->
     <div class="yb-title">yb</div>
     <h1 id="main-title">V8程序</h1>
+    <h3 class="source-code">本站全套源码：<a class="route-link" href="https://github.com/bobo88/ycy88-v8" target="_blank">「ycy88-v8」</a></h3>
     <p class="description">全方位涵盖技术团队规范、全栈技能、算法、主流技术和团队管理的关键元素。</p>
     <p class="actions">
       <a class="route-link action-button secondary" href="/node/" aria-label="Node系列">Node系列</a>
@@ -91,6 +92,13 @@ head:
   }
   .vp-doc h2 {
     border-top: none !important;
+  }
+  .source-code {
+    font-size: 14px;
+    color: #409EFF;
+  }
+  .source-code .route-link {
+    color: #409EFF;
   }
   .yb-img {
     margin: 0 auto;
