@@ -14,7 +14,7 @@
 .route-link {
   text-decoration: none !important;
 }
-.vp-doc h2 {
+.vp-doc .feature h2.tit {
   border-top: none !important;
 }
 .source-code {
@@ -144,37 +144,48 @@
 .rounded-box {
   position: fixed;
   z-index: 99;
-  top: 50%;
+  bottom: 100px;
   right: 20px;
-  margin-top: -30px;
-  padding: 5px 10px;
   width: 120px;
   height: 60px;
   line-height: 25px;
-  border-radius: 6px;
-  background-color: #f8f9fa;
   text-align: center;
-  border: 1px solid #eee;
+  background-color: #f8f9fa;
+  border-radius: 20px; /* 添加圆角 */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .rounded-box .source-code {
-  height: 25px;
+  position: absolute;
+  z-index: 999;
+  display: block;
   line-height: 25px;
   color: #333;
   font-size: 14px;
   font-weight: bold;
 }
+
 .rounded-box a {
   display: block;
-  height: 25px;
   line-height: 25px;
   color: #409eff;
   font-size: 14px;
   font-weight: bold;
+  text-decoration: none; /* 移除下划线 */
 }
 
-.animated-border {
-  width: 120px;
-  height: 60px;
+.rounded-box::before {
+  content: '';
+  position: absolute;
+  top: 2px; /* 调整伪元素位置 */
+  left: 2px; /* 调整伪元素位置 */
+  right: 2px; /* 调整伪元素位置 */
+  bottom: 2px; /* 调整伪元素位置 */
+  border-radius: inherit; /* 继承圆角 */
+  border: 2px solid;
   border-image: linear-gradient(
       90deg,
       red,
@@ -186,46 +197,75 @@
       red
     )
     1;
-  animation: borderGradient 3s linear infinite,
-    floatUpDown 2s ease-in-out infinite;
-  overflow: hidden;
+  animation: borderGradient 2s linear infinite;
 }
 
 @keyframes borderGradient {
   0% {
-    border-image: linear-gradient(
-        90deg,
-        red,
-        yellow,
-        green,
-        cyan,
-        blue,
-        magenta,
-        red
-      )
-      1;
+    border-image-source: linear-gradient(
+      90deg,
+      red,
+      yellow,
+      green,
+      cyan,
+      blue,
+      magenta,
+      red
+    );
+  }
+  20% {
+    border-image-source: linear-gradient(
+      90deg,
+      magenta,
+      red,
+      yellow,
+      green,
+      cyan,
+      blue
+    );
+  }
+  40% {
+    border-image-source: linear-gradient(
+      90deg,
+      blue,
+      magenta,
+      red,
+      yellow,
+      green,
+      cyan
+    );
+  }
+  60% {
+    border-image-source: linear-gradient(
+      90deg,
+      cyan,
+      blue,
+      magenta,
+      red,
+      yellow,
+      green
+    );
+  }
+  80% {
+    border-image-source: linear-gradient(
+      90deg,
+      green,
+      cyan,
+      blue,
+      magenta,
+      red,
+      yellow
+    );
   }
   100% {
-    border-image: linear-gradient(
-        450deg,
-        red,
-        yellow,
-        green,
-        cyan,
-        blue,
-        magenta,
-        red
-      )
-      1;
-  }
-}
-
-@keyframes floatUpDown {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
+    border-image-source: linear-gradient(
+      90deg,
+      yellow,
+      green,
+      cyan,
+      blue,
+      magenta,
+      red
+    );
   }
 }

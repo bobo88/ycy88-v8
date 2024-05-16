@@ -42,27 +42,27 @@ head:
 
   <div class="features">
     <div class="feature">
-      <h2>规范流程和最佳实践</h2>
+      <h2 class="tit">规范流程和最佳实践</h2>
       <p>探讨技术团队中的规范流程和最佳实践，以提高开发效率和代码质量。</p>
     </div>
     <div class="feature">
-      <h2>Node 系列</h2>
+      <h2 class="tit">Node 系列</h2>
       <p>深入研究和实践 Node.js 技术栈，拓展对 Node 生态系统的全面理解。</p>
     </div>
     <div class="feature">
-      <h2>泛服务端</h2>
+      <h2 class="tit">泛服务端</h2>
       <p>解析全栈工程师的必经之路，聚焦设计模式、数据结构和数据库等核心概念。</p>
     </div>
     <div class="feature">
-      <h2>算法</h2>
+      <h2 class="tit">算法</h2>
       <p>探讨算法的关键思想，提供深入的算法理论和实际应用示例。</p>
     </div>
     <div class="feature">
-      <h2>主流技术</h2>
+      <h2 class="tit">主流技术</h2>
       <p>介绍 VUE、React、网络协议、TypeScript 等主流技术，涵盖跨端解决方案、小程序开发以及 CI/CD 实践。</p>
     </div>
     <div class="feature">
-      <h2>团队管理</h2>
+      <h2 class="tit">团队管理</h2>
       <p>着眼于团队管理的重要性，讨论构建协作高效的技术团队的关键元素。</p>
     </div>
    
