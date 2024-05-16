@@ -132,100 +132,12 @@
 .yb-title {
   margin-bottom: 20px;
   display: inline-block;
+  height: 100px;
+  line-height: 100px;
   background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 72px;
   letter-spacing: 2px;
-}
-
-/* 右侧悬浮样式 */
-.rounded-box {
-  position: fixed;
-  z-index: 99;
-  top: 50%;
-  right: 20px;
-  margin-top: -25px;
-  padding: 5px 10px;
-  width: 120px;
-  height: 50px;
-  line-height: 20px;
-  border-radius: 6px;
-  background-color: #f8f9fa;
-  text-align: center;
-  border: 1px solid #eee;
-}
-.rounded-box .source-code {
-  height: 20px;
-  line-height: 20px;
-  color: #333;
-  font-size: 14px;
-  font-weight: bold;
-}
-.rounded-box a {
-  display: block;
-  height: 20px;
-  line-height: 20px;
-  color: #409eff;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.animated-border {
-  width: 120px;
-  height: 50px;
-  border-image: linear-gradient(
-      90deg,
-      red,
-      yellow,
-      green,
-      cyan,
-      blue,
-      magenta,
-      red
-    )
-    1;
-  animation: borderGradient 3s linear infinite,
-    floatUpDown 2s ease-in-out infinite;
-  overflow: hidden;
-}
-
-@keyframes borderGradient {
-  0% {
-    border-image: linear-gradient(
-        90deg,
-        red,
-        yellow,
-        green,
-        cyan,
-        blue,
-        magenta,
-        red
-      )
-      1;
-  }
-  100% {
-    border-image: linear-gradient(
-        450deg,
-        red,
-        yellow,
-        green,
-        cyan,
-        blue,
-        magenta,
-        red
-      )
-      1;
-  }
-}
-
-@keyframes floatUpDown {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
 }

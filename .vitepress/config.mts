@@ -44,42 +44,6 @@ export default defineConfig({
     
       gtag('config', 'G-HM7Z052JF1');
       `
-    ],
-    [
-      'script',
-      {},
-      `
-      // 创建一个圆角 div
-      const roundedDiv = document.createElement('div');
-      roundedDiv.classList.add('rounded-box');
-      // 添加内容
-      roundedDiv.innerHTML = '<h3 class="source-code">本站全套源码 <a class="route-link" href="https://github.com/bobo88/ycy88-v8" target="_blank">「ycy88-v8」</a></h3>';
-      // 将创建的圆角 div 插入到页面底部
-      document.body.appendChild(roundedDiv);
-
-      const style = document.createElement('style');
-      style.innerHTML = \`
-        .rounded-box {
-          padding: 5px 10px;
-          width: 120px;
-          height: 50px;
-          line-height: 20px;
-          border-radius: 6px;
-          background-color: #f8f9fa;
-          text-align: center;
-          position: fixed;
-          z-index: 99;
-          bottom: 50px;
-          right: 20px;
-          text-align: center;
-          border:1px solid #eee;
-        }
-        .rounded-box .source-code {height:20px;line-height: 20px; color: #333;font-size: 14px;font-weight:bold;}
-        .rounded-box a {display: block;height:20px;line-height: 20px; color: #409EFF;font-size: 14px;font-weight:bold;}
-      \`;
-
-      document.head.appendChild(style);
-      `
     ]
   ],
   themeConfig: {

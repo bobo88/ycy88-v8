@@ -15,9 +15,8 @@ head:
 <main class="home">
   <header class="hero">
     <!-- <img src="/images/yb.png" alt="V8程序" class="yb-img"> -->
-    <div class="yb-title">yb</div>
-    <h1 id="main-title">V8程序</h1>
-    <h3 class="source-code">本站全套源码：<a class="route-link" href="https://github.com/bobo88/ycy88-v8" target="_blank">「ycy88-v8」</a></h3>
+    <!-- <div class="yb-title">yb</div> -->
+    <h1 id="main-title" class="yb-title">V8程序</h1>
     <p class="description">全方位涵盖技术团队规范、全栈技能、算法、主流技术和团队管理的关键元素。</p>
     <p class="actions">
       <a class="route-link action-button secondary" href="/node/" aria-label="Node系列">Node系列</a>
@@ -38,7 +37,7 @@ head:
 ::: tip 你我共勉
 别去做太多准备，那只会束缚你前进的决心和脚步。
 
-保持进击，随时复盘，及时调整。
+保持进击，随时复盘，及时调整。 ~@yb
 :::
 
   <div class="features">
@@ -76,109 +75,3 @@ head:
   </div>
   
 </main>
-
-<style>
-  .VPNavBarTitle {
-    background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .VPNavBarTitle .title{
-    font-size: 28px;
-  }
-  .route-link {
-    text-decoration: none !important;
-  }
-  .vp-doc h2 {
-    border-top: none !important;
-  }
-  .source-code {
-    font-size: 14px;
-    color: #409EFF;
-  }
-  .source-code .route-link {
-    color: #409EFF;
-  }
-  .yb-img {
-    margin: 0 auto;
-    width: 180px;
-    height: 180px
-  }
-  .theme-container.no-sidebar.has-toc .vp-page{
-    padding-inline-end: 0 !important;
-  }
-  .theme-hope-content {
-    max-width: 100% !important;
-  }
-  .home {
-    padding: var(--navbar-height) 2rem 0;
-    max-width: var(--homepage-width);
-    margin: 0 auto;
-    display: block;
-  }
-  .home .hero {
-    text-align: center;
-  }
-  .home .hero .action-button {
-    margin-bottom: 20px;
-    margin-right: 30px;
-    display: inline-block;
-    font-size: 1.2rem;
-    padding: 0.5rem 1.2rem;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 4px;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  .home .hero .action-button.primary {
-    color: #fff;
-    background-color: #3eaf7c;
-    border-color: #3eaf7c;
-  }
-  .home .hero .action-button.secondary {
-    color: #3eaf7c;
-    background-color: #fff;
-    border-color: #3eaf7c;
-  }
-  .home .hero .action-button.secondary:hover {
-    color: #fff;
-    background-color: #3eaf7c;
-    border-color: #3eaf7c;
-  }
-
-  .home .features {
-    border-top: 1px solid #eaecef;
-    padding: 1.2rem 0;
-    margin-top: 2.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: stretch;
-    justify-content: space-between;
-  }
-  .home .feature {
-    flex-grow: 1;
-    flex-basis: 30%;
-    max-width: 30%;
-  }
-  .home .feature h2 {
-    font-size: 1.4rem;
-    font-weight: 500;
-    border-bottom: none;
-    padding-bottom: 0;
-    color: #333;
-  }
-  .home .feature p {
-    color: #666;
-    font-size: 1rem;
-  }
-  .home .footer {
-    padding: 2.5rem;
-    border-top: 1px solid #eaecef;
-    text-align: center;
-    color: #666;
-    font-size: 14px;
-  }
-</style>
