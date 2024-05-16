@@ -146,27 +146,27 @@
   z-index: 99;
   top: 50%;
   right: 20px;
-  margin-top: -25px;
+  margin-top: -30px;
   padding: 5px 10px;
   width: 120px;
-  height: 50px;
-  line-height: 20px;
+  height: 60px;
+  line-height: 25px;
   border-radius: 6px;
   background-color: #f8f9fa;
   text-align: center;
   border: 1px solid #eee;
 }
 .rounded-box .source-code {
-  height: 20px;
-  line-height: 20px;
+  height: 25px;
+  line-height: 25px;
   color: #333;
   font-size: 14px;
   font-weight: bold;
 }
 .rounded-box a {
   display: block;
-  height: 20px;
-  line-height: 20px;
+  height: 25px;
+  line-height: 25px;
   color: #409eff;
   font-size: 14px;
   font-weight: bold;
@@ -174,7 +174,7 @@
 
 .animated-border {
   width: 120px;
-  height: 50px;
+  height: 60px;
   border-image: linear-gradient(
       90deg,
       red,
