@@ -49,8 +49,11 @@ export const nav = [
     ]
   },
   {
-    text: '💯架构设计',
-    link: '/architecture-design/'
+    text: '架构|技能树🌲',
+    items: [
+      { text: '架构设计💯', link: '/architecture-design/' },
+      { text: '技能树🌲', link: '/skill-trees/' }
+    ]
   },
   {
     text: '💖技术之外💖',
