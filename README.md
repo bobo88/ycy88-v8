@@ -231,9 +231,12 @@
 
 - [先上车，再调整姿势!](beyond-tech/about-into.md)
 - [道法术器](beyond-tech/about-magic.md)
+- [「有的放矢」的重要性！](beyond-tech/about-target-shooting.md)
 - [你有多少颗树 🌲？](beyond-tech/about-trees.md)
 - [如何构建自己的知识体系](beyond-tech/about-zx-tixi.md)
 - [技术之外我们应该思考什么](beyond-tech/beyond-tech-think-about.md)
+- [突破认知才是成长的关键](beyond-tech/breakthrough-cognition.md)
+- [前瞻性思维（Forward Thinking）](beyond-tech/forward-thinking.md)
 - [💖 技术之外 💖](beyond-tech/index.md)
 ### 思维模型
 
