@@ -945,6 +945,26 @@
 - [前端 Serverless](readbook/7_前端Serverless.md)
 - [架构真意](readbook/8_架构真意.md)
 - [书籍阅读](readbook/index.md)
+## 技能树 🌲
+
+- [CEO](skill-trees/CEO.md)
+- [CMO](skill-trees/CMO.md)
+- [COO](skill-trees/COO.md)
+- [CPO](skill-trees/CPO.md)
+- [CTO](skill-trees/CTO.md)
+- [运维](skill-trees/DevOps.md)
+- [前端开发](skill-trees/FE.md)
+- [财务](skill-trees/Finance.md)
+- [法务](skill-trees/Legal.md)
+- [产品](skill-trees/PM.md)
+- [测试](skill-trees/QA.md)
+- [服务端开发](skill-trees/RD.md)
+- [销售](skill-trees/Sales.md)
+- [设计](skill-trees/UE.md)
+- [算法](skill-trees/algo.md)
+- [业务](skill-trees/business.md)
+- [行政](skill-trees/hr.md)
+- [技能树 🌲](skill-trees/index.md)
 ## 专题系列
 
 - [关于架构](special/3_architect.md)
