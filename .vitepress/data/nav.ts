@@ -49,7 +49,7 @@ export const nav = [
     ]
   },
   {
-    text: '架构|技能树🌲',
+    text: '架构 | 技能树🌲',
     items: [
       { text: '架构设计💯', link: '/architecture-design/' },
       { text: '技能树🌲', link: '/skill-trees/' }
@@ -60,7 +60,7 @@ export const nav = [
     link: '/beyond-tech/'
   },
   {
-    text: '💙古今对话',
+    text: '💙其他',
     link: '/ancient-modern/'
   }
 ]
