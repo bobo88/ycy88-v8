@@ -161,6 +161,10 @@ mvn clean package
 </build>
 ```
 
+::: danger 如果不配置上述代码，执行 JAR 文件时会报错提示
+maven-abc-1.0-SNAPSHOT.jar 中没有主清单属性
+:::
+
 然后再次运行 `mvn clean package`。
 
 ## 五、部署项目
