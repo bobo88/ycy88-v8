@@ -110,6 +110,8 @@ my-app/
 mvn clean compile
 ```
 
+![An image](/images/java/maven-build-2.png)
+
 ### 8. 运行项目
 
 通过 IntelliJ IDEA 运行主类：
@@ -134,9 +136,11 @@ mvn clean package
 
 这会在 `target` 目录下生成一个 `my-app-1.0-SNAPSHOT.jar` 文件。
 
+![An image](/images/java/maven-build-3.png)
+
 ### 10. 配置可执行 JAR（可选）
 
-在 `pom.xml` 文件中添加以下插件配置，使生成的 JAR 文件可执行：
+在 `pom.xml` 文件中添加以下插件配置，**使生成的 JAR 文件可执行**：
 
 ```xml
 <build>
@@ -168,6 +172,8 @@ mvn clean package
 ```bash
 java -jar my-app-1.0-SNAPSHOT.jar
 ```
+
+![An image](/images/java/maven-build-4.png)
 
 ## 六、总结
 

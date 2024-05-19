@@ -79,6 +79,8 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.14.6", arch: "x86_64", family: "mac"
 ```
 
+![An image](/images/java/maven-install-2.png)
+
 ## 三、在 IntelliJ IDEA 中配置 Maven
 
 如果你使用 IntelliJ IDEA 开发项目，可以通过以下步骤配置 Maven：
