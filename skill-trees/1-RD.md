@@ -20,6 +20,10 @@
 
 > TODO
 
+## 相关截图
+
+![An image](/images/java/mode-all.png)
+
 <!-- ---
 
 - [超全的 java 后端体系](https://www.processon.com/view/5ef887367d9c084420398dad) -->
