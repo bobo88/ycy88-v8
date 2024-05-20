@@ -2,6 +2,8 @@
 
 > 类和对象如何交互，及划分责任和算法。
 
+![An image](/images/java/mode-3.png)
+
 ::: tip 模式汇总
 
 - 迭代器模式

@@ -2,6 +2,8 @@
 
 > 把类或对象结合在一起形成一个更大的结构。
 
+![An image](/images/java/mode-2.png)
+
 ::: tip 模式汇总
 
 - 适配器模式
