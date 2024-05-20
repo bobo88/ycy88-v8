@@ -8,7 +8,31 @@
 
 ## 一、基于`Ant Design Pro`自定义
 
-> TODO
+### 1）下载代码并运行
+
+> clone 源代码
+
+```bash
+$ git clone git@github.com:ant-design/ant-design-pro.git
+```
+
+![An image](/images/react/react-clone.png)
+
+> 安装依赖
+
+```bash
+$ yarn
+```
+
+> 执行运行命令
+
+```bash
+$ yarn dev
+```
+
+![An image](/images/react/react-run.png)
+
+![An image](/images/react/react-run-2.png)
 
 ## 二、从零构建后台管理系统
 
