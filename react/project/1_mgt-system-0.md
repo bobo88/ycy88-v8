@@ -34,6 +34,28 @@ $ yarn dev
 
 ![An image](/images/react/react-run-2.png)
 
+或通过以下方式
+
+```bash
+$ npm i @ant-design/pro-cli -g
+$ pro create my-app
+
+
+$ cd my-app
+$ yarn
+$ yarn start # 打开浏览器访问 http://localhost:8000
+```
+
+### 2）自定义内容
+
+> 去掉「多语言」。
+
+![An image](/images/react/ant-design-pro.png)
+
+> 开启 Mock
+
+<!-- ![An image](/images/react/react-run.png) -->
+
 ## 二、从零构建后台管理系统
 
 > TODO
