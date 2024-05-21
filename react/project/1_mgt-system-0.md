@@ -52,7 +52,21 @@ $ yarn start # 打开浏览器访问 http://localhost:8000
 
 ![An image](/images/react/ant-design-pro.png)
 
-> 开启 Mock
+> 开启 Mock：设置运行命令 `MOCK=true`
+
+```json
+// package.json
+{
+  "scripts": {
+    "dev": "npm run start:dev",
+    "start:dev": "cross-env REACT_APP_ENV=dev MOCK=true UMI_ENV=dev max dev"
+    // ...略
+  }
+  // ...略
+}
+```
+
+[详情查看「Ant Design Pro 官方文档」](https://pro.ant.design/zh-CN/docs/overview)
 
 <!-- ![An image](/images/react/react-run.png) -->
 
