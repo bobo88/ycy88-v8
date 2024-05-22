@@ -2,7 +2,29 @@
 
 ## 一、类组件
 
+```jsx
+import React, { Component } from 'react'
+
+class Welcome extends Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>
+  }
+}
+
+export default Welcome
+```
+
 ## 二、函数式组件
+
+```jsx
+import React from 'react'
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>
+}
+
+export default Welcome
+```
 
 ## 三、组件通信传参
 
