@@ -10,6 +10,7 @@
 - 你关注的是 **算法**，[快点这里 - Hello，算法！](https://www.hello-algo.com/)
   - [labuladong 的算法笔记](https://labuladong.online/algo/)
   - [算法通关手册（LeetCode）](https://algo.itcharge.cn/)
+- [JSON API 免费接口](https://www.bejson.com/knownjson/webInterface/)
 - ...
 
 ## 一、V1.0 版本
