@@ -11,3 +11,5 @@ TODO
   - [labuladong 的算法笔记](https://labuladong.online/algo/)
   - [算法通关手册（LeetCode）](https://algo.itcharge.cn/)
 - ...
+
+![An image](/images/skill-trees/hello_algo_mindmap.png)
