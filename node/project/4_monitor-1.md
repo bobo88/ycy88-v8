@@ -15,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+
   <body>
     <button>click me!</button>
 
@@ -27,10 +28,10 @@
         }
         console.log('🚀 ~ trackEvent ~ eventData:', eventData)
 
-        navigator.sendBeacon(
-          'http://localhost:3434/track',
-          JSON.stringify(eventData)
-        )
+        const blob = new Blob([JSON.stringify(eventData)], {
+          type: 'application/json'
+        })
+        navigator.sendBeacon('http://localhost:3434/track', blob)
       }
 
       document.addEventListener('DOMContentLoaded', () => {
@@ -38,7 +39,7 @@
 
         document.querySelectorAll('button').forEach((button) => {
           button.addEventListener('click', () => {
-            trackEvent('button_click', { id: button.id })
+            trackEvent('button_click', { id: button.id, abc: '123' })
           })
         })
 
@@ -53,17 +54,35 @@
 </html>
 ```
 
+::: danger 注意下面的代码片段：因为 `navigator.sendBeacon` 期望数据为 `Blob` 对象或 `DOMString`。
+
+```js
+const blob = new Blob([JSON.stringify(eventData)], {
+  type: 'application/json'
+})
+navigator.sendBeacon('http://localhost:3434/track', blob)
+```
+
+:::
+
 ## 二、后端代码
 
 ```js
 // rd/app.js
 const express = require('express')
 const bodyParser = require('body-parser')
-// 允许跨域
 const cors = require('cors')
 const app = express()
 
-app.use(cors())
+// 设置CORS配置
+const corsOptions = {
+  origin: 'http://127.0.0.1:1234', // 前端所在的域
+  methods: ['POST', 'GET'], // 允许的方法
+  allowedHeaders: ['Content-Type'], // 允许的头信息
+  credentials: true // 允许凭据
+}
+
+app.use(cors(corsOptions))
 app.use(bodyParser.json())
 
 app.post('/track', (req, res) => {
@@ -76,6 +95,40 @@ app.listen(3434, () => {
   console.log('Server is running on port 3434')
 })
 ```
+
+```json
+// package.json
+{
+  "name": "rd",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
+```
+
+::: danger 注意下面的代码片段：设置跨域配置。
+
+```js
+// 设置CORS配置
+const corsOptions = {
+  origin: 'http://127.0.0.1:1234', // 前端所在的域
+  methods: ['POST', 'GET'], // 允许的方法
+  allowedHeaders: ['Content-Type'], // 允许的头信息
+  credentials: true // 允许凭据
+}
+```
+
+:::
 
 ## 三、测试步骤
 
@@ -90,6 +143,9 @@ app.listen(3434, () => {
 ![An image](/images/node/monitor-3.png)
 
 ![An image](/images/node/monitor-4.png)
+
+> 能正常获取上报的信息数据。
+> ![An image](/images/node/monitor-5.png)
 
 ## 四、参考资料
 
