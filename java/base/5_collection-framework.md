@@ -2,6 +2,10 @@
 
 集合框架（Collection Framework）是 Java 中用于存储和操作对象集合的一组接口和类。其中，List、Set 和 Map 是集合框架中的三个主要接口，它们分别用于处理有序列表、无序集合和键值对映射。
 
+![An image](/images/java/list-set-map-1.png)
+
+![An image](/images/java/list-set-map-2.png)
+
 ## 一、List
 
 List 接口表示有序的元素集合，可以包含重复元素。List 允许按照索引（位置）访问集合中的元素，支持通过索引增删改查操作。常见的 List 实现类有 ArrayList、LinkedList 和 Vector。例如：
