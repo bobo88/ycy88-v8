@@ -40,3 +40,7 @@ map.put("apple", 1);
 map.put("banana", 2);
 System.out.println(map.get("apple")); // 输出：1
 ```
+
+---
+
+- [常见的数据结构：栈 队列 数组 链表 红黑树](https://blog.csdn.net/qq_45621392/article/details/115613030)
