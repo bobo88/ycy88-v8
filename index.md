@@ -34,6 +34,8 @@ head:
     </p>
   </header>
 
+![An image](/images/mp/ycy88-pb.jpg)
+
 ::: tip 你我共勉
 别去做太多准备，那只会束缚你前进的决心和脚步。
 

@@ -22,6 +22,12 @@ head:
 
 ![An image](/images/mp/ycy88.jpg)
 
+## 二、公众号体验
+
+![An image](/images/mp/ycy88-pb.jpg)
+
+![An image](/images/mp/ycy88-pb-2.jpg)
+
 <!-- ![An image](/images/mp/gh_code.jpg) -->
 
 <!-- ![An image](/images/mp/mp.jpeg) -->
