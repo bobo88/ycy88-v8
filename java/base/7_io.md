@@ -27,6 +27,8 @@ Java 中的 I/O 流主要分为两种类型：
 
 ## 四、代码举例
 
+### 1）使用字节流复制文件内容
+
 使用 Java 的字节流（`FileInputStream` 和 `FileOutputStream`）来实现文件的复制操作：
 
 ```java
@@ -65,6 +67,39 @@ public class FileCopyExample {
 - 使用 `read()` 方法从输入流中读取数据，并使用 `write()` 方法将数据写入输出流。
 
 这只是 Java I/O 流的一个简单示例，实际应用中可能涉及更复杂的操作和更多的异常处理。
+
+### 2）使用字符流读取和写入
+
+使用字符流读取和写入文件内容。
+
+```java
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.Writer;
+
+public class FileReadWriteExample {
+    public static void main(String[] args) {
+        // Write to file
+        try (Writer writer = new FileWriter("example.txt")) {
+            writer.write("Hello, World!\nThis is a test file.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Read from file
+        try (Reader reader = new FileReader("example.txt")) {
+            int data;
+            while ((data = reader.read()) != -1) {
+                System.out.print((char) data);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
 
 ---
 
