@@ -101,6 +101,261 @@ public class FileReadWriteExample {
 }
 ```
 
+## 五、其他知识点
+
+### 1）缓冲流
+
+缓冲流用于提高 I/O 操作的效率，通过减少直接对底层设备（如文件系统）的访问次数。
+
+#### BufferedReader 和 BufferedWriter
+
+这些类用于字符流的缓冲。
+
+**示例：使用 BufferedReader 读取文件**
+
+```java
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class BufferedReaderExample {
+    public static void main(String[] args) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("example.txt"))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+**示例：使用 BufferedWriter 写入文件**
+
+```java
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class BufferedWriterExample {
+    public static void main(String[] args) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("example.txt"))) {
+            writer.write("Hello, World!");
+            writer.newLine();
+            writer.write("This is a buffered writer example.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+#### BufferedInputStream 和 BufferedOutputStream
+
+这些类用于字节流的缓冲。
+
+**示例：使用 BufferedInputStream 和 BufferedOutputStream 复制文件**
+
+```java
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class BufferedStreamExample {
+    public static void main(String[] args) {
+        try (BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream("source.txt"));
+             BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream("destination.txt"))) {
+
+            byte[] buffer = new byte[1024];
+            int length;
+            while ((length = inputStream.read(buffer)) != -1) {
+                outputStream.write(buffer, 0, length);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### 2）序列化
+
+Java 提供了对象序列化机制，将对象转换为字节流，从而可以保存到文件或通过网络传输。
+
+#### Serializable 接口
+
+实现 Serializable 接口的类可以被序列化。
+
+**示例：序列化和反序列化对象**
+
+```java
+import java.io.*;
+
+class Person implements Serializable {
+    private static final long serialVersionUID = 1L;
+    private String name;
+    private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{name='" + name + "', age=" + age + '}';
+    }
+}
+
+public class SerializationExample {
+    public static void main(String[] args) {
+        Person person = new Person("John", 30);
+
+        // 序列化对象
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("person.ser"))) {
+            oos.writeObject(person);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // 反序列化对象
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("person.ser"))) {
+            Person deserializedPerson = (Person) ois.readObject();
+            System.out.println(deserializedPerson);
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### 3）文件操作
+
+Java 提供了丰富的文件操作 API，可以进行文件和目录的创建、删除、重命名等操作。
+
+#### Files 工具类
+
+`java.nio.file.Files` 提供了大量静态方法来简化文件操作。
+
+**示例：使用 Files 复制文件**
+
+```java
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class FilesCopyExample {
+    public static void main(String[] args) {
+        Path source = Paths.get("source.txt");
+        Path destination = Paths.get("destination.txt");
+
+        try {
+            Files.copy(source, destination);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### 4）读取和写入属性文件
+
+属性文件通常用于配置 Java 应用程序，`java.util.Properties` 类提供了方便的方法来读取和写入属性文件。
+
+**示例：读取和写入属性文件**
+
+```java
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class PropertiesExample {
+    public static void main(String[] args) {
+        Properties properties = new Properties();
+
+        // 写入属性文件
+        try (FileOutputStream output = new FileOutputStream("config.properties")) {
+            properties.setProperty("database.url", "jdbc:mysql://localhost:3306/mydb");
+            properties.setProperty("database.username", "user");
+            properties.setProperty("database.password", "password");
+            properties.store(output, null);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // 读取属性文件
+        try (FileInputStream input = new FileInputStream("config.properties")) {
+            properties.load(input);
+            System.out.println(properties.getProperty("database.url"));
+            System.out.println(properties.getProperty("database.username"));
+            System.out.println(properties.getProperty("database.password"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### 5）内存映射文件
+
+内存映射文件可以将文件的一部分或全部映射到内存中，这对于处理大文件非常有效。
+
+**示例：使用内存映射文件读取大文件**
+
+```java
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+
+public class MemoryMappedFileExample {
+    public static void main(String[] args) {
+        try (RandomAccessFile file = new RandomAccessFile("largefile.txt", "r")) {
+            FileChannel channel = file.getChannel();
+            MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_ONLY, 0, channel.size());
+
+            for (int i = 0; i < buffer.limit(); i++) {
+                System.out.print((char) buffer.get());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### 6）使用 Java NIO
+
+Java NIO 提供了非阻塞 I/O 操作的支持，适用于高性能应用程序。
+
+**示例：使用 NIO 复制文件**
+
+```java
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class NioFileCopyExample {
+    public static void main(String[] args) {
+        Path source = Paths.get("source.txt");
+        Path destination = Paths.get("destination.txt");
+
+        try {
+            Files.copy(source, destination);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
 ---
 
 - [Java 流(Stream)、文件(File)和 IO](https://www.runoob.com/java/java-files-io.html)
