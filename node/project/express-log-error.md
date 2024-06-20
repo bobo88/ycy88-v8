@@ -26,7 +26,7 @@
 
 ![An image](/images/node/cpu-6.png)
 
-## 四、再次查看 CPU 使用情况
+## 四、再次查看 CPU 和磁盘的使用情况
 
 ![An image](/images/node/cpu-7.png)
 
