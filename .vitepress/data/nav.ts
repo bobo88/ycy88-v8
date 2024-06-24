@@ -11,7 +11,8 @@ export const nav = [
       { text: '微前端 | 低代码平台', link: '/micro-fe/' },
       { text: '性能优化', link: '/performance/' },
       { text: 'Typescript 系列', link: '/ts/' },
-      { text: 'JS系列', link: '/js/' }
+      { text: 'JS系列', link: '/js/' },
+      { text: '面试专场', link: '/interview-questions/fe/' }
     ]
   },
   {
@@ -23,7 +24,8 @@ export const nav = [
       { text: '数据结构与算法', link: '/algorithm/' },
       { text: '算法Leetcode', link: '/leetcode/' },
       { text: '协议相关', link: '/protocol/' },
-      { text: '运维CI/CD', link: '/dev-ops/' }
+      { text: '运维CI/CD', link: '/dev-ops/' },
+      { text: '面试专场', link: '/interview-questions/rd/' }
     ]
   },
   {
