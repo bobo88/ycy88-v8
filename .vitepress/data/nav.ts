@@ -62,7 +62,7 @@ export const nav = [
     link: '/beyond-tech/'
   },
   {
-    text: '💙其他',
+    text: '💙规律',
     link: '/ancient-modern/'
   }
 ]

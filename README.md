@@ -241,6 +241,7 @@
 - [如何构建自己的知识体系](beyond-tech/about-zx-tixi.md)
 - [技术之外我们应该思考什么](beyond-tech/beyond-tech-think-about.md)
 - [突破认知才是成长的关键](beyond-tech/breakthrough-cognition.md)
+- [爱因斯坦：发现问题比解决问题更重要！](beyond-tech/discover-problems.md)
 - [前瞻性思维（Forward Thinking）](beyond-tech/forward-thinking.md)
 - [💖 技术之外 💖](beyond-tech/index.md)
 ### 思维模型
