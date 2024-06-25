@@ -6,7 +6,7 @@
   "scripts": {
     "generate-readme": "node .vitepress/utils/generate-readme.js",
     "docs:dev": "vitepress dev . --port 8080",
-    "docs:build": "vitepress build .",
+    "docs:build": "yarn generate-readme && vitepress build .",
     "docs:preview": "vitepress preview ."
   },
   "devDependencies": {

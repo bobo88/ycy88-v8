@@ -19,6 +19,7 @@
 
 ## 人工智能
 
+- [CodeGeex 部分实现 AI 编程功能](AI/about-code.md)
 ### 基础理论和方法
 
 - [基础理论和方法](AI/base/index.md)
@@ -142,6 +143,9 @@
 - [Runtime API Examples](api-examples.md)
 ## 💯 架构设计
 
+- [前端架构设计工作](architecture-design/about-fe.md)
+- [微服务架构-从理论到实践](architecture-design/about-micro-services.md)
+- [前后端架构思维指南](architecture-design/architecture-guide.md)
 ### 架构基础
 
 - [架构简述](architecture-design/base/0_base.md)
@@ -152,7 +156,6 @@
 - [架构基础](architecture-design/base/index.md)
 - [软件架构入门](architecture-design/base/software-architecture.md)
 - [💯 架构设计](architecture-design/index.md)
-- [微服务架构-从理论到实践](architecture-design/micro-services.md)
 ### 架构实践
 
 - [架构实践](architecture-design/project/index.md)
@@ -230,7 +233,9 @@
 ## 💖 技术之外 💖
 
 - [先上车，再调整姿势!](beyond-tech/about-into.md)
-- [道法术器](beyond-tech/about-magic.md)
+- [「道法术器」的初探](beyond-tech/about-magic.md)
+- [「以结果为导向」的重要性！](beyond-tech/about-result.md)
+- [「奥卡姆剃刀定律」的一点思考](beyond-tech/about-simple-think.md)
 - [「有的放矢」的重要性！](beyond-tech/about-target-shooting.md)
 - [你有多少颗树 🌲？](beyond-tech/about-trees.md)
 - [如何构建自己的知识体系](beyond-tech/about-zx-tixi.md)
@@ -319,6 +324,7 @@
 - [项目维度和社区维度的区别](beyond-tech/work-think/cognition-project-community-dimension.md)
 - [沉没成本](beyond-tech/work-think/cognition-silent-cost.md)
 - [软实力的思考](beyond-tech/work-think/cognition-thinking-about-soft-power.md)
+- [君子藏器于身，待时而动](beyond-tech/work-think/hide-tools.md)
 - [工作思考](beyond-tech/work-think/index.md)
 - [产研矩阵的思考](beyond-tech/work-think/other-product-matrix.md)
 - [思考 - 抽象认知](beyond-tech/work-think/think-abstract.md)
@@ -394,6 +400,7 @@
 
 - [uni-app 微信小程序踩坑汇总](devices/uni-taro/10_uni-app.md)
 - [uni-app 开发实战](devices/uni-taro/1_uni-app.md)
+- [上传微信小程序流程（uni）](devices/uni-taro/1_upload-uni-app.md)
 - [Taro 开发实战](devices/uni-taro/2_taro.md)
 - [Taro VUE3 项目](devices/uni-taro/3_taro-vue3.md)
 - [Taro React 项目](devices/uni-taro/4_taro-react.md)
@@ -401,8 +408,9 @@
 ## 效率提升
 
 - [对比项目两个分支的代码差异](efficiency/20_compare-code-differences-between-two-branches-of-a-project.md)
-- [前端调试时开启服务器的几种方法](efficiency/Front-end-debugging-Enable-temporary-server.md)
+- [前端调试时开启服务器的方法](efficiency/Front-end-debugging-Enable-temporary-server.md)
 - [csv 的作用](efficiency/csv.md)
+- [把 json 数据导出为.json 文本](efficiency/download-json-file.md)
 - [效率提升](efficiency/index.md)
 - [MD 代码块指定语言类型](efficiency/md-type.md)
 ### 工具类
@@ -416,6 +424,7 @@
 ## Error 汇总专题
 
 - [antv 报错汇总](errors/antv.md)
+- [关于 axios 302 重定向的问题](errors/axios-302.md)
 - [Error 汇总专题](errors/index.md)
 - [node-sass 报错汇总](errors/node-sass.md)
 - [yarn & git 相关报错](errors/yarn-git.md)
@@ -433,6 +442,24 @@
 - [前端规范](frontend/index.md)
 - [前端开发规范](frontend/standard.md)
 - [V8程序](index.md)
+## 面试专场
+
+### 前端类
+
+- [CSS 篇](interview-questions/fe/css.md)
+- [前端类](interview-questions/fe/index.md)
+- [JS 篇](interview-questions/fe/js.md)
+- [NodeJS 篇](interview-questions/fe/node.md)
+- [React 篇](interview-questions/fe/react.md)
+- [VUE 篇](interview-questions/fe/vue.md)
+- [面试专场](interview-questions/index.md)
+### 后端类
+
+- [算法篇](interview-questions/rd/algorithm.md)
+- [运维篇](interview-questions/rd/dev-ops.md)
+- [后端类](interview-questions/rd/index.md)
+- [Java 篇](interview-questions/rd/java.md)
+- [PHP 篇](interview-questions/rd/php.md)
 ## Java 系列
 
 - [微服务架构项目的目录结构](java/about-dir.md)
@@ -464,6 +491,9 @@
 ### Java 高级
 
 - [Java 对象组成](java/high/10_Java-object-composition.md)
+- [数据库读写分离方案](java/high/11_sql-split.md)
+- [使用缓存改善网站性能](java/high/12_data-cache.md)
+- [分布式服务](java/high/13_DCS.md)
 - [反射（Reflection）](java/high/1_reflection.md)
 - [泛型](java/high/2_generic.md)
 - [枚举](java/high/3_enum.md)
@@ -481,7 +511,7 @@
 
 - [「创建型模式」汇总](java/model/1_creation-pattern.md)
 - [「结构型模式」汇总](java/model/2_structural-pattern.md)
-- [行为型模式](java/model/3_behavioral-patterns.md)
+- [「行为型模式」汇总](java/model/3_behavioral-patterns.md)
 - [设计模式](java/model/index.md)
 ### 框架与工具
 
@@ -492,6 +522,7 @@
 - [Dubbo](java/plugins/13_dubbo.md)
 - [消息中间件](java/plugins/14_mq.md)
 - [Spring](java/plugins/1_spring.md)
+- [安装 Maven](java/plugins/2_Maven-install.md)
 - [Maven](java/plugins/2_Maven.md)
 - [Gradle](java/plugins/3_Gradle.md)
 - [JUnit](java/plugins/4_JUnit.md)
@@ -505,9 +536,16 @@
 
 - [上手 Spring Cloud 的项目](java/project/0_quick-run.md)
 - [Java DEMO](java/project/1_demo.md)
+- [Maven 项目管理流程](java/project/2_maven-build-project.md)
 - [Keycloak 实践（ 单点登录）](java/project/Keycloak.md)
 - [项目实践](java/project/index.md)
+- [jar 还是 war？](java/project/jar-war.md)
+- [微服务项目用 jar 还是 war？](java/project/micro-service-projects.md)
 - [SSO 的具体实战](java/project/sso.md)
+### 相关工具
+
+- [idea 选中文件时左侧菜单自动定位到文件所在位置](java/tools/auto-fix-file.md)
+- [相关工具](java/tools/index.md)
 ## JS 系列
 
 ### 读书系列
@@ -604,6 +642,7 @@
 - [团队建设 - 校招面试大纲参考](keywords/team-mgt/team-school-recruitment.md)
 - [管理的艺术](keywords/team-mgt/think-mgt.md)
 - [OKR 是什么](keywords/team-mgt/work-OKR.md)
+- [管理实践指南：推进工作深度与关注结果](keywords/team-mgt/work-do.md)
 - [甘特图进行项目管理](keywords/team-mgt/work-gantt-chart.md)
 - [项目里程碑和阶段交付物](keywords/team-mgt/work-internet-project-milestones-and-phase-deliverables.md)
 - [谈谈敏捷团队的建设](keywords/team-mgt/work-on-the-construction-of-agile-teams.md)
@@ -816,6 +855,7 @@
 - [微信小程序实践 - 分享](mp/project/34_share.md)
 - [个人小程序实践-引入高德天气](mp/project/50_my-mp.md)
 - [项目实践](mp/project/index.md)
+- [开通公众号的流程和细节](mp/project/pb.md)
 - [移动端小程序 - 优化](mp/project/perf-scroll.md)
 ## Node专题
 
@@ -857,9 +897,14 @@
 - [文章管理系统实践（六）](node/project/2_node-cms-6.md)
 - [IOT 实践（一）](node/project/2_node-iot-1.md)
 - [Express+MySQL 搭建实战](node/project/3_express-mysql-web.md)
+- [前端监控系统搭建（一）](node/project/4_monitor-1.md)
+- [前端监控系统搭建（二）](node/project/4_monitor-2.md)
 - [Node 实践～ TodoList（一）](node/project/5_todolist-1.md)
 - [Node 实践～ TodoList（二）](node/project/5_todolist-2.md)
 - [Node 实践～ TodoList（三）](node/project/5_todolist-3.md)
+- [Express 实现需要认证的接口](node/project/express-API.md)
+- [Express 的日志干崩了我的阿里云服务器？](node/project/express-log-error.md)
+- [Express 项目如何部署？](node/project/express-pub.md)
 - [项目实践](node/project/index.md)
 - [Node 服务端开发技巧总结](node/project/node-server.md)
 ## 其他类型
@@ -933,9 +978,13 @@
 ### 项目实践
 
 - [React 高级 - 搭建网站](react/project/14_made-web.md)
+- [React 搭建后台管理系统](react/project/1_mgt-system-0.md)
 - [React 实现前端监控系统（一）](react/project/20_fe-monitor-1.md)
 - [React 实现前端监控系统（二）](react/project/20_fe-monitor-2.md)
 - [React 实现前端监控系统（三）](react/project/20_fe-monitor-3.md)
+- [React 搭建 PC 网站](react/project/2_web-0.md)
+- [Next 搭建 SSR 网站](react/project/3_next-0.md)
+- [Hooks Use](react/project/hooks.md)
 - [项目实践](react/project/index.md)
 ## 书籍阅读
 
@@ -1009,6 +1058,7 @@
 - [Sass & Less 的简单对比](tools/fe/8_Sass-Less.md)
 - [前端部分](tools/fe/index.md)
 - [npm 包发布到私有 npm 服务器过程](tools/fe/npm-private-package.md)
+- [tailwindcss](tools/fe/tailwindcss.md)
 - [前端工程化](tools/index.md)
 ### 工具类
 
@@ -1063,6 +1113,7 @@
 - [TS 实战](ts/project/index.md)
 ## 可视化系列
 
+- [Konva](visualization/Konva.md)
 - [aceEditor](visualization/aceEditor.md)
 - [antv](visualization/antv.md)
 - [bpmn 流程引擎](visualization/bpmn.md)
