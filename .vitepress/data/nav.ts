@@ -12,7 +12,7 @@ export const nav = [
       { text: '性能优化', link: '/performance/' },
       { text: 'Typescript 系列', link: '/ts/' },
       { text: 'JS系列', link: '/js/' },
-      { text: '面试专场', link: '/interview-questions/fe/' }
+      { text: '面试专场', link: '/interview-questions/fe/css' }
     ]
   },
   {
@@ -25,7 +25,7 @@ export const nav = [
       { text: '算法Leetcode', link: '/leetcode/' },
       { text: '协议相关', link: '/protocol/' },
       { text: '运维CI/CD', link: '/dev-ops/' },
-      { text: '面试专场', link: '/interview-questions/rd/' }
+      { text: '面试专场', link: '/interview-questions/rd/java' }
     ]
   },
   {
