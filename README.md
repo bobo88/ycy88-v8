@@ -80,11 +80,19 @@
 - [具体实践](algorithm/project/index.md)
 ## 💙 古今对话
 
+- [人性 - 规律 - 社会运行法则](ancient-modern/1-bottom-logic.md)
+- [思考：原生家庭对人的影响](ancient-modern/1-original-family.md)
 ### 社会经济学
 
 - [社会经济学概述](ancient-modern/economics/0_topic.md)
 - [社会经济学](ancient-modern/economics/index.md)
 - [💙 古今对话](ancient-modern/index.md)
+### 逻辑学
+
+- [逻辑学是什么？](ancient-modern/logic/0_topic.md)
+- [经典逻辑](ancient-modern/logic/classical-logic.md)
+- [逻辑学](ancient-modern/logic/index.md)
+- [逻辑学核心内容简介](ancient-modern/logic/main.md)
 ### 市场营销学
 
 - [市场营销学概述](ancient-modern/marketing/0_topic.md)
@@ -292,6 +300,7 @@
 - [反熵增思维模型](beyond-tech/mental-model/7_anti-entropy-increase.md)
 - [三层解释思维模型](beyond-tech/mental-model/8_three-layer.md)
 - [复利原理](beyond-tech/mental-model/9_fuli.md)
+- [批判性思维](beyond-tech/mental-model/critical-thinking.md)
 - [思维模型](beyond-tech/mental-model/index.md)
 ### 产品
 
@@ -905,6 +914,7 @@
 - [Node 实践～ TodoList（三）](node/project/5_todolist-3.md)
 - [Express 实现需要认证的接口](node/project/express-API.md)
 - [Express 的日志干崩了我的阿里云服务器？](node/project/express-log-error.md)
+- [Express 中间件机制](node/project/express-mid.md)
 - [Express 项目如何部署？](node/project/express-pub.md)
 - [项目实践](node/project/index.md)
 - [Node 服务端开发技巧总结](node/project/node-server.md)
@@ -922,6 +932,7 @@
 - [文件缓存和浏览器缓存](performance/perf-cache.md)
 - [CDN 加速优化](performance/perf-cdn.md)
 - [算法和数据结构优化](performance/perf-data.md)
+- [Chrome DevTools 操作指南](performance/perf-fe-ChromeDevTools.md)
 - [前端性能优化你知道多少？](performance/perf-fe.md)
 - [移动端如何性能优化？](performance/perf-h5.md)
 - [图片的优化](performance/perf-image.md)
