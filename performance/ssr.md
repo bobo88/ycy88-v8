@@ -1,5 +1,9 @@
 # SSR 是什么？
 
+> [知行合一 - https://ycy88.com/](https://ycy88.com/)：一个 React SSR 项目。
+
+![An image](/images/perf/ssr.png)
+
 ## 一、概念
 
 > TODO
