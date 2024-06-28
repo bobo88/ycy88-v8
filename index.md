@@ -14,11 +14,11 @@ head:
 
 <main class="home">
 
-![An image](/images/mp/ycy88-pb.jpg)
-
-::: tip 欢迎关注「ycy88」公众号
-我在「ycy88」公众号里开通了两个【团队管理】和【重塑认知】的免费专栏，欢迎关注阅读。
+::: tip ⭐️ 欢迎关注<span style="color:#069;font-size:16px;">「ycy88」</span>公众号
+我在「ycy88」公众号里开通了【**<span style="color:#069;font-size:16px;">团队管理</span>**】和【**<span style="color:#069;font-size:16px;">重塑认知</span>**】的免费专栏，欢迎关注阅读！
 :::
+
+![An image](/images/mp/ycy88-pb.jpg)
 
   <header class="hero">
     <!-- <img src="/images/yb.png" alt="V8程序" class="yb-img"> -->
