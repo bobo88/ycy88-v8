@@ -13,11 +13,18 @@ head:
 ---
 
 <main class="home">
+
+![An image](/images/mp/ycy88-pb.jpg)
+
+::: tip 欢迎关注「ycy88」公众号
+我在「ycy88」公众号里开通了两个【团队管理】和【重塑认知】的免费专栏，欢迎关注阅读。
+:::
+
   <header class="hero">
     <!-- <img src="/images/yb.png" alt="V8程序" class="yb-img"> -->
     <!-- <div class="yb-title">yb</div> -->
-    <h1 id="main-title" class="yb-title">V8程序</h1>
-    <p class="description">全方位涵盖技术团队规范、全栈技能、算法、主流技术和团队管理的关键元素。</p>
+    <!-- <h1 id="main-title" class="yb-title">V8程序</h1> -->
+    <!-- <p class="description">全方位涵盖技术团队规范、全栈技能、算法、主流技术和团队管理的关键元素。</p> -->
     <p class="actions">
       <a class="route-link action-button secondary" href="/node/" aria-label="Node系列">Node系列</a>
       <a class="route-link action-button secondary" href="/vue/" aria-label="VUE系列">VUE系列</a>
@@ -33,8 +40,6 @@ head:
       <a class="route-link action-button secondary" href="/dev-ops/" aria-label="运维CI/CD">运维CI/CD</a>
     </p>
   </header>
-
-![An image](/images/mp/ycy88-pb.jpg)
 
 ::: tip 你我共勉
 别去做太多准备，那只会束缚你前进的决心和脚步。

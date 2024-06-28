@@ -78,20 +78,24 @@
 ### 具体实践
 
 - [具体实践](algorithm/project/index.md)
-## 💙 古今对话
+## 💙 规律
 
 - [人性 - 规律 - 社会运行法则](ancient-modern/1-bottom-logic.md)
 - [思考：原生家庭对人的影响](ancient-modern/1-original-family.md)
 ### 社会经济学
 
 - [社会经济学概述](ancient-modern/economics/0_topic.md)
+- [经济学本质](ancient-modern/economics/essence.md)
 - [社会经济学](ancient-modern/economics/index.md)
-- [💙 古今对话](ancient-modern/index.md)
+- [经济学中的核心关键词和概念](ancient-modern/economics/keywords.md)
+- [经济学的 10 个基本原理](ancient-modern/economics/top-10.md)
+- [💙 规律](ancient-modern/index.md)
 ### 逻辑学
 
 - [逻辑学是什么？](ancient-modern/logic/0_topic.md)
 - [经典逻辑](ancient-modern/logic/classical-logic.md)
 - [逻辑学](ancient-modern/logic/index.md)
+- [逻辑实现的三种方式](ancient-modern/logic/logic-3-ways.md)
 - [逻辑学核心内容简介](ancient-modern/logic/main.md)
 ### 市场营销学
 
