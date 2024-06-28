@@ -39,22 +39,28 @@ export const nav = [
       { text: '人工智能', link: '/AI/' }
     ]
   },
+  // {
+  //   text: '专题 | 读书',
+  //   items: [
+  //     { text: '效率提升', link: '/efficiency/' },
+  //     { text: '专题系列', link: '/special/' },
+  //     { text: '读书破万卷', link: '/readbook/' },
+  //     // { text: '待办清单', link: '/todo/' },
+  //     { text: 'Error汇总', link: '/errors/' },
+  //     { text: '其他杂项', link: '/other/' }
+  //   ]
+  // },
   {
-    text: '专题 | 读书',
+    text: '架构 | 技能树🌲',
     items: [
+      { text: '架构设计💯', link: '/architecture-design/' },
+      { text: '技能树🌲', link: '/skill-trees/' },
       { text: '效率提升', link: '/efficiency/' },
       { text: '专题系列', link: '/special/' },
       { text: '读书破万卷', link: '/readbook/' },
       // { text: '待办清单', link: '/todo/' },
       { text: 'Error汇总', link: '/errors/' },
       { text: '其他杂项', link: '/other/' }
-    ]
-  },
-  {
-    text: '架构 | 技能树🌲',
-    items: [
-      { text: '架构设计💯', link: '/architecture-design/' },
-      { text: '技能树🌲', link: '/skill-trees/' }
     ]
   },
   {
