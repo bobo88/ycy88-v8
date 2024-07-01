@@ -755,30 +755,30 @@ body {
 
 ## 65. **如何实现 CSS 的动态主题切换？**
 
-    - 使用 CSS 变量和 JavaScript 进行动态主题切换：
+- 使用 CSS 变量和 JavaScript 进行动态主题切换：
 
-      ```css
-      :root {
-        --primary-color: #3498db;
-        --background-color: #fff;
-      }
+  ```css
+  :root {
+    --primary-color: #3498db;
+    --background-color: #fff;
+  }
 
-      .dark-theme {
-        --primary-color: #2c3e50;
-        --background-color: #333;
-      }
+  .dark-theme {
+    --primary-color: #2c3e50;
+    --background-color: #333;
+  }
 
-      body {
-        color: var(--primary-color);
-        background-color: var(--background-color);
-      }
-      ```
+  body {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+  }
+  ```
 
-      ```javascript
-      function toggleTheme() {
-        document.body.classList.toggle('dark-theme')
-      }
-      ```
+  ```javascript
+  function toggleTheme() {
+    document.body.classList.toggle('dark-theme')
+  }
+  ```
 
 ## 66. **解释并举例说明 CSS 中的`clamp()`函数。**
 
@@ -908,27 +908,27 @@ body {
 
 ## 77. **如何使用媒体查询和 CSS 变量实现响应式字体大小？**
 
-    ```css
-    :root {
-      --font-size: 16px;
-    }
+```css
+:root {
+  --font-size: 16px;
+}
 
-    @media (min-width: 600px) {
-      :root {
-        --font-size: 18px;
-      }
-    }
+@media (min-width: 600px) {
+  :root {
+    --font-size: 18px;
+  }
+}
 
-    @media (min-width: 900px) {
-      :root {
-        --font-size: 20px;
-      }
-    }
+@media (min-width: 900px) {
+  :root {
+    --font-size: 20px;
+  }
+}
 
-    body {
-      font-size: var(--font-size);
-    }
-    ```
+body {
+  font-size: var(--font-size);
+}
+```
 
 ## 78. **如何使用 CSS 的`aspect-ratio`属性实现响应式图片？**
 
