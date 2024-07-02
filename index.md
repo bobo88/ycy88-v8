@@ -14,8 +14,8 @@ head:
 
 <main class="home">
 
-::: tip ⭐️ 欢迎关注<span style="color:#069;font-size:16px;">「ycy88」</span>公众号
-我在「ycy88」公众号里开通了【**<span style="color:#069;font-size:16px;">团队管理</span>**】和【**<span style="color:#069;font-size:16px;">重塑认知</span>**】的免费专栏，欢迎关注阅读！
+::: tip ⭐️ <span style="color:#069;font-size:16px;">「ycy88」</span>公众号
+我把本站的部分精华内容复制到了<span style="color:#069;font-size:16px;">「ycy88」</span>公众号，开通了【**<span style="color:#069;font-size:16px;">团队管理</span>**】和【**<span style="color:#069;font-size:16px;">重塑认知</span>**】的专栏！
 :::
 
 ![An image](/images/mp/ycy88-pb.jpg)
