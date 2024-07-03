@@ -9,6 +9,60 @@
 - `Field`：表示类的属性。
 - `Constructor`：表示类的构造方法。
 
+1. **Class 对象**
+
+   - 每个类都有一个`Class`对象，它包含了与该类相关的所有信息。
+   - 可以通过以下几种方式获取`Class`对象：
+
+     ```java
+     // 1. 通过类名
+     Class<?> clazz = Class.forName("com.example.MyClass");
+
+     // 2. 通过实例对象
+     MyClass obj = new MyClass();
+     Class<?> clazz = obj.getClass();
+
+     // 3. 通过类的字面值
+     Class<?> clazz = MyClass.class;
+     ```
+
+2. **Method 对象**
+
+   - `Method`对象表示类中的一个方法，通过反射可以获取和调用方法。
+   - 获取`Method`对象的方法：
+
+     ```java
+     // 获取无参方法
+     Method method = clazz.getMethod("methodName");
+
+     // 获取有参方法
+     Method method = clazz.getMethod("methodName", ParameterType1.class, ParameterType2.class);
+     ```
+
+3. **Field 对象**
+
+   - `Field`对象表示类中的一个成员变量，通过反射可以获取和修改变量值。
+   - 获取`Field`对象的方法：
+     ```java
+     Field field = clazz.getField("fieldName");
+     ```
+
+4. **Constructor 对象**
+
+   - `Constructor`对象表示类的构造方法，通过反射可以获取和调用构造方法，从而实例化类的对象。
+   - 获取`Constructor`对象的方法：
+
+     ```java
+     // 获取无参构造方法
+     Constructor<?> constructor = clazz.getConstructor();
+
+     // 获取有参构造方法
+     Constructor<?> constructor = clazz.getConstructor(ParameterType1.class, ParameterType2.class);
+
+     // 获取所有构造方法
+     Constructor<?>[] constructors = clazz.getConstructors();
+     ```
+
 ## 二、作用
 
 1. 动态加载类：在运行时根据类的名称动态加载类。
@@ -21,31 +75,104 @@
 1. 谨慎使用：反射会降低代码的可读性和性能，应该避免滥用。
 2. 安全性考虑：反射可以访问和修改类的私有成员，因此在使用时需要注意安全性。
 
-## 四、具体举例
+## 四、反射操作
+
+1. **实例化对象**
+
+   - 通过反射可以动态地创建类的实例：
+     ```java
+     // 获取构造方法并创建实例
+     Constructor<?> constructor = clazz.getConstructor();
+     Object instance = constructor.newInstance();
+     ```
+
+2. **调用方法**
+
+   - 使用`Method`对象调用类的方法：
+
+     ```java
+     Method method = clazz.getMethod("methodName");
+     Object result = method.invoke(instance);
+
+     // 调用带参数的方法
+     Method method = clazz.getMethod("methodName", ParameterType1.class);
+     Object result = method.invoke(instance, arg1);
+     ```
+
+3. **访问字段**
+
+   - 通过`Field`对象访问和修改字段值：
+
+     ```java
+     Field field = clazz.getField("fieldName");
+
+     // 获取字段值
+     Object value = field.get(instance);
+
+     // 设置字段值
+     field.set(instance, newValue);
+     ```
+
+4. **操作私有成员**
+
+   - 通过反射也可以访问类的私有成员，需要设置访问权限：
+
+     ```java
+     Field privateField = clazz.getDeclaredField("privateFieldName");
+     privateField.setAccessible(true);
+
+     // 获取私有字段值
+     Object value = privateField.get(instance);
+
+     // 设置私有字段值
+     privateField.set(instance, newValue);
+     ```
+
+## 五、具体举例
 
 ```java
-import java.lang.reflect.Method;
+package org.example;
 
-public class ReflectionExample {
+import java.lang.reflect.*;
+
+public class App {
     public static void main(String[] args) throws Exception {
-        // 获取类的 Class 对象
-        Class<?> clazz = Class.forName("com.example.MyClass");
-
-        // 获取类的方法
-        Method method = clazz.getMethod("methodName", String.class);
+        // 获取Class对象
+        Class<?> clazz = Class.forName("org.example.MyClass");
 
         // 创建类的实例
-        Object obj = clazz.newInstance();
+        Constructor<?> constructor = clazz.getConstructor();
+        Object instance = constructor.newInstance();
 
-        // 调用类的方法
-        method.invoke(obj, "parameter");
+        // 调用方法
+        Method method = clazz.getMethod("sayHello");
+        method.invoke(instance);
+
+        // 访问字段
+        Field field = clazz.getField("name");
+        field.set(instance, "NewName");
+        System.out.println("Name: " + field.get(instance));
+    }
+}
+
+class MyClass {
+    public String name = "DefaultName";
+
+    // 无参构造方法
+    public MyClass() {
+    }
+
+    public void sayHello() {
+        System.out.println("Hello, " + name);
     }
 }
 ```
 
-以上示例展示了如何使用反射动态地获取类的信息、创建类的实例和调用类的方法。
+在这个例子中，`ReflectionExample`类通过反射创建了`MyClass`的实例，调用了`MyClass`的`sayHello`方法，并修改了`name`字段的值。
 
-## 五、应用场景
+![reflection](/images/java/maven-reflection.png)
+
+## 六、应用场景
 
 1. **框架和库的设计：** 许多 Java 框架和库（如 Spring、Hibernate 等）都广泛使用了反射机制。通过反射，框架可以在运行时动态地加载和管理类，实现灵活的配置和扩展。
 

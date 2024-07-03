@@ -1,8 +1,10 @@
 # 泛型
 
+> Typescript 中也有「泛型」的概念。
+
 ## 一、概念 & 语法
 
-泛型（Generics）是 Java 中的一种参数化类型的机制，允许在类或方法中使用类型参数来表示类或方法的参数类型。其语法包括使用尖括号（<>）定义泛型类型和泛型方法，例如：`ArrayList<String>`、`public <T> void printList(List<T> list)`。
+泛型（Generics）是 Java 中的一种参数化类型的机制，允许在类或方法中使用类型参数来表示类或方法的参数类型。其语法包括使用尖括号（<>）定义泛型类型和泛型方法和通配符，例如：`ArrayList<String>`、`public <T> void printList(List<T> list)`。
 
 ## 二、作用
 
@@ -22,7 +24,164 @@
 2. **使用通配符：** 在泛型类或方法中，可以使用通配符（通常是 `?`）来表示未知类型，从而增加灵活性。
 3. **注意类型擦除：** 泛型信息在编译时会被擦除，因此在运行时无法获得泛型的具体类型信息，需要注意泛型类型的转换和边界问题。
 
-## 五、具体实例
+## 五、类型参数
+
+类型参数是用来指定泛型类型的具体类型。通常在定义泛型类、接口和方法时使用。
+
+- **语法**：类型参数通常用尖括号`<>`括起来，常见的命名规范是单个大写字母，例如`T`、`E`、`K`、`V`等。
+- **T**：`Type`，表示一个泛型类型，通常用在类、接口或方法中，表示任意类型。
+- **E**：`Element`，表示集合的元素类型，通常用于集合框架中，例如`List<E>`、`Set<E>`等。
+- **K**：`Key`，表示键的类型，通常用于键值对结构中，例如`Map<K, V>`中的键。
+- **V**：`Value`，表示值的类型，通常用于键值对结构中，例如`Map<K, V>`中的值。
+
+```java
+public class Example {
+    // 泛型方法，使用类型参数T
+    public static <T> void printArray(T[] array) {
+        for (T element : array) {
+            System.out.println(element);
+        }
+    }
+
+    public static void main(String[] args) {
+        Integer[] intArray = {1, 2, 3};
+        String[] stringArray = {"Hello", "World"};
+
+        // 使用泛型方法
+        printArray(intArray);
+        printArray(stringArray);
+    }
+}
+
+// 泛型类，使用类型参数E
+public class GenericList<E> {
+    private List<E> list = new ArrayList<>();
+
+    public void add(E element) {
+        list.add(element);
+    }
+
+    public E get(int index) {
+        return list.get(index);
+    }
+}
+
+// 泛型接口，使用类型参数K和V
+public interface GenericMap<K, V> {
+    void put(K key, V value);
+    V get(K key);
+}
+
+// 泛型类实现泛型接口
+public class GenericHashMap<K, V> implements GenericMap<K, V> {
+    private Map<K, V> map = new HashMap<>();
+
+    @Override
+    public void put(K key, V value) {
+        map.put(key, value);
+    }
+
+    @Override
+    public V get(K key) {
+        return map.get(key);
+    }
+}
+```
+
+## 六、通配符
+
+通配符是泛型中一种特殊的类型参数，用于表示未知类型。常用的通配符有`?`、`? extends T`和`? super T`。
+
+- **`?`**：表示任意类型。
+- **`? extends T`**：表示类型是`T`或`T`的子类（上界）。
+- **`? super T`**：表示类型是`T`或`T`的父类（下界）。
+
+- **使用示例**：
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class WildcardDemo {
+    public static void main(String[] args) {
+        List<Integer> intList = new ArrayList<>();
+        intList.add(1);
+        intList.add(2);
+        printList(intList);
+
+        List<String> stringList = new ArrayList<>();
+        stringList.add("Hello");
+        stringList.add("World");
+        printList(stringList);
+    }
+
+    // 使用通配符?表示可以接受任何类型的List
+    public static void printList(List<?> list) {
+        for (Object element : list) {
+            System.out.println(element);
+        }
+    }
+}
+```
+
+- **上界通配符示例**：
+
+```java
+import java.util.List;
+import java.util.ArrayList;
+
+class Animal {
+    public void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Bark");
+    }
+}
+
+public class UpperBoundWildcardDemo {
+    public static void main(String[] args) {
+        List<Dog> dogs = new ArrayList<>();
+        dogs.add(new Dog());
+        makeAnimalsSound(dogs);
+    }
+
+    // 使用上界通配符? extends Animal，表示可以接受Animal及其子类的List
+    public static void makeAnimalsSound(List<? extends Animal> animals) {
+        for (Animal animal : animals) {
+            animal.sound();
+        }
+    }
+}
+```
+
+- **下界通配符示例**：
+
+```java
+import java.util.List;
+import java.util.ArrayList;
+
+public class LowerBoundWildcardDemo {
+    public static void main(String[] args) {
+        List<Object> objects = new ArrayList<>();
+        addNumber(objects);
+        objects.forEach(System.out::println);
+    }
+
+    // 使用下界通配符? super Integer，表示可以接受Integer及其父类的List
+    public static void addNumber(List<? super Integer> list) {
+        list.add(1);
+        list.add(2);
+        list.add(3);
+    }
+}
+```
+
+## 七、具体实例
 
 ```java
 import java.util.ArrayList;
