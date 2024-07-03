@@ -39,8 +39,8 @@ export const getChildren = async ({ ele, collapsed = false }) => {
 
     const sortedPa = pa.sort((a, b) => {
       return (
-        parseInt(a.replace('.md', '').match(regEx)?.[0] || '0') -
-        parseInt(b.replace('.md', '').match(regEx)?.[0] || '0')
+        parseInt(a.replace('.md', '').match(regEx)?.[0] || '1000') -
+        parseInt(b.replace('.md', '').match(regEx)?.[0] || '1000')
       )
     })
 
