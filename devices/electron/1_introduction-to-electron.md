@@ -58,3 +58,7 @@ app.on('activate', () => {
 ```
 
 这个示例代码展示了如何通过 Electron 创建一个主窗口，并在应用启动时加载一个 HTML 文件作为应用的主界面。
+
+---
+
+- [https://www.electronjs.org/zh/](https://www.electronjs.org/zh/)
