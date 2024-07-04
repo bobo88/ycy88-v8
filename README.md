@@ -275,7 +275,7 @@
 - [把背包扔过墙](beyond-tech/mental-model/20_throw-the-backpack-over-the-wall.md)
 - [PDCA 理论](beyond-tech/mental-model/21_pdca.md)
 - [费曼学习法](beyond-tech/mental-model/22_feynman.md)
-- [FFC 模型](beyond-tech/mental-model/23_ffc-model.md)
+- [FFC 模型：感受 - 事实 - 比较](beyond-tech/mental-model/23_ffc-model.md)
 - [SMART 原则](beyond-tech/mental-model/24_smart-model.md)
 - [飞轮效应](beyond-tech/mental-model/25_flywheel-effect.md)
 - [沉默的螺旋](beyond-tech/mental-model/26_silent-spiral.md)
@@ -395,6 +395,11 @@
 ### Electron 专题
 
 - [Electron 简介](devices/electron/1_introduction-to-electron.md)
+- [Electron 应用准备工作](devices/electron/2_start.md)
+- [Electron 具体开发实践](devices/electron/3_dev.md)
+- [Electron 打包流程](devices/electron/5_build.md)
+- [Electron 应用发布流程](devices/electron/6_pub.md)
+- [拖拽功能如何实现？](devices/electron/dev-drag.md)
 - [Electron 专题](devices/electron/index.md)
 ### Flutter 专题
 
@@ -420,6 +425,7 @@
 - [Taro VUE3 项目](devices/uni-taro/3_taro-vue3.md)
 - [Taro React 项目](devices/uni-taro/4_taro-react.md)
 - [uni-app & Taro](devices/uni-taro/index.md)
+- [uniapp 引入 echarts](devices/uni-taro/uniapp-echarts.md)
 ## 效率提升
 
 - [对比项目两个分支的代码差异](efficiency/20_compare-code-differences-between-two-branches-of-a-project.md)
@@ -483,17 +489,15 @@
 
 - [Java 包(package)](java/base/10_package.md)
 - [简述 RESTful API](java/base/11_RESTful.md)
-- [简述 RPC](java/base/12_RPC.md)
 - [Java 是什么？](java/base/1_about-java.md)
 - [环境配置](java/base/2_env.md)
 - [基本语法](java/base/3_basic-grammar.md)
 - [面向对象的基本概念](java/base/4_oop.md)
 - [集合框架](java/base/5_collection-framework.md)
+- [Java 标准库](java/base/5_java-standard-library.md)
 - [消费者](java/base/60_consumer.md)
 - [观察者](java/base/60_observer.md)
 - [生产者](java/base/60_producer.md)
-- [AOP 控制器](java/base/61_AOP-controller.md)
-- [横向（权限）切片](java/base/62_horizontal-slicing.md)
 - [Java 异常处理](java/base/6_error.md)
 - [Java I/O 流](java/base/7_io.md)
 - [字符串处理](java/base/8_str.md)
@@ -509,9 +513,15 @@
 - [数据库读写分离方案](java/high/11_sql-split.md)
 - [使用缓存改善网站性能](java/high/12_data-cache.md)
 - [分布式服务](java/high/13_DCS.md)
+- [DDD 领域驱动设计](java/high/15_DDD.md)
 - [反射（Reflection）](java/high/1_reflection.md)
+- [AOP 控制器](java/high/2_AOP-controller.md)
+- [动态代理](java/high/2_Dynamic-proxy.md)
+- [简述 RPC](java/high/2_RPC.md)
 - [泛型](java/high/2_generic.md)
+- [横向（权限）切片](java/high/2_horizontal-slicing.md)
 - [枚举](java/high/3_enum.md)
+- [注解（Annotations）基础](java/high/4_Annotation-base.md)
 - [注解（Annotation）](java/high/4_Annotation.md)
 - [Java 数据库连接](java/high/4_sql-connect.md)
 - [CAP 理论](java/high/5_CAP.md)
@@ -531,8 +541,12 @@
 ### 框架与工具
 
 - [RESTful API](java/plugins/10_RESTful-API.md)
+- [SSM 是什么？](java/plugins/10_SSM.md)
+- [MySQL](java/plugins/10_mysql.md)
+- [简化程序员编写 SQL 语句](java/plugins/10_simple-mysql.md)
 - [Eureka](java/plugins/11_Eureka.md)
 - [zookeeper](java/plugins/11_zookeeper.md)
+- [分布式系统中使用 Redis 上锁](java/plugins/12_redis-lock.md)
 - [Redis](java/plugins/12_redis.md)
 - [Dubbo](java/plugins/13_dubbo.md)
 - [消息中间件](java/plugins/14_mq.md)
@@ -694,7 +708,7 @@
 - [测试核心技术点](keywords/tech/work-core-test-core-technology.md)
 - [如何做技术方案调研](keywords/tech/work-how-to-conduct-technical-scheme-research.md)
 - [互联网公司的组织架构](keywords/tech/work-organizational-structure-of-internet-companies.md)
-## index.md
+## Hello Leetcode
 
 - [101、对称二叉树](leetcode/101_对称二叉树.md)
 - [102. 二叉树的层序遍历](leetcode/102_二叉树的层序遍历.md)
@@ -801,7 +815,7 @@
 - [48、旋转图像](leetcode/hard/48_旋转图像.md)
 - [98、验证二叉搜索树](leetcode/hard/98_验证二叉搜索树.md)
 - [高手级](leetcode/hard/index.md)
-- [index.md](leetcode/index.md)
+- [Hello Leetcode](leetcode/index.md)
 ### 入门级
 
 - [27、移除元素](leetcode/normal/27_移除元素.md)
