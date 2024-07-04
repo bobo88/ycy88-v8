@@ -1,6 +1,8 @@
 # 简述 Typescript 的原理本质
 
-我认为，**存在即合理**，至少在「存在」的当时情境下，是合理的。
+![TS](/images/ts/ts-js.jpg)
+
+<!-- 我认为，**存在即合理**，至少在「存在」的当时情境下，是合理的。 -->
 
 Typescript 的出现和存在，它的合理性又是什么？它的作用是什么？或者说它到底解决了什么问题？
 
@@ -278,3 +280,4 @@ x = 'hello' // 类型错误
 ---
 
 - [https://ts-ast-viewer.com/#](https://ts-ast-viewer.com/#)
+- [https://radixweb.com/blog/typescript-vs-javascript](https://radixweb.com/blog/typescript-vs-javascript)
