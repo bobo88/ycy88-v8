@@ -26,6 +26,13 @@ maven-abc/
 └── pom.xml
 ```
 
+## 运行
+
+```bash
+# 在本地运行Spring Boot应用
+mvn spring-boot:run
+```
+
 ## 使用 Maven 打包
 
 ```bash
@@ -39,3 +46,5 @@ mvn clean package
 cd /opt/your-application
 nohup java -jar your-application-name-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
 ```
+
+<!-- nohup java -jar maven-abc-1.0-SNAPSHOT.jar > app.log 2>&1 -->
