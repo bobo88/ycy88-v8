@@ -1,5 +1,14 @@
 # Electron 简介
 
+::: tip Electron 核心
+Electron 的核心是 **进程通信**。
+
+Electron 应用由主进程和渲染进程组成，它们之间通过 IPC（Inter-Process Communication，进程间通信）进行通信。主进程负责管理应用程序的生命周期和窗口，而渲染进程负责显示用户界面和执行用户交互。
+主进程和渲染进程之间的通信是通过 `ipcMain` 和 `ipcRenderer` 模块来实现的。
+这些模块提供了 `send` 和 `on` 方法，用于在不同的进程之间发送和接收消息。
+例如，主进程可以使用 `ipcMain.on` 方法监听来自渲染进程的消息，并使用 `ipcMain.send` 方法向渲染进程发送消息。同样，渲染进程可以使用 `ipcRenderer.on` 方法监听来自主进程的消息，并使用 `ipcRenderer.send` 方法向主进程发送消息。
+:::
+
 ::: tip Electron 简介
 Electron 是一个开源框架，主要用于构建跨平台的桌面应用程序。它由 GitHub 开发，并基于 Chromium 和 Node.js，使开发者能够使用 Web 技术（如 HTML、CSS 和 JavaScript）来创建桌面应用。
 :::

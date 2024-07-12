@@ -9,4 +9,4 @@
 
 ## 二、源码地址
 
-- [https://github.com/bobo88/VUE3-Electron-chat](https://github.com/bobo88/VUE3-Electron-chat)
+- [https://github.com/bobo88/VUE3-Electron-chat](https://github.com/bobo88/VUE3-Electron-chat)。
