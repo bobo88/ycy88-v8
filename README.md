@@ -401,6 +401,8 @@
 - [Electron 具体开发实践](devices/electron/3_dev.md)
 - [Electron 打包流程](devices/electron/5_build.md)
 - [Electron 应用发布流程](devices/electron/6_pub.md)
+- [Electron 的通信原理分析](devices/electron/7_comm.md)
+- [Electron（VUE3）：一款简易聊天工具](devices/electron/demo.md)
 - [拖拽功能如何实现？](devices/electron/dev-drag.md)
 - [Electron 专题](devices/electron/index.md)
 ### Flutter 专题

@@ -8,6 +8,8 @@
 
 ## 一、Electron
 
+![An image](/images/mp/electron-msg-3.png)
+
 ### 概述
 
 Electron 是一个用于构建跨平台桌面应用程序的框架。它结合了 Chromium 和 Node.js，使开发者能够使用 Web 技术（HTML、CSS、JavaScript）构建桌面应用。
