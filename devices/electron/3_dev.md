@@ -163,6 +163,7 @@
   <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
   ```
 - **禁用远程模块**：使用 `contextIsolation` 和 `nodeIntegration` 选项。
+
   ```js
   const mainWindow = new BrowserWindow({
     webPreferences: {
@@ -172,3 +173,7 @@
     }
   })
   ```
+
+---
+
+- [https://github.com/SmallRuralDog/vue3-music](https://github.com/SmallRuralDog/vue3-music)

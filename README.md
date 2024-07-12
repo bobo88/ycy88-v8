@@ -114,6 +114,7 @@
 - [塔金的社会识别理论](ancient-modern/social-psychology/7.md)
 - [米尔格拉姆的小世界实验](ancient-modern/social-psychology/8.md)
 - [洛克的社会身份理论](ancient-modern/social-psychology/9.md)
+- [人性的规律](ancient-modern/social-psychology/human-nature.md)
 - [社会心理学](ancient-modern/social-psychology/index.md)
 - [别陷入自证](ancient-modern/social-psychology/self-justification.md)
 - [认怂的力量](ancient-modern/social-psychology/the-power-of-give-up.md)
@@ -304,6 +305,7 @@
 - [反熵增思维模型](beyond-tech/mental-model/7_anti-entropy-increase.md)
 - [三层解释思维模型](beyond-tech/mental-model/8_three-layer.md)
 - [复利原理](beyond-tech/mental-model/9_fuli.md)
+- [烧水思维模型](beyond-tech/mental-model/boiling-water-thinking.md)
 - [为什么说批判性思维很重要？](beyond-tech/mental-model/critical-thinking-need.md)
 - [批判性思维](beyond-tech/mental-model/critical-thinking.md)
 - [思维模型](beyond-tech/mental-model/index.md)
@@ -567,6 +569,8 @@
 - [Java DEMO](java/project/1_demo.md)
 - [Maven 项目管理流程](java/project/2_maven-build-project.md)
 - [Keycloak 实践（ 单点登录）](java/project/Keycloak.md)
+- [大五人格测试题目](java/project/big-five-1.md)
+- [大五人格测试题目 - 项目搭建](java/project/big-five-2.md)
 - [项目实践](java/project/index.md)
 - [jar 还是 war？](java/project/jar-war.md)
 - [微服务项目用 jar 还是 war？](java/project/micro-service-projects.md)
@@ -1106,6 +1110,8 @@
 - [团队协作](tools/team/index.md)
 ## Typescript 专题
 
+- [实践：如何管理 `*.d.ts` 文件](ts/about-mgt-dts.md)
+- [简述 Typescript 的原理本质](ts/about-ts-key.md)
 ### TS 基础
 
 - [TS清单 - 数组](ts/base/10_array.md)
@@ -1118,11 +1124,10 @@
 - [TS 高级 - 命名空间](ts/base/17_namespace.md)
 - [TS 高级 - 多重泛型约束](ts/base/18_multiple-generic-constraints.md)
 - [TS 高级 - 类的高级技巧](ts/base/19_advanced-techniques-for-class.md)
-- [TypeScript 的实践方法](ts/base/1_effective-ts-1.md)
 - [TS 序章 - 第一个 HelloWorld](ts/base/1_first-HelloWorld.md)
 - [TS 高级 - 模块](ts/base/20_module.md)
 - [TS 高级 - 声明合并](ts/base/21_statement-merge.md)
-- [TS 高级 - 索引*映射*条件类型](ts/base/22_INDEX-MAP-CONDITION-TYPE.md)
+- [TS 高级 - 索引-映射-条件类型](ts/base/22_INDEX-MAP-CONDITION-TYPE.md)
 - [TS 序章 - 谈谈“类型思维”](ts/base/2_talk-about-typeThinking.md)
 - [TS 清单 - 基本数据类型](ts/base/3_base-data-type.md)
 - [TS 清单 - 对象](ts/base/4_object.md)
@@ -1135,6 +1140,7 @@
 - [Typescript 专题](ts/index.md)
 ### TS 插件
 
+- [TypeScript 的实践方法](ts/plugin/1_effective-ts-1.md)
 - [TS 插件](ts/plugin/index.md)
 ### TS 实战
 
