@@ -29,7 +29,7 @@ head:
       <a class="route-link action-button secondary" href="/node/" aria-label="Node系列">Node系列</a>
       <a class="route-link action-button secondary" href="/vue/" aria-label="VUE系列">VUE系列</a>
       <a class="route-link action-button secondary" href="/react/" aria-label="React系列">React系列</a>
-      <a class="route-link action-button secondary" href="/devices/" aria-label="跨端解决方案">跨端解决方案</a> <br/>
+      <a class="route-link action-button secondary" href="/devices/" aria-label="跨端｜音视频">跨端｜音视频</a> <br/>
       <a class="route-link action-button secondary" href="/keywords/" aria-label="规范｜团队">规范｜团队 </a>
       <a class="route-link action-button secondary" href="/java/" aria-label="Java系列">Java系列</a>
       <a class="route-link action-button secondary" href="/algorithm/" aria-label="数据结构与算法">数据结构与算法</a> 
@@ -66,7 +66,7 @@ head:
     </div>
     <div class="feature">
       <h2 class="tit">主流技术</h2>
-      <p>介绍 VUE、React、网络协议、TypeScript 等主流技术，涵盖跨端解决方案、小程序开发以及 CI/CD 实践。</p>
+      <p>介绍 VUE、React、网络协议、TypeScript 等主流技术，涵盖跨端｜音视频、小程序开发以及 CI/CD 实践。</p>
     </div>
     <div class="feature">
       <h2 class="tit">团队管理</h2>

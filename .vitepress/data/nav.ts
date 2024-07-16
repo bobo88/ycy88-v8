@@ -34,7 +34,7 @@ export const nav = [
       { text: 'VUE 系列', link: '/vue/' },
       { text: 'React 系列', link: '/react/' },
       { text: '小程序 系列', link: '/mp/' },
-      { text: '跨端解决方案', link: '/devices/' },
+      { text: '跨端｜音视频', link: '/devices/' },
       { text: '可视化系列', link: '/visualization/' },
       { text: '人工智能', link: '/AI/' }
     ]
