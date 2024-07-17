@@ -1,5 +1,7 @@
 # Electron 的通信原理分析
 
+> _相关源码请查看：[https://github.com/bobo88/VUE3-Electron-chat](https://github.com/bobo88/VUE3-Electron-chat)。_
+
 > 下面是一个简单的示例，展示如何在 Electron 应用中使用 `ipcMain` 和 `ipcRenderer` 模块进行主进程和渲染进程之间的通信。
 
 ![An image](/images/mp/electron-msg-1.png)
