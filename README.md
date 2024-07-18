@@ -377,9 +377,11 @@
 - [Nginx 设置资源访问限制](dev-ops/test/nginx-do-protected.md)
 - [Nginx 配置实践](dev-ops/test/vue-config.md)
 - [如何查看 yarn 的安装路径](dev-ops/yarn-path.md)
-## 跨端解决方案
+## 跨端｜音视频
 
+- [简述 AV1](devices/1-AV1.md)
 - [音视频编码（直播/云游戏逻辑）](devices/1-H264.md)
+- [简述 H265](devices/1-H265.md)
 - [JS 代码在线运行工具](devices/1-js-run.md)
 - [在线人数动态显示](devices/1-online-users.md)
 - [SDK 打包优化](devices/1-sdk-build.md)
@@ -402,6 +404,7 @@
 - [Electron 打包流程](devices/electron/5_build.md)
 - [Electron 应用发布流程](devices/electron/6_pub.md)
 - [Electron 的通信原理分析](devices/electron/7_comm.md)
+- [Electron 新开窗口](devices/electron/8_open-window.md)
 - [Electron（VUE3）：一款简易聊天工具](devices/electron/demo.md)
 - [拖拽功能如何实现？](devices/electron/dev-drag.md)
 - [Electron 专题](devices/electron/index.md)
@@ -415,7 +418,7 @@
 - [实用教程](devices/flutter/6_practical-tutorial.md)
 - [Flutter 项目体验](devices/flutter/7_flutter-project-experience.md)
 - [Flutter 专题](devices/flutter/index.md)
-- [跨端解决方案](devices/index.md)
+- [跨端｜音视频](devices/index.md)
 ### React Native 专题
 
 - [React Native 简介](devices/react-native/1_react-native.md)
@@ -430,6 +433,10 @@
 - [Taro React 项目](devices/uni-taro/4_taro-react.md)
 - [uni-app & Taro](devices/uni-taro/index.md)
 - [uniapp 引入 echarts](devices/uni-taro/uniapp-echarts.md)
+### wasm
+
+- [wasm](devices/wasm/index.md)
+- [wasm 简述](devices/wasm/wasm.md)
 ## 效率提升
 
 - [对比项目两个分支的代码差异](efficiency/20_compare-code-differences-between-two-branches-of-a-project.md)
