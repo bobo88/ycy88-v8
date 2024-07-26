@@ -78,10 +78,11 @@
 ### 具体实践
 
 - [具体实践](algorithm/project/index.md)
-## 💙 规律
+## 💙 跨学科
 
 - [人性 - 规律 - 社会运行法则](ancient-modern/1-bottom-logic.md)
 - [思考：原生家庭对人的影响](ancient-modern/1-original-family.md)
+- [君子不器，成己达人，知白守黑](ancient-modern/1-own-master.md)
 ### 社会经济学
 
 - [社会经济学概述](ancient-modern/economics/0_topic.md)
@@ -89,7 +90,10 @@
 - [社会经济学](ancient-modern/economics/index.md)
 - [经济学中的核心关键词和概念](ancient-modern/economics/keywords.md)
 - [经济学的 10 个基本原理](ancient-modern/economics/top-10.md)
-- [💙 规律](ancient-modern/index.md)
+- [💙 跨学科](ancient-modern/index.md)
+### 法家思想
+
+- [法家思想](ancient-modern/legalism/index.md)
 ### 逻辑学
 
 - [逻辑学是什么？](ancient-modern/logic/0_topic.md)
@@ -115,6 +119,7 @@
 - [米尔格拉姆的小世界实验](ancient-modern/social-psychology/8.md)
 - [洛克的社会身份理论](ancient-modern/social-psychology/9.md)
 - [人性的规律](ancient-modern/social-psychology/human-nature.md)
+- [人性的弱点（一）](ancient-modern/social-psychology/human-weakness-1.md)
 - [社会心理学](ancient-modern/social-psychology/index.md)
 - [别陷入自证](ancient-modern/social-psychology/self-justification.md)
 - [认怂的力量](ancient-modern/social-psychology/the-power-of-give-up.md)
@@ -243,8 +248,9 @@
 - [MySQL 小试牛刀](backend/sql/MySQL.md)
 - [数据库相关](backend/sql/index.md)
 - [MySQL 树形结构设计](backend/sql/mysql-table-tree.md)
-## 💖 技术之外 💖
+## 💖 重塑认知 💖
 
+- [明白很多道理却依然过不好这一生？](beyond-tech/0-just-do.md)
 - [先上车，再调整姿势!](beyond-tech/about-into.md)
 - [「道法术器」的初探](beyond-tech/about-magic.md)
 - [「以结果为导向」的重要性！](beyond-tech/about-result.md)
@@ -256,7 +262,7 @@
 - [突破认知才是成长的关键](beyond-tech/breakthrough-cognition.md)
 - [爱因斯坦：发现问题比解决问题更重要！](beyond-tech/discover-problems.md)
 - [前瞻性思维（Forward Thinking）](beyond-tech/forward-thinking.md)
-- [💖 技术之外 💖](beyond-tech/index.md)
+- [💖 重塑认知 💖](beyond-tech/index.md)
 ### 思维模型
 
 - [First - 归纳提示 🔔](beyond-tech/mental-model/0_topic.md)
@@ -308,7 +314,10 @@
 - [烧水思维模型](beyond-tech/mental-model/boiling-water-thinking.md)
 - [为什么说批判性思维很重要？](beyond-tech/mental-model/critical-thinking-need.md)
 - [批判性思维](beyond-tech/mental-model/critical-thinking.md)
+- [历史是个轮回：借鉴的力量！](beyond-tech/mental-model/history-is-a-cycle.md)
+- [我好像抓住了实现阶层跨越的本质？](beyond-tech/mental-model/how-to-up.md)
 - [思维模型](beyond-tech/mental-model/index.md)
+- [学习的本质](beyond-tech/mental-model/learn-essence.md)
 ### 产品
 
 - [产品经理基本功](beyond-tech/pm/base.md)
@@ -405,6 +414,7 @@
 - [Electron 应用发布流程](devices/electron/6_pub.md)
 - [Electron 的通信原理分析](devices/electron/7_comm.md)
 - [Electron 新开窗口](devices/electron/8_open-window.md)
+- [Electron 的 API 文档](devices/electron/9_docs-api.md)
 - [Electron（VUE3）：一款简易聊天工具](devices/electron/demo.md)
 - [拖拽功能如何实现？](devices/electron/dev-drag.md)
 - [Electron 专题](devices/electron/index.md)
@@ -580,6 +590,7 @@
 - [Keycloak 实践（ 单点登录）](java/project/Keycloak.md)
 - [大五人格测试题目](java/project/big-five-1.md)
 - [大五人格测试题目 - 项目搭建](java/project/big-five-2.md)
+- [大五人格～体验版（小程序端）](java/project/big-five-3.md)
 - [项目实践](java/project/index.md)
 - [jar 还是 war？](java/project/jar-war.md)
 - [微服务项目用 jar 还是 war？](java/project/micro-service-projects.md)

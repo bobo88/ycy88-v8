@@ -64,11 +64,11 @@ export const nav = [
     ]
   },
   {
-    text: '💖技术之外💖',
+    text: '💖重塑认知💖',
     link: '/beyond-tech/'
   },
   {
-    text: '💙规律',
+    text: '跨学科',
     link: '/ancient-modern/'
   }
 ]
