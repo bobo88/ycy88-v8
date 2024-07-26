@@ -38,9 +38,20 @@ export const getChildren = async ({ ele, collapsed = false }) => {
     const pa = fs.readdirSync(path.join(currentPath, currentEle))
 
     const sortedPa = pa.sort((a, b) => {
+      let idxA = 100
+      let idxB = 100
+      const infoA = fs.statSync(path.join(currentPath, currentEle, a))
+      const infoB = fs.statSync(path.join(currentPath, currentEle, b))
+      if (infoA.isDirectory()) {
+        idxA = 1000
+      }
+      if (infoB.isDirectory()) {
+        idxB = 1000
+      }
+
       return (
-        parseInt(a.replace('.md', '').match(regEx)?.[0] || '1000') -
-        parseInt(b.replace('.md', '').match(regEx)?.[0] || '1000')
+        parseInt(a.replace('.md', '').match(regEx)?.[0] || idxA) -
+        parseInt(b.replace('.md', '').match(regEx)?.[0] || idxB)
       )
     })
 
