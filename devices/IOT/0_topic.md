@@ -49,6 +49,8 @@
 
 ![An image](/images/devices/iot-3.webp)
 
+![An image](/images/devices/iot-4.png)
+
 ---
 
 - [什么是物联网（IoT）？](https://www.aliyun.com/getting-started/what-is/what-is-iot)
