@@ -4,6 +4,8 @@
 
 ![An image](/images/java/uml.png)
 
+![An image](/images/java/uml-2.jpg)
+
 UML（统一建模语言）图是软件工程中用于描述、可视化和文档化系统设计的标准化图形表示。常见的 UML 图有很多种，每种图用于表示系统的不同方面。
 
 ## 1. **用例图（Use Case Diagram）**：
@@ -98,3 +100,7 @@ UML（统一建模语言）图是软件工程中用于描述、可视化和文�
 - `ShoppingCart` 可以包含多个 `Product`。
 
 UML 图是设计和交流系统结构和行为的强大工具，能够帮助团队成员更好地理解和协作。
+
+---
+
+- [一文掌握设计模式（定义+UML 类图+应用）](https://www.cnblogs.com/dennyzhangdd/p/17462931.html)
