@@ -19,6 +19,7 @@
 
 ## 人工智能
 
+- [在线编程面试和协作平台(AI)](AI/AI-code.md)
 - [CodeGeex 部分实现 AI 编程功能](AI/about-code.md)
 ### 基础理论和方法
 
@@ -83,6 +84,7 @@
 - [人性 - 规律 - 社会运行法则](ancient-modern/1-bottom-logic.md)
 - [思考：原生家庭对人的影响](ancient-modern/1-original-family.md)
 - [君子不器，成己达人，知白守黑](ancient-modern/1-own-master.md)
+- [时刻三省吾身](ancient-modern/3-think.md)
 ### 社会经济学
 
 - [社会经济学概述](ancient-modern/economics/0_topic.md)
@@ -154,6 +156,7 @@
 - [并战计](ancient-modern/thirty-six-calculations/5.md)
 - [败战计](ancient-modern/thirty-six-calculations/6.md)
 - [三十六计](ancient-modern/thirty-six-calculations/index.md)
+- [消除模糊，至关重要](ancient-modern/x-clear.md)
 ### 阳明心学
 
 - [阳明心学概述](ancient-modern/yangming-mind/0_topic.md)
@@ -174,6 +177,7 @@
 - [架构基础](architecture-design/base/index.md)
 - [软件架构入门](architecture-design/base/software-architecture.md)
 - [💯 架构设计](architecture-design/index.md)
+- [面试：你是如何做项目架构的？](architecture-design/interview.md)
 ### 架构实践
 
 - [架构实践](architecture-design/project/index.md)
@@ -335,6 +339,7 @@
 - [历史的本质](beyond-tech/teach/history.md)
 - [教育](beyond-tech/teach/index.md)
 - [物理的本质](beyond-tech/teach/physical.md)
+- [由「编程本质」引发的思考](beyond-tech/think-life.md)
 ### 工作思考
 
 - [Cover 思维](beyond-tech/work-think/11_cover-thinking.md)
@@ -397,8 +402,9 @@
 - [同声传译的原理和实现](devices/1-simultaneous-interpretation.md)
 ### IOT 相关
 
+- [简述 IOT](devices/IOT/0_topic.md)
 - [IOT 相关](devices/IOT/index.md)
-- [简述 IOT](devices/IOT/topic.md)
+- [物联网（IOT）的本质](devices/IOT/key.md)
 ### App 相关
 
 - [App 上架流程](devices/app/App-launch.md)
@@ -443,6 +449,8 @@
 - [Taro React 项目](devices/uni-taro/4_taro-react.md)
 - [uni-app & Taro](devices/uni-taro/index.md)
 - [uniapp 引入 echarts](devices/uni-taro/uniapp-echarts.md)
+- [uniapp 在小程序中保存图片](devices/uni-taro/uniapp-saveimg.md)
+- [uni-app 实现小程序按钮分享](devices/uni-taro/uniapp-share.md)
 ### wasm
 
 - [wasm](devices/wasm/index.md)
@@ -504,6 +512,7 @@
 - [PHP 篇](interview-questions/rd/php.md)
 ## Java 系列
 
+- [UML 图](java/UML.md)
 - [微服务架构项目的目录结构](java/about-dir.md)
 - [Java 项目开发的大致流程](java/about-pipe.md)
 ### Java 基础
@@ -668,6 +677,7 @@
 - [公共规则汇总表](keywords/standard/50_common-rules.md)
 - [团队规范](keywords/standard/index.md)
 - [需求和 Bug 的区别](keywords/standard/requirements-or-bugs.md)
+- [系统性开发思维是什么？](keywords/sys-mind.md)
 ### 团队管理
 
 - [我是如何做项目经理的（一）](keywords/team-mgt/10_pm-1.md)
@@ -847,6 +857,7 @@
 - [Markdown Extension Examples](markdown-examples.md)
 ## 微前端
 
+- [微前端，解决了什么问题？](micro-fe/0_micro-fe.md)
 - [微前端「qiankun」的实践](micro-fe/10_micro-frontend-qiankun.md)
 - [Module Federation（MF）](micro-fe/10_micro-frontend-webpack-5-module-federation.md)
 - [qiankun 具体项目实践](micro-fe/11_qiankun-project.md)
@@ -985,6 +996,7 @@
 - [页面加载性能优化](performance/perf-page.md)
 - [服务端的性能优化](performance/perf-rd.md)
 - [数据库的性能优化](performance/perf-sql.md)
+- [产品的前端体验 de 一点思考](performance/perf-think.md)
 - [简述「性能优化」](performance/perf-type.md)
 - [用户体验优化](performance/perf-user.md)
 - [网站渲染性能优化](performance/perf-web.md)
@@ -1024,6 +1036,7 @@
 - [React 清单 - UI 组件库](react/base/7_UI-component-library.md)
 - [React 清单 - 路由](react/base/8_route.md)
 - [React 清单 - state](react/base/9_base-state.md)
+- [hooks 添加前/后置方法](react/base/effect-hooks-pre.md)
 - [基础](react/base/index.md)
 - [React 开发零散技术点汇总](react/base/react-other.md)
 - [React专题](react/index.md)
@@ -1031,6 +1044,7 @@
 
 - [SSR 服务端渲染](react/plugin/13_SSR-server.md)
 - [插件类](react/plugin/index.md)
+- [React 与 Next.js 的对比](react/plugin/react-next.md)
 ### 项目实践
 
 - [React 高级 - 搭建网站](react/project/14_made-web.md)
@@ -1052,6 +1066,7 @@
 - [书籍阅读](readbook/index.md)
 ## 技能树 🌲
 
+- [计算机系统工程](skill-trees/0_top.md)
 - [前端开发](skill-trees/1-FE.md)
 - [服务端开发](skill-trees/1-RD.md)
 - [算法](skill-trees/1-algo.md)
