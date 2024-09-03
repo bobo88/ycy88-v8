@@ -26,4 +26,6 @@
 2. 使用浮点数的精度控制函数，如 Python 中的 `round()` 函数。
 3. 使用定点数表示法，即将小数点固定在某个位置，然后进行运算。
 
+---
+
 - [为什么 0.1 + 0.2 不等于 0.3 ？](https://xiaolincoding.com/os/1_hardware/float.html)
