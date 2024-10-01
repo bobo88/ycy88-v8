@@ -77,6 +77,98 @@ npm install -g @shopify/cli@latest
 
 ![An image](/images/shopify/create-new-app-4.png)
 
+> 在某个商店下创建 app。
+
+![An image](/images/shopify/run-dev-1.jpg)
+
+![An image](/images/shopify/run-dev-2.jpg)
+
+![An image](/images/shopify/run-dev-3.jpg)
+
+## 三、注意事项（解决报错）
+
+### 3.1 安装报错
+
+```bash
+F:\bob-project\1-shopify>npm install -g @shopify/cli@latest
+npm error code ETIMEDOUT
+npm error syscall connect
+npm error errno ETIMEDOUT
+npm error network request to https://registry.npmjs.org/@shopify%2fcli failed, reason: connect ETIMEDOUT 2606:4700::6810:1d22:443
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: C:\Users\yuanb\AppData\Local\npm-cache\_logs\2024-10-01T03_51_47_566Z-debug-0.log
+```
+
+由于超时错误（`ETIMEDOUT`），你可以尝试以下几种解决方法：
+
+#### 1. **检查网络连接**
+
+确保你的网络稳定，尝试访问其他网站或 ping npm 注册表以检查连接。
+
+#### 2. **清除 npm 缓存**
+
+使用以下命令清除缓存：
+
+```bash
+npm cache clean --force
+```
+
+#### 3. **检查代理设置**
+
+如果你不在代理环境中，确保没有设置代理：
+
+```bash
+npm config delete proxy
+npm config delete https-proxy
+```
+
+#### 4. **增加超时时间**
+
+你可以增加 npm 的超时设置：
+
+```bash
+npm config set fetch-retry-mintimeout 20000
+npm config set fetch-retry-maxtimeout 120000
+```
+
+#### 5. **使用不同的 npm 镜像**
+
+可以尝试使用淘宝镜像：
+
+```bash
+npm config set registry https://registry.npm.taobao.org
+```
+
+然后再次尝试安装。
+
+### 3.2 创建 app 报错
+
+```bash
+ shopify app init
+```
+
+```bash
+ error ──────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  Cloning into 'C:/Users/yuanb/AppData/Local/Temp/53c9e68cc22e2d3b7e2504d7c3  │
+│  6966b6/download'...                                                         │
+│  fatal: unable to access                                                     │
+│  'https://github.com/Shopify/shopify-app-template-remix/': Failed to         │
+│  connect to github.com port 443 after 21075 ms: Timed out
+```
+
+- 关掉网络代理（翻墙软件）
+- 设置增加 git 请求超时时间
+  ```bash
+    git config --global http.postBuffer 524288000
+    git config --global http.lowSpeedLimit 0
+    git config --global http.lowSpeedTime 999999
+  ```
+
 <!-- - **使用 Shopify API**：
   Shopify 提供了丰富的 API，包括 Admin API、Storefront API 和 GraphQL API，允许开发者与商店数据进行交互。要使用这些 API，你需要在应用中创建 API 访问权限。
 
