@@ -43,6 +43,39 @@ TODO
 
 > 自定义应用（Private Apps）。
 
+这里重点介绍如何开发和部署发布自定义应用。
+
+> 官网地址：[https://shopify.dev/docs/apps/launch](https://shopify.dev/docs/apps/launch)
+
+#### 2.2.1 要求清单 [官网地址参考](https://shopify.dev/docs/apps/launch/app-requirements-checklist)
+
+1. 禁止和限制的应用程序配置
+2. 安装和设置
+3. 功能和质量
+4. 应用程序性能
+5. 应用程序列表
+6. 安全及商户风险
+7. ......
+
+#### 2.2.2 使用受保护的数据 [官网地址参考](https://shopify.dev/docs/apps/launch/protected-customer-data)
+
+- 请求访问受保护的客户数据
+- 使用受保护的客户数据
+- 要求
+- 数据保护审查
+- ......
+
+#### 2.2.3 关于部署 [官网地址参考](https://shopify.dev/docs/apps/launch/deployment)
+
+- [方式一：将你的应用部署到 Heroku](https://shopify.dev/docs/apps/launch/deployment/deploy-web-app/deploy-to-heroku)
+  - [官网 ~ 安装 Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+  - ![An image](/images/shopify/install-heroku-cli.png)
+  - ？？？无法注册 Heroku 账户
+- [方式二：将应用程序部署到 Fly.io](https://shopify.dev/docs/apps/launch/deployment/deploy-web-app/deploy-to-fly)
+  - [安装 Installing PowerShell on Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)
+  - [安装 Installing PowerShell on Windows（Github）](https://github.com/PowerShell/PowerShell/releases/tag/v7.4.5)
+- [应用程序配置](https://shopify.dev/docs/apps/build/cli-for-apps/app-configuration)
+
 ## 三、注意事项
 
 > **Shopify Partner 账户 vs. Shopify 商店账户**
@@ -65,6 +98,64 @@ TODO
 
 - **普通 Shopify 商铺**（非 Plus 商店）**不能直接发布应用**到 Shopify App Store，但可以开发和安装**自定义应用（Private Apps）**。
 - 要发布应用到 Shopify App Store，**需要通过 Shopify Partner 账户** 开发并提交应用，审核通过后可以发布。
+
+### 3.4 部署方式的区别
+
+在部署 Shopify 私有应用（Private App）时，你可以选择多种托管方式。以下是几种常见的选择，以及它们的优劣：
+
+#### 1) **部署 Web 应用**
+
+- **描述**: 将你的私有应用部署到自托管的服务器或你拥有的 Web 环境（例如 AWS、Google Cloud、VPS、传统服务器）。
+- **适合**: 适合有自己的服务器管理经验和能力，或希望完全控制部署环境和配置的开发者。
+- **优点**:
+  - 完全控制部署环境。
+  - 灵活选择服务器和配置。
+- **缺点**:
+  - 需要自行管理服务器、维护、扩展。
+  - 相对复杂，适合有经验的开发者。
+
+#### 2) **部署到托管服务**
+
+- **描述**: 使用托管服务（如 AWS、Google Cloud、DigitalOcean 等）部署应用，让服务提供商负责服务器维护、扩展和管理。
+- **适合**: 希望拥有部分控制权，但不想管理底层基础设施的开发者。
+- **优点**:
+  - 更简单的部署和维护流程。
+  - 提供自动扩展、高可用等功能。
+- **缺点**:
+  - 成本高于自托管。
+  - 某些细节仍需自行管理（如负载均衡、SSL 证书等）。
+
+#### 3) **部署至 Fly.io**
+
+- **描述**: [Fly.io](https://fly.io) 是一种轻量化的云平台，专注于全球分布式的应用部署。Fly.io 可以将应用快速部署到靠近用户的地理位置，从而提高性能。
+- **适合**: 适合希望快速全球化部署的开发者，并且不希望过多关注基础设施管理。
+- **优点**:
+  - 全球多点部署，延迟低。
+  - 快速上手，易于管理。
+  - 支持 Docker 镜像部署。
+- **缺点**:
+  - 功能有限，适合小型或中型项目。
+  - 可能不适合需要复杂基础设施的项目。
+
+#### 4) **部署至 Heroku**
+
+- **描述**: [Heroku](https://www.heroku.com) 是一个流行的 PaaS（平台即服务），专注于简化应用的部署和管理。它提供易用的部署流程，特别适合 Web 应用开发。
+- **适合**: 希望快速部署且不关心底层基础设施管理的开发者。
+- **优点**:
+  - 部署非常简单（支持直接通过 Git 部署）。
+  - 自动化扩展和基础设施管理。
+  - 集成众多附加组件（如数据库、缓存、日志等）。
+- **缺点**:
+  - 免费计划资源受限，商业计划价格较高。
+  - 对复杂配置和自定义的控制有限。
+
+#### 如何选择？
+
+- **初学者或希望快速部署**：推荐 **Heroku**，它的操作最为简单，适合开发者快速上线应用，特别是在早期阶段。
+- **需要全球分布式部署**：**Fly.io** 是一个优秀选择，特别适合需要低延迟的应用。
+- **需要更高控制和灵活性**：如果你希望更灵活的环境和全球化服务，可以选择 **托管服务** 或 **自托管 Web 应用**。
+
+对于大多数希望快速部署 Shopify 私有应用的开发者，**Heroku** 和 **Fly.io** 都是很好的选择，它们简化了基础设施的管理，适合不需要复杂配置的应用。
 
 ---
 
