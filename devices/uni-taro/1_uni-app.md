@@ -143,8 +143,8 @@ $ npm install uview-ui@2.0.31
 
 ```js
 // main.js
-import uView from '@/uni_modules/uview-ui'
-Vue.use(uView)
+import uView from "@/uni_modules/uview-ui";
+Vue.use(uView);
 ```
 
 2. 在引入 uView 的全局 SCSS 主题文件<br/>
@@ -152,7 +152,7 @@ Vue.use(uView)
 
 ```scss
 /* uni.scss */
-@import '@/uni_modules/uview-ui/theme.scss';
+@import "@/uni_modules/uview-ui/theme.scss";
 ```
 
 3. 引入 uView 基础样式
@@ -160,7 +160,7 @@ Vue.use(uView)
 ```vue
 <style lang="scss">
 /* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
-@import '@/uni_modules/uview-ui/index.scss';
+@import "@/uni_modules/uview-ui/index.scss";
 </style>
 ```
 
@@ -239,6 +239,29 @@ TODO...
     ]
   }
 }
+```
+
+设置 H5 不显示 tabBar
+
+```json
+/* #ifndef H5 */
+"tabBar": {
+  "color": "#7A7E83",
+  "selectedColor": "#3cc51f",
+  "borderStyle": "black",
+  "backgroundColor": "#ffffff",
+  "list": [{
+    "pagePath": "pages/tab/home/index",
+    "text": "首页"
+  }, {
+    "pagePath": "pages/tab/list/index",
+    "text": "列表"
+  }, {
+    "pagePath": "pages/tab/user/index",
+    "text": "我的"
+  }]
+},
+// #endif
 ```
 
 ## 六、uButton 自定义样式
@@ -338,16 +361,16 @@ export default {
       goodsDynamic: undefined,
       notice: undefined,
       page: 1,
-      goods: []
-    }
+      goods: [],
+    };
   },
   onLoad(e) {
-    this._banners()
-    this._notice()
-    this._goods()
+    this._banners();
+    this._notice();
+    this._goods();
   },
   onShow() {
-    this._goodsDynamic()
+    this._goodsDynamic();
   },
   created() {},
   onShareAppMessage() {},
@@ -357,16 +380,16 @@ export default {
   },
   onPullDownRefresh() {
     // this.page = 1
-    this._banners()
-    this._notice()
-    this._goods()
+    this._banners();
+    this._notice();
+    this._goods();
     // uni.stopPullDownRefresh()
   },
   methods: {
     goSearch() {
       uni.navigateTo({
-        url: '/pages/search/index'
-      })
+        url: "/pages/search/index",
+      });
     },
     async _banners() {
       // DEMO 写死数据
@@ -375,79 +398,79 @@ export default {
         data: [
           {
             businessId: 0,
-            dateAdd: '2019-12-29 09:58:08',
-            dateUpdate: '2020-02-20 09:54:27',
+            dateAdd: "2019-12-29 09:58:08",
+            dateUpdate: "2020-02-20 09:54:27",
             id: 49755,
             linkType: 0,
-            linkUrl: '',
+            linkUrl: "",
             paixu: 0,
             picUrl:
-              'https://dcdn.it120.cc/2019/12/29/8396f65d-d615-46d8-b2e5-aa41820b9fe5.png',
+              "https://dcdn.it120.cc/2019/12/29/8396f65d-d615-46d8-b2e5-aa41820b9fe5.png",
             shopId: 0,
             status: 0,
-            statusStr: '显示',
-            title: '首页轮播图',
-            type: 'index',
-            userId: 951
+            statusStr: "显示",
+            title: "首页轮播图",
+            type: "index",
+            userId: 951,
           },
           {
             businessId: 0,
-            dateAdd: '2019-12-29 09:57:57',
-            dateUpdate: '2020-02-20 09:54:31',
+            dateAdd: "2019-12-29 09:57:57",
+            dateUpdate: "2020-02-20 09:54:31",
             id: 49754,
             linkType: 0,
             paixu: 0,
             picUrl:
-              'https://dcdn.it120.cc/2019/12/29/daca65ee-4347-4792-a490-ccbac4b3c1d7.png',
+              "https://dcdn.it120.cc/2019/12/29/daca65ee-4347-4792-a490-ccbac4b3c1d7.png",
             shopId: 0,
             status: 0,
-            statusStr: '显示',
-            title: '首页轮播图',
-            type: 'index',
-            userId: 951
+            statusStr: "显示",
+            title: "首页轮播图",
+            type: "index",
+            userId: 951,
           },
           {
             businessId: 0,
-            dateAdd: '2019-12-29 09:57:43',
-            dateUpdate: '2020-02-20 09:54:37',
+            dateAdd: "2019-12-29 09:57:43",
+            dateUpdate: "2020-02-20 09:54:37",
             id: 49753,
             linkType: 0,
             paixu: 0,
             picUrl:
-              'https://dcdn.it120.cc/2019/12/29/2e79921a-92b3-4d1d-8182-cb3d524be5fb.png',
+              "https://dcdn.it120.cc/2019/12/29/2e79921a-92b3-4d1d-8182-cb3d524be5fb.png",
             shopId: 0,
             status: 0,
-            statusStr: '显示',
-            title: '首页轮播图',
-            type: 'index',
-            userId: 951
-          }
+            statusStr: "显示",
+            title: "首页轮播图",
+            type: "index",
+            userId: 951,
+          },
         ],
-        msg: 'success'
-      }
-      this.banners = res.data
+        msg: "success",
+      };
+      this.banners = res.data;
     },
     tapBanner(index) {
-      const linkUrl = this.banners[index].linkUrl
+      const linkUrl = this.banners[index].linkUrl;
       if (linkUrl) {
         uni.navigateTo({
-          linkUrl
-        })
+          linkUrl,
+        });
       }
     },
     async _goodsDynamic() {
       // DEMO 写死数据
       this.goodsDynamic = [
-        '小红买了100吨钢材',
-        '小明买了1000吨无烟煤',
-        '小李买了5000吨焦煤'
-      ]
+        "小红买了100吨钢材",
+        "小明买了1000吨无烟煤",
+        "小李买了5000吨焦煤",
+      ];
     },
     async _notice() {
       // DEMO 写死数据
       this.notice = {
-        title: '通知：煤炭最新资讯*********，点我查看详情！'
-      }
+        title: "通知：煤炭最新资讯*********，点我查看详情！",
+      };
     },
     async _goods() {
       const res = {
@@ -455,17 +478,17 @@ export default {
         data: {
           result: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
           totalPage: 3,
-          totalRow: 25
+          totalRow: 25,
         },
-        msg: 'success'
-      }
-      this.goods = res.data.result
+        msg: "success",
+      };
+      this.goods = res.data.result;
     },
     noticeclick(e) {
-      console.log(e)
-    }
-  }
-}
+      console.log(e);
+    },
+  },
+};
 </script>
 <style lang="scss">
 .index {
@@ -590,39 +613,39 @@ export default {
     return {
       tabs: [
         {
-          name: '可领',
-          status: '-1'
+          name: "可领",
+          status: "-1",
         },
         {
-          name: '可用',
-          status: '0'
+          name: "可用",
+          status: "0",
         },
         {
-          name: '失效',
-          status: '2'
-        }
+          name: "失效",
+          status: "2",
+        },
       ],
       current: 1,
       coupons: undefined,
       curItem: undefined,
       couponPwdShow: false,
-      couponPwd: undefined
-    }
+      couponPwd: undefined,
+    };
   },
   created() {},
   mounted() {},
   onReady() {},
   onLoad(e) {
-    this._myCoupons(1)
+    this._myCoupons(1);
   },
   onShow() {},
   methods: {
     async tabchange(e) {
-      this.current = e
-      this._myCoupons(this.current)
+      this.current = e;
+      this._myCoupons(this.current);
     },
     async _myCoupons(status) {
-      this.coupons = null
+      this.coupons = null;
       // DEMO写死的数据
       const res = {
         code: 0,
@@ -637,7 +660,7 @@ export default {
             moneyMax: 2.0,
             moneyMin: 1.0,
             moneyType: 0,
-            name: '门店优惠中',
+            name: "门店优惠中",
             needAmount: 0.0,
             needScore: 0,
             needSignedContinuous: 0,
@@ -648,7 +671,7 @@ export default {
             numberTotle: 9999,
             numberUsed: 0,
             onlyFreight: true,
-            pic: 'https://7.s2m.cc/cuser/951/2022/03/11/4f5d2773-1d09-4956-bd50-e6ad107825de.png',
+            pic: "https://7.s2m.cc/cuser/951/2022/03/11/4f5d2773-1d09-4956-bd50-e6ad107825de.png",
             sendBirthday: false,
             sendInviteM: false,
             sendInviteS: false,
@@ -656,7 +679,7 @@ export default {
             shopId: 6040,
             showInFront: true,
             status: 0,
-            statusStr: '正常'
+            statusStr: "正常",
           },
           {
             batchSendUid: -1,
@@ -668,7 +691,7 @@ export default {
             moneyMax: 10.0,
             moneyMin: 5.0,
             moneyType: 1,
-            name: '测试比例优惠券',
+            name: "测试比例优惠券",
             needAmount: 0.0,
             needScore: 0,
             needSignedContinuous: 0,
@@ -679,7 +702,7 @@ export default {
             numberTotle: 900,
             numberUsed: 0,
             onlyFreight: false,
-            pwd: 'Y',
+            pwd: "Y",
             sendBirthday: false,
             sendInviteM: false,
             sendInviteS: false,
@@ -687,7 +710,7 @@ export default {
             shopId: 0,
             showInFront: true,
             status: 0,
-            statusStr: '正常'
+            statusStr: "正常",
           },
           {
             batchSendUid: -1,
@@ -699,7 +722,7 @@ export default {
             moneyMax: 1.0,
             moneyMin: 1.0,
             moneyType: 0,
-            name: '一人一份',
+            name: "一人一份",
             needAmount: 0.0,
             needScore: 0,
             needSignedContinuous: 0,
@@ -710,7 +733,7 @@ export default {
             numberTotle: 999999999,
             numberUsed: 2,
             onlyFreight: false,
-            pwd: 'Y',
+            pwd: "Y",
             sendBirthday: false,
             sendInviteM: false,
             sendInviteS: false,
@@ -718,7 +741,7 @@ export default {
             shopId: 0,
             showInFront: true,
             status: 0,
-            statusStr: '正常'
+            statusStr: "正常",
           },
           {
             batchSendUid: -1,
@@ -730,7 +753,7 @@ export default {
             moneyMax: 40.0,
             moneyMin: 40.0,
             moneyType: 0,
-            name: '新店优惠',
+            name: "新店优惠",
             needAmount: 0.0,
             needScore: 0,
             needSignedContinuous: 0,
@@ -748,8 +771,8 @@ export default {
             shopId: 0,
             showInFront: true,
             status: 0,
-            statusStr: '正常',
-            type: ''
+            statusStr: "正常",
+            type: "",
           },
           {
             batchSendUid: -1,
@@ -761,7 +784,7 @@ export default {
             moneyMax: 25.0,
             moneyMin: 25.0,
             moneyType: 0,
-            name: '新店优惠',
+            name: "新店优惠",
             needAmount: 0.0,
             needScore: 0,
             needSignedContinuous: 0,
@@ -779,30 +802,30 @@ export default {
             shopId: 0,
             showInFront: true,
             status: 0,
-            statusStr: '正常',
-            type: ''
-          }
+            statusStr: "正常",
+            type: "",
+          },
         ],
-        msg: 'success'
-      }
+        msg: "success",
+      };
       // 模拟tab为第一个时才有数据
-      this.coupons = status === 0 ? res.data : []
+      this.coupons = status === 0 ? res.data : [];
     },
     async getCounpon(item, pwd) {
       uni.showModal({
-        title: '提示',
-        content: '对不起，您的积分不足！',
-        showCancel: false
-      })
-      return
+        title: "提示",
+        content: "对不起，您的积分不足！",
+        showCancel: false,
+      });
+      return;
     },
     goIndex() {
       uni.switchTab({
-        url: '../index/index'
-      })
-    }
-  }
-}
+        url: "../index/index",
+      });
+    },
+  },
+};
 </script>
 <style lang="scss">
 .coupons {
