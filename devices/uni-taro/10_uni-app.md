@@ -297,6 +297,14 @@ onShow 里面的方法会重新请求加载
 根据接口文档，传入参数有token，用户id，模板id，以及跳转网址和data，即可将消息推送给关注的特定用户
 ```
 
+## 十八、微信小程序自动运行配置
+
+> 一定要记得配置这个。
+
+![An image](/images/mp/addr-config.jpg)
+
+- [首次配置](https://zh.uniapp.dcloud.io/quickstart-hx.html)
+
 [尝试开发微信公众号消息推送功能并且和小程序关联：](https://zhuanlan.zhihu.com/p/130674021)
 
 [微信小程序通过公众号服务号发送消息：](https://blog.csdn.net/wuguangrong888/article/details/127432924)
