@@ -119,19 +119,19 @@ MongoDB 没有固定的模式，这意味着我们可以在不同的文章中存
 
 ```javascript
 db.articles.insertOne({
-  title: '如何使用 MongoDB 构建 CMS',
-  content: '这是文章的详细内容......',
-  author: { id: ObjectId('650...'), name: '作者姓名' },
-  category: { id: ObjectId('650...'), name: '技术' },
+  title: "如何使用 MongoDB 构建 CMS",
+  content: "这是文章的详细内容......",
+  author: { id: ObjectId("650..."), name: "作者姓名" },
+  category: { id: ObjectId("650..."), name: "技术" },
   tags: [
-    { id: ObjectId('650...'), name: 'MongoDB' },
-    { id: ObjectId('650...'), name: 'CMS' },
-    { id: ObjectId('650...'), name: '数据库' },
+    { id: ObjectId("650..."), name: "MongoDB" },
+    { id: ObjectId("650..."), name: "CMS" },
+    { id: ObjectId("650..."), name: "数据库" },
   ],
   comments: [],
   created_at: new Date(),
   updated_at: new Date(),
-})
+});
 ```
 
 ### 2. 查询文章
@@ -139,13 +139,13 @@ db.articles.insertOne({
 - 查询所有文章：
 
 ```javascript
-db.articles.find({})
+db.articles.find({});
 ```
 
 - 查询分类为“技术”的文章：
 
 ```javascript
-db.articles.find({ 'category.name': '技术' })
+db.articles.find({ "category.name": "技术" });
 ```
 
 ### 3. 更新文章
@@ -154,15 +154,15 @@ db.articles.find({ 'category.name': '技术' })
 
 ```javascript
 db.articles.updateOne(
-  { _id: ObjectId('650...') },
-  { $set: { title: 'MongoDB 实战 CMS' } }
-)
+  { _id: ObjectId("650...") },
+  { $set: { title: "MongoDB 实战 CMS" } }
+);
 ```
 
 ### 4. 删除文章
 
 ```javascript
-db.articles.deleteOne({ _id: ObjectId('650...') })
+db.articles.deleteOne({ _id: ObjectId("650...") });
 ```
 
 ## 5. 注意事项
@@ -196,3 +196,5 @@ db.articles.deleteOne({ _id: ObjectId('650...') })
 - **MongoDB** 适合数据灵活多变、需要高性能写入和大规模扩展的现代 Web CMS 系统。
 
 两者的选择取决于 CMS 系统的具体需求、数据规模、以及未来的扩展计划。如果你需要的是稳定性、数据一致性和复杂查询，选择 **MySQL** ；如果你更看重灵活性、扩展性和高性能，选择 **MongoDB**。
+
+- [菜鸟教程 - mongodb](https://www.runoob.com/mongodb/mongodb-tutorial.html)
