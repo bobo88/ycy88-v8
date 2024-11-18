@@ -1,11 +1,10 @@
-
 > **你我共勉**：掌握核心技术（道法术器），全方位涵盖技术团队规范、全栈技能、算法、主流技术和团队管理的关键元素。
-> 
+>
 > 作者：yb
 >
 > 本站地址：https://fe.ycy88.com
-> 
-> 强烈推荐大家阅读了解 **【技术之外】** 这个篇章，「想」和「做」都很重要，但「想」要先行。知行合一，也是「知」在前面。非常欢迎大家Star🌟🌟🌟🌟🌟！！！
+>
+> 强烈推荐大家阅读了解 **【技术之外】** 这个篇章，「想」和「做」都很重要，但「想」要先行。知行合一，也是「知」在前面。非常欢迎大家 Star🌟🌟🌟🌟🌟！！！
 
 ![An image](https://fe.ycy88.com/images/beyond/bloom.png)
 
@@ -19,12 +18,14 @@
 
 ## 人工智能
 
-- [在线编程面试和协作平台(AI)](AI/AI-code.md)
 - [CodeGeex 部分实现 AI 编程功能](AI/about-code.md)
+- [在线编程面试和协作平台(AI)](AI/AI-code.md)
+
 ### 基础理论和方法
 
 - [基础理论和方法](AI/base/index.md)
 - [相关理论与方法](AI/base/topic.md)
+
 ### 技术领域
 
 - [计算机视觉](AI/branches/computer-vision.md)
@@ -34,17 +35,19 @@
 - [自然语言处理（NLP）](AI/branches/natural-lang.md)
 - [推荐系统](AI/branches/recommend-sys.md)
 - [人工智能](AI/index.md)
+
 ### 人工智能应用和算法
 
 - [AI 是什么？](AI/leaves/AI.md)
 - [GPT 是什么？](AI/leaves/GPT.md)
-- [自然语言处理（NLP）](AI/leaves/NLP.md)
 - [人工智能应用和算法](AI/leaves/index.md)
-- [项目目录](README.md)
+- [自然语言处理（NLP）](AI/leaves/NLP.md)
+
 ## 数据结构与算法
 
 - [算法种类](algorithm/0_algorithm-types.md)
 - [开始之前，说点什么好呢？](algorithm/0_preface.md)
+
 ### 基础知识
 
 - [图](algorithm/base/10_graph.md)
@@ -60,11 +63,14 @@
 - [树](algorithm/base/8_tree.md)
 - [堆](algorithm/base/9_heap.md)
 - [基础知识](algorithm/base/index.md)
+
 ### 读书系列
 
 - [数据结构](algorithm/books/10_data-structure.md)
 - [数据库原理及应用](algorithm/books/11_database.md)
 - [读书系列](algorithm/books/index.md)
+- [为什么 0.1 + 0.2 不等于 0.3 ？](algorithm/float.md)
+
 ### 高级用法
 
 - [手把手刷链表算法](algorithm/high/11_algorithm-of-hand-handle-chain-brushing.md)
@@ -76,15 +82,17 @@
 - [后序遍历（树）](algorithm/high/post-order-traversal.md)
 - [先序遍历（树）](algorithm/high/pre-order-traversal.md)
 - [数据结构与算法](algorithm/index.md)
+
 ### 具体实践
 
 - [具体实践](algorithm/project/index.md)
+
 ## 💙 跨学科
 
 - [人性 - 规律 - 社会运行法则](ancient-modern/1-bottom-logic.md)
 - [思考：原生家庭对人的影响](ancient-modern/1-original-family.md)
 - [君子不器，成己达人，知白守黑](ancient-modern/1-own-master.md)
-- [时刻三省吾身](ancient-modern/3-think.md)
+
 ### 社会经济学
 
 - [社会经济学概述](ancient-modern/economics/0_topic.md)
@@ -93,9 +101,11 @@
 - [经济学中的核心关键词和概念](ancient-modern/economics/keywords.md)
 - [经济学的 10 个基本原理](ancient-modern/economics/top-10.md)
 - [💙 跨学科](ancient-modern/index.md)
+
 ### 法家思想
 
 - [法家思想](ancient-modern/legalism/index.md)
+
 ### 逻辑学
 
 - [逻辑学是什么？](ancient-modern/logic/0_topic.md)
@@ -103,10 +113,12 @@
 - [逻辑学](ancient-modern/logic/index.md)
 - [逻辑实现的三种方式](ancient-modern/logic/logic-3-ways.md)
 - [逻辑学核心内容简介](ancient-modern/logic/main.md)
+
 ### 市场营销学
 
 - [市场营销学概述](ancient-modern/marketing/0_topic.md)
 - [市场营销学](ancient-modern/marketing/index.md)
+
 ### 社会心理学
 
 - [社会心理学概述](ancient-modern/social-psychology/0_topic.md)
@@ -125,10 +137,12 @@
 - [社会心理学](ancient-modern/social-psychology/index.md)
 - [别陷入自证](ancient-modern/social-psychology/self-justification.md)
 - [认怂的力量](ancient-modern/social-psychology/the-power-of-give-up.md)
+
 ### 统计学
 
 - [统计学概述](ancient-modern/statistics/0_topic.md)
 - [统计学](ancient-modern/statistics/index.md)
+
 ### 孙子兵法
 
 - [孙子兵法概述](ancient-modern/sun-tzu-art-war/0_topic.md)
@@ -146,6 +160,7 @@
 - [九变篇](ancient-modern/sun-tzu-art-war/8.md)
 - [行军篇](ancient-modern/sun-tzu-art-war/9.md)
 - [孙子兵法](ancient-modern/sun-tzu-art-war/index.md)
+
 ### 三十六计
 
 - [三十六计概述](ancient-modern/thirty-six-calculations/0_topic.md)
@@ -156,17 +171,19 @@
 - [并战计](ancient-modern/thirty-six-calculations/5.md)
 - [败战计](ancient-modern/thirty-six-calculations/6.md)
 - [三十六计](ancient-modern/thirty-six-calculations/index.md)
-- [消除模糊，至关重要](ancient-modern/x-clear.md)
+
 ### 阳明心学
 
 - [阳明心学概述](ancient-modern/yangming-mind/0_topic.md)
 - [阳明心学](ancient-modern/yangming-mind/index.md)
 - [Runtime API Examples](api-examples.md)
+
 ## 💯 架构设计
 
 - [前端架构设计工作](architecture-design/about-fe.md)
 - [微服务架构-从理论到实践](architecture-design/about-micro-services.md)
 - [前后端架构思维指南](architecture-design/architecture-guide.md)
+
 ### 架构基础
 
 - [架构简述](architecture-design/base/0_base.md)
@@ -178,10 +195,12 @@
 - [软件架构入门](architecture-design/base/software-architecture.md)
 - [💯 架构设计](architecture-design/index.md)
 - [面试：你是如何做项目架构的？](architecture-design/interview.md)
+
 ### 架构实践
 
 - [架构实践](architecture-design/project/index.md)
 - [前端监控系统架构](architecture-design/project/monitor.md)
+
 ### 架构思考复盘
 
 - [课题 1：系统性能评估](architecture-design/think/1.md)
@@ -192,10 +211,12 @@
 - [课题 6：技术升级评估](architecture-design/think/6.md)
 - [课题 7：反馈机制建立](architecture-design/think/7.md)
 - [架构思考复盘](architecture-design/think/index.md)
+
 ## Backend 专题
 
 - [服务端架构师知识清单](backend/0_todolist.md)
 - [API 接口类型](backend/about-api.md)
+
 ### 基础知识
 
 - [BFF 概念](backend/base/15_BFF-concept.md)
@@ -219,9 +240,11 @@
 - [Java](backend/base/language-java.md)
 - [PHP](backend/base/language-php.md)
 - [python](backend/base/language-python.md)
+
 ### 读书系列
 
 - [读书系列](backend/books/index.md)
+
 ### 设计模式
 
 - [设计模式](backend/design-patterns/3_design-patterns-0.md)
@@ -240,21 +263,25 @@
 - [设计模式 - 策略模式](backend/design-patterns/DesignMode-StrategyMode.md)
 - [设计模式](backend/design-patterns/index.md)
 - [Backend 专题](backend/index.md)
+
 ### 项目实践
 
 - [BFF 实践](backend/project/15_BFF-practice.md)
 - [项目实践](backend/project/index.md)
 - [RBAC 模型的权限设计](backend/project/saas-rbac.md)
+
 ### 数据库相关
 
 - [数据库实战经验总结](backend/sql/1_database-key.md)
 - [知识清单 - 数据库](backend/sql/1_database.md)
-- [MySQL 小试牛刀](backend/sql/MySQL.md)
 - [数据库相关](backend/sql/index.md)
 - [MySQL 树形结构设计](backend/sql/mysql-table-tree.md)
+- [MySQL 小试牛刀](backend/sql/MySQL.md)
+
 ## 💖 重塑认知 💖
 
 - [明白很多道理却依然过不好这一生？](beyond-tech/0-just-do.md)
+- [时刻三省吾身](beyond-tech/3-think.md)
 - [先上车，再调整姿势!](beyond-tech/about-into.md)
 - [「道法术器」的初探](beyond-tech/about-magic.md)
 - [「以结果为导向」的重要性！](beyond-tech/about-result.md)
@@ -264,9 +291,14 @@
 - [如何构建自己的知识体系](beyond-tech/about-zx-tixi.md)
 - [技术之外我们应该思考什么](beyond-tech/beyond-tech-think-about.md)
 - [突破认知才是成长的关键](beyond-tech/breakthrough-cognition.md)
+- [辩论到底是什么？](beyond-tech/debate.md)
 - [爱因斯坦：发现问题比解决问题更重要！](beyond-tech/discover-problems.md)
 - [前瞻性思维（Forward Thinking）](beyond-tech/forward-thinking.md)
+- [习惯是如何养成的？](beyond-tech/How-are-habits-formed.md)
 - [💖 重塑认知 💖](beyond-tech/index.md)
+- [重要的是行动的开始，而不是开始的时间](beyond-tech/just-do.md)
+- [你用对了学习方法吗？](beyond-tech/learn-methods.md)
+
 ### 思维模型
 
 - [First - 归纳提示 🔔](beyond-tech/mental-model/0_topic.md)
@@ -316,30 +348,36 @@
 - [三层解释思维模型](beyond-tech/mental-model/8_three-layer.md)
 - [复利原理](beyond-tech/mental-model/9_fuli.md)
 - [烧水思维模型](beyond-tech/mental-model/boiling-water-thinking.md)
+- [批判性思维的主要要素](beyond-tech/mental-model/critical-thinking-elements.md)
 - [为什么说批判性思维很重要？](beyond-tech/mental-model/critical-thinking-need.md)
 - [批判性思维](beyond-tech/mental-model/critical-thinking.md)
 - [历史是个轮回：借鉴的力量！](beyond-tech/mental-model/history-is-a-cycle.md)
 - [我好像抓住了实现阶层跨越的本质？](beyond-tech/mental-model/how-to-up.md)
 - [思维模型](beyond-tech/mental-model/index.md)
 - [学习的本质](beyond-tech/mental-model/learn-essence.md)
+
 ### 产品
 
 - [产品经理基本功](beyond-tech/pm/base.md)
 - [产品](beyond-tech/pm/index.md)
 - [产品工具类汇总](beyond-tech/pm/tools.md)
+- [潜台词我不说，你懂吗？](beyond-tech/subtext.md)
+
 ### 教育
 
 - [教育的本质是什么？](beyond-tech/teach/0_key.md)
 - [学生时代不同阶段的思维](beyond-tech/teach/10_sw.md)
-- [语文的本质](beyond-tech/teach/Chinese.md)
-- [英语的本质](beyond-tech/teach/English.md)
-- [数学的本质](beyond-tech/teach/Math.md)
 - [生物的本质](beyond-tech/teach/biology.md)
 - [化学的本质](beyond-tech/teach/chemistry.md)
+- [语文的本质](beyond-tech/teach/Chinese.md)
+- [英语的本质](beyond-tech/teach/English.md)
 - [历史的本质](beyond-tech/teach/history.md)
 - [教育](beyond-tech/teach/index.md)
+- [数学的本质](beyond-tech/teach/Math.md)
 - [物理的本质](beyond-tech/teach/physical.md)
 - [由「编程本质」引发的思考](beyond-tech/think-life.md)
+- [团结就是力量！](beyond-tech/unite-is-power.md)
+
 ### 工作思考
 
 - [Cover 思维](beyond-tech/work-think/11_cover-thinking.md)
@@ -363,34 +401,38 @@
 - [大产品的思考](beyond-tech/work-think/think-pm.md)
 - [工作周报总结](beyond-tech/work-think/weekly-summary.md)
 - [你的优势是什么？](beyond-tech/work-think/you-advantage.md)
+- [消除模糊，至关重要](beyond-tech/x-clear.md)
+
 ## 运维 CI/CD
 
 - [运维清单](dev-ops/0_DevOps.md)
 - [自动化部署](dev-ops/13_auto-deployment.md)
 - [阿里云服务器配置 https](dev-ops/Ali-cloud-server-config-https.md)
-- [Jenkins 简述](dev-ops/Jenkins-base.md)
 - [代码回滚机制](dev-ops/code-rollback.md)
 - [DevOps 架构](dev-ops/devOps.md)
 - [使用 Docker 实现 CICD](dev-ops/docker-CICD.md)
 - [Gateway](dev-ops/gateway.md)
 - [Github 与 Gitee 互通有无](dev-ops/github-to-gitee.md)
 - [运维 CI/CD](dev-ops/index.md)
+- [Jenkins 简述](dev-ops/Jenkins-base.md)
 - [Jenkins 配置](dev-ops/jenkins-config.md)
 - [负载均衡](dev-ops/load-balance.md)
 - [Nginx 基础知识](dev-ops/nginx-base.md)
+
 ### 具体实践
 
+- [具体实践](dev-ops/test/index.md)
 - [实践：阿里云 ECS 服务器](dev-ops/test/Jenkins-config-ali-esc-server.md)
 - [Jenkins 修改端口号（Mac）](dev-ops/test/Jenkins-do-1.md)
 - [Jenkins 更新版本号](dev-ops/test/Jenkins-do-2.md)
 - [Jenkins 设置中文](dev-ops/test/Jenkins-do-3.md)
 - [Jenkins 构建部署项目](dev-ops/test/Jenkins-do-4.md)
-- [具体实践](dev-ops/test/index.md)
 - [Nginx 实践](dev-ops/test/nginx-do-1.md)
 - [Nginx 实践 2](dev-ops/test/nginx-do-2.md)
 - [Nginx 设置资源访问限制](dev-ops/test/nginx-do-protected.md)
 - [Nginx 配置实践](dev-ops/test/vue-config.md)
 - [如何查看 yarn 的安装路径](dev-ops/yarn-path.md)
+
 ## 跨端｜音视频
 
 - [简述 AV1](devices/1-AV1.md)
@@ -400,17 +442,14 @@
 - [在线人数动态显示](devices/1-online-users.md)
 - [SDK 打包优化](devices/1-sdk-build.md)
 - [同声传译的原理和实现](devices/1-simultaneous-interpretation.md)
-### IOT 相关
 
-- [简述 IOT](devices/IOT/0_topic.md)
-- [IOT 相关](devices/IOT/index.md)
-- [物联网（IOT）的本质](devices/IOT/key.md)
 ### App 相关
 
 - [App 上架流程](devices/app/App-launch.md)
 - [应用商店打包（uni-app）](devices/app/build.md)
 - [App 相关](devices/app/index.md)
 - [地图开发](devices/app/map.md)
+
 ### Electron 专题
 
 - [Electron 简介](devices/electron/1_introduction-to-electron.md)
@@ -424,6 +463,7 @@
 - [Electron（VUE3）：一款简易聊天工具](devices/electron/demo.md)
 - [拖拽功能如何实现？](devices/electron/dev-drag.md)
 - [Electron 专题](devices/electron/index.md)
+
 ### Flutter 专题
 
 - [Flutter 简介](devices/flutter/1_introduction-to-flutter.md)
@@ -435,10 +475,18 @@
 - [Flutter 项目体验](devices/flutter/7_flutter-project-experience.md)
 - [Flutter 专题](devices/flutter/index.md)
 - [跨端｜音视频](devices/index.md)
+
+### IOT 相关
+
+- [简述 IOT](devices/IOT/0_topic.md)
+- [IOT 相关](devices/IOT/index.md)
+- [物联网（IOT）的本质](devices/IOT/key.md)
+
 ### React Native 专题
 
 - [React Native 简介](devices/react-native/1_react-native.md)
 - [React Native 专题](devices/react-native/index.md)
+
 ### uni-app & Taro
 
 - [uni-app 微信小程序踩坑汇总](devices/uni-taro/10_uni-app.md)
@@ -448,21 +496,26 @@
 - [Taro VUE3 项目](devices/uni-taro/3_taro-vue3.md)
 - [Taro React 项目](devices/uni-taro/4_taro-react.md)
 - [uni-app & Taro](devices/uni-taro/index.md)
+- [技术调研支付功能（微信/支付宝）](devices/uni-taro/pay.md)
 - [uniapp 引入 echarts](devices/uni-taro/uniapp-echarts.md)
 - [uniapp 在小程序中保存图片](devices/uni-taro/uniapp-saveimg.md)
 - [uni-app 实现小程序按钮分享](devices/uni-taro/uniapp-share.md)
+
 ### wasm
 
 - [wasm](devices/wasm/index.md)
 - [wasm 简述](devices/wasm/wasm.md)
+
 ## 效率提升
 
 - [对比项目两个分支的代码差异](efficiency/20_compare-code-differences-between-two-branches-of-a-project.md)
-- [前端调试时开启服务器的方法](efficiency/Front-end-debugging-Enable-temporary-server.md)
 - [csv 的作用](efficiency/csv.md)
 - [把 json 数据导出为.json 文本](efficiency/download-json-file.md)
-- [效率提升](efficiency/index.md)
+- [前端调试时开启服务器的方法](efficiency/Front-end-debugging-Enable-temporary-server.md)
+- [效率提升
+  ](efficiency/index.md)
 - [MD 代码块指定语言类型](efficiency/md-type.md)
+
 ### 工具类
 
 - [团队项目管理工具](efficiency/tools/1_team-mgt.md)
@@ -471,13 +524,16 @@
 - [npm 切换源](efficiency/tools/npm.md)
 - [VS Code 搜索功能](efficiency/vscode-search.md)
 - [vuePress 全局搜索功能](efficiency/vuepress-search.md)
+
 ## Error 汇总专题
 
 - [antv 报错汇总](errors/antv.md)
 - [关于 axios 302 重定向的问题](errors/axios-302.md)
-- [Error 汇总专题](errors/index.md)
+- [Error 汇总专题
+  ](errors/index.md)
 - [node-sass 报错汇总](errors/node-sass.md)
 - [yarn & git 相关报错](errors/yarn-git.md)
+
 ## 前端规范
 
 - [准备工作](frontend/1_preparation.md)
@@ -489,9 +545,18 @@
 - [开发规范 CSS 篇](frontend/6_development-specification-css.md)
 - [其他开发规范](frontend/7_other-development-specifications.md)
 - [前端规范工程化最佳实践](frontend/8_best-practices-for-front-end-specification-engineering.md)
-- [前端规范](frontend/index.md)
+- [前端规范
+  ](frontend/index.md)
 - [前端开发规范](frontend/standard.md)
-- [V8程序](index.md)
+
+## Go 语言
+
+- [Go 基础知识点（必会）](go/1_base.md)
+- [Go 语言](go/index.md)
+- [Go 的学习路径](go/topic.md)
+- [V8 程序
+  ](index.md)
+
 ## 面试专场
 
 ### 前端类
@@ -503,6 +568,7 @@
 - [React 篇](interview-questions/fe/react.md)
 - [VUE 篇](interview-questions/fe/vue.md)
 - [面试专场](interview-questions/index.md)
+
 ### 后端类
 
 - [算法篇](interview-questions/rd/algorithm.md)
@@ -510,11 +576,12 @@
 - [后端类](interview-questions/rd/index.md)
 - [Java 篇](interview-questions/rd/java.md)
 - [PHP 篇](interview-questions/rd/php.md)
+
 ## Java 系列
 
-- [UML 图](java/UML.md)
 - [微服务架构项目的目录结构](java/about-dir.md)
 - [Java 项目开发的大致流程](java/about-pipe.md)
+
 ### Java 基础
 
 - [Java 包(package)](java/base/10_package.md)
@@ -533,10 +600,12 @@
 - [字符串处理](java/base/8_str.md)
 - [多线程和并发](java/base/9_mul.md)
 - [Java 基础](java/base/index.md)
+
 ### 读书系列
 
 - [读书系列](java/books/index.md)
 - [漫画 Java](java/books/manga-Java.md)
+
 ### Java 高级
 
 - [Java 对象组成](java/high/10_Java-object-composition.md)
@@ -547,9 +616,9 @@
 - [反射（Reflection）](java/high/1_reflection.md)
 - [AOP 控制器](java/high/2_AOP-controller.md)
 - [动态代理](java/high/2_Dynamic-proxy.md)
-- [简述 RPC](java/high/2_RPC.md)
 - [泛型](java/high/2_generic.md)
 - [横向（权限）切片](java/high/2_horizontal-slicing.md)
+- [简述 RPC](java/high/2_RPC.md)
 - [枚举](java/high/3_enum.md)
 - [注解（Annotations）基础](java/high/4_Annotation-base.md)
 - [注解（Annotation）](java/high/4_Annotation.md)
@@ -562,18 +631,20 @@
 - [编译原理](java/high/9_compilation-principle.md)
 - [Java 高级](java/high/index.md)
 - [Java 系列](java/index.md)
+
 ### 设计模式
 
 - [「创建型模式」汇总](java/model/1_creation-pattern.md)
 - [「结构型模式」汇总](java/model/2_structural-pattern.md)
 - [「行为型模式」汇总](java/model/3_behavioral-patterns.md)
 - [设计模式](java/model/index.md)
+
 ### 框架与工具
 
-- [RESTful API](java/plugins/10_RESTful-API.md)
-- [SSM 是什么？](java/plugins/10_SSM.md)
 - [MySQL](java/plugins/10_mysql.md)
+- [RESTful API](java/plugins/10_RESTful-API.md)
 - [简化程序员编写 SQL 语句](java/plugins/10_simple-mysql.md)
+- [SSM 是什么？](java/plugins/10_SSM.md)
 - [Eureka](java/plugins/11_Eureka.md)
 - [zookeeper](java/plugins/11_zookeeper.md)
 - [分布式系统中使用 Redis 上锁](java/plugins/12_redis-lock.md)
@@ -591,23 +662,27 @@
 - [Hibernate](java/plugins/8_Hibernate.md)
 - [MyBatis](java/plugins/9_MyBatis.md)
 - [框架与工具](java/plugins/index.md)
+
 ### 项目实践
 
 - [上手 Spring Cloud 的项目](java/project/0_quick-run.md)
 - [Java DEMO](java/project/1_demo.md)
 - [Maven 项目管理流程](java/project/2_maven-build-project.md)
-- [Keycloak 实践（ 单点登录）](java/project/Keycloak.md)
 - [大五人格测试题目](java/project/big-five-1.md)
 - [大五人格测试题目 - 项目搭建](java/project/big-five-2.md)
 - [大五人格～体验版（小程序端）](java/project/big-five-3.md)
 - [项目实践](java/project/index.md)
 - [jar 还是 war？](java/project/jar-war.md)
+- [Keycloak 实践（ 单点登录）](java/project/Keycloak.md)
 - [微服务项目用 jar 还是 war？](java/project/micro-service-projects.md)
 - [SSO 的具体实战](java/project/sso.md)
+
 ### 相关工具
 
 - [idea 选中文件时左侧菜单自动定位到文件所在位置](java/tools/auto-fix-file.md)
 - [相关工具](java/tools/index.md)
+- [UML 图](java/UML.md)
+
 ## JS 系列
 
 ### 读书系列
@@ -617,10 +692,11 @@
 - [你不知道的 JS（下）](js/books/4_你不知道的JS下.md)
 - [读书系列](js/books/index.md)
 - [JS 系列](js/index.md)
-### JS基础
+
+### JS 基础
 
 - [this](js/js-base/1_talk-about-this.md)
-- [ESlint实践](js/js-base/2_eslint-practice.md)
+- [ESlint 实践](js/js-base/2_eslint-practice.md)
 - [图片懒加载](js/js-base/3_image-lazy-loading.md)
 - [数组去重](js/js-base/Array-de-duplication.md)
 - [数组扁平化处理](js/js-base/Array-flattening.md)
@@ -629,9 +705,10 @@
 - [如何正确判断数据的类型](js/js-base/Determine-data-type.md)
 - [详解字符串 String 中的常见方法](js/js-base/Explaining-Common-Methods-in-String.md)
 - [找出数组中最大值的几种方法](js/js-base/find-max-in-Array.md)
-- [JS基础](js/js-base/index.md)
+- [JS 基础](js/js-base/index.md)
 - [如何将字符串型转换为数值型](js/js-base/string-to-number.md)
-### JS进阶
+
+### JS 进阶
 
 - [缓存](js/js-raise/1_cache.md)
 - [防抖与节流](js/js-raise/3_anti-vibration-and-throttling.md)
@@ -640,23 +717,27 @@
 - [js 引擎解析过程](js/js-raise/6_js-engine-parsing.md)
 - [V8 引擎](js/js-raise/7_v8-engine.md)
 - [xss & csrf](js/js-raise/8_xss-csrf.md)
-- [vuepress 设置代码高亮](js/js-raise/Highlight-the-vuePress-setting-code.md)
-- [逻辑或/逻辑与的用法](js/js-raise/The-usage-of-or-and.md)
 - [async await 全局异常捕获](js/js-raise/async-await.md)
-- [JS进阶](js/js-raise/index.md)
+- [vuepress 设置代码高亮](js/js-raise/Highlight-the-vuePress-setting-code.md)
+- [JS 进阶](js/js-raise/index.md)
 - [jsencrypt 加解密](js/js-raise/jsencrypt.md)
 - [Promise 的作用](js/js-raise/promise.md)
-### JS原理
+- [逻辑或/逻辑与的用法](js/js-raise/The-usage-of-or-and.md)
+
+### JS 原理
 
 - [原型与原型链](js/js-theory/1_prototype-and-prototypeChain.md)
 - [闭包](js/js-theory/2_closure.md)
 - [作用域 & 执行上下文](js/js-theory/3_scope.md)
+- [JS 原理](js/js-theory/index.md)
 - [浏览器](js/js-theory/What-happened-to-the-browser-after-entering-the-URL.md)
-- [JS原理](js/js-theory/index.md)
+
 ## 规范 | 团队
 
 - [软件开发基本流程图](keywords/0_cicd-pipe.md)
-- [规范 | 团队](keywords/index.md)
+- [规范 | 团队
+  ](keywords/index.md)
+
 ### 团队规范
 
 - [前端开发规范](keywords/standard/11_Front-End-Development-Specification.md)
@@ -678,6 +759,7 @@
 - [团队规范](keywords/standard/index.md)
 - [需求和 Bug 的区别](keywords/standard/requirements-or-bugs.md)
 - [系统性开发思维是什么？](keywords/sys-mind.md)
+
 ### 团队管理
 
 - [我是如何做项目经理的（一）](keywords/team-mgt/10_pm-1.md)
@@ -700,18 +782,20 @@
 - [管理能力的思考](keywords/team-mgt/cognition-thinking-about-management-ability.md)
 - [团队管理](keywords/team-mgt/index.md)
 - [述职参考建议](keywords/team-mgt/other-report-work.md)
+- [如何做好项目管理？](keywords/team-mgt/pm-mgt.md)
 - [如何做好一个职业导师](keywords/team-mgt/team-career-mentor.md)
 - [团队建设 - 人才培养考核方案](keywords/team-mgt/team-construct.md)
 - [团队建设 - 新同事融入指南](keywords/team-mgt/team-mentor.md)
 - [团队建设 - 校招面试大纲参考](keywords/team-mgt/team-school-recruitment.md)
 - [管理的艺术](keywords/team-mgt/think-mgt.md)
-- [OKR 是什么](keywords/team-mgt/work-OKR.md)
 - [管理实践指南：推进工作深度与关注结果](keywords/team-mgt/work-do.md)
 - [甘特图进行项目管理](keywords/team-mgt/work-gantt-chart.md)
 - [项目里程碑和阶段交付物](keywords/team-mgt/work-internet-project-milestones-and-phase-deliverables.md)
+- [OKR 是什么](keywords/team-mgt/work-OKR.md)
 - [谈谈敏捷团队的建设](keywords/team-mgt/work-on-the-construction-of-agile-teams.md)
 - [量化的参考标准](keywords/team-mgt/work-quantization.md)
 - [TAPD 的常用实践](keywords/team-mgt/work-tapd-use.md)
+
 ### 技术指南
 
 - [内驱力](keywords/tech/0_drive.md)
@@ -728,9 +812,9 @@
 - [决策能力](keywords/tech/7_decision.md)
 - [技术指南](keywords/tech/index.md)
 - [技术预研思路？](keywords/tech/pre-research.md)
-- [MBA 是什么](keywords/tech/think-MBA.md)
 - [前端技术演进之路](keywords/tech/think-frontend.md)
 - [服务层的 log 日志管理](keywords/tech/think-log.md)
+- [MBA 是什么](keywords/tech/think-MBA.md)
 - [技术 - 技术方案设计](keywords/tech/think-tech.md)
 - [互联网的常见名词](keywords/tech/work-common-terms-of-the-internet.md)
 - [后端核心技术点](keywords/tech/work-core-backend-core-technology.md)
@@ -742,6 +826,7 @@
 - [测试核心技术点](keywords/tech/work-core-test-core-technology.md)
 - [如何做技术方案调研](keywords/tech/work-how-to-conduct-technical-scheme-research.md)
 - [互联网公司的组织架构](keywords/tech/work-organizational-structure-of-internet-companies.md)
+
 ## Hello Leetcode
 
 - [101、对称二叉树](leetcode/101_对称二叉树.md)
@@ -760,7 +845,7 @@
 - [144. 二叉树的前序遍历](leetcode/144_二叉树的前序遍历.md)
 - [145. 二叉树的后序遍历](leetcode/145_二叉树的后序遍历.md)
 - [14、最长公共前缀](leetcode/14_最长公共前缀.md)
-- [168. Excel表列名称](leetcode/168_Excel表列名称.md)
+- [168. Excel 表列名称](leetcode/168_Excel表列名称.md)
 - [169. 多数元素](leetcode/169_多数元素.md)
 - [171. Excel 表列序号](leetcode/171_Excel表列序号.md)
 - [203. 移除链表元素](leetcode/203_移除链表元素.md)
@@ -781,7 +866,7 @@
 - [268. 丢失的数字](leetcode/268_丢失的数字.md)
 - [26、删除有序数组中的重复项](leetcode/26_删除有序数组中的重复项.md)
 - [283. 移动零](leetcode/283_移动零.md)
-- [28、实现strStr()](leetcode/28_实现strStr().md)
+- [28、实现 strStr()](<leetcode/28_实现strStr().md>)
 - [290. 单词规律](leetcode/290_单词规律.md)
 - [303. 区域和检索](leetcode/303_区域和检索-数组不可变.md)
 - [344. 反转字符串](leetcode/344_反转字符串.md)
@@ -824,10 +909,10 @@
 - [594. 最长和谐子序列](leetcode/594_最长和谐子序列.md)
 - [598. 范围求和 II](leetcode/598_范围求和II.md)
 - [599. 两个列表的最小索引总和](leetcode/599_两个列表的最小索引总和.md)
-- [59、螺旋矩阵 II](leetcode/59_螺旋矩阵 II.md)
+- [59、螺旋矩阵 II](leetcode/59\_螺旋矩阵 II.md)
 - [628. 三个数的最大乘积](leetcode/628_三个数的最大乘积.md)
 - [645. 错误的集合](leetcode/645_错误的集合.md)
-- [653. 两数之和 IV](leetcode/653_两数之和 IV - 输入BST.md)
+- [653. 两数之和 IV](leetcode/653\_两数之和 IV - 输入 BST.md)
 - [66、加一](leetcode/66_加一.md)
 - [67、二进制求和](leetcode/67_二进制求和.md)
 - [700. 二叉搜索树中的搜索](leetcode/700_二叉搜索树中的搜索.md)
@@ -839,22 +924,26 @@
 - [83、删除排序链表中的重复元素](leetcode/83_删除排序链表中的重复元素.md)
 - [88、合并两个有序数组](leetcode/88_合并两个有序数组.md)
 - [94、二叉树的中序遍历](leetcode/94_二叉树的中序遍历.md)
+
 ### 新手村
 
 - [15、三数之和](leetcode/easy/15_三数之和.md)
 - [1、两数之和](leetcode/easy/1_两数之和.md)
 - [新手村](leetcode/easy/index.md)
+
 ### 高手级
 
 - [48、旋转图像](leetcode/hard/48_旋转图像.md)
 - [98、验证二叉搜索树](leetcode/hard/98_验证二叉搜索树.md)
 - [高手级](leetcode/hard/index.md)
 - [Hello Leetcode](leetcode/index.md)
+
 ### 入门级
 
 - [27、移除元素](leetcode/normal/27_移除元素.md)
 - [入门级](leetcode/normal/index.md)
 - [Markdown Extension Examples](markdown-examples.md)
+
 ## 微前端
 
 - [微前端，解决了什么问题？](micro-fe/0_micro-fe.md)
@@ -882,6 +971,7 @@
 - [集成方案-组件通信](micro-fe/solution-4.md)
 - [集成方案-共享数据管理](micro-fe/solution-5.md)
 - [集成方案-版本控制和发布管理](micro-fe/solution-6.md)
+
 ## 小程序专题
 
 ### 基础知识
@@ -904,12 +994,15 @@
 - [基础知识](mp/base/index.md)
 - [分包的预下载配置](mp/base/pre-download.md)
 - [微信分享 H5 实践](mp/base/wx-h5-share.md)
-- [小程序专题](mp/index.md)
+- [小程序专题
+  ](mp/index.md)
+
 ### 插件类
 
 - [小程序中插件的使用](mp/plugin/12_use-plugins.md)
 - [pdf.js 的实践](mp/plugin/fix-pdf.md)
 - [插件类](mp/plugin/index.md)
+
 ### 项目实践
 
 - [简易 DEMO 实战](mp/project/14_simple-demo.md)
@@ -922,19 +1015,25 @@
 - [项目实践](mp/project/index.md)
 - [开通公众号的流程和细节](mp/project/pb.md)
 - [移动端小程序 - 优化](mp/project/perf-scroll.md)
-## Node专题
+
+## Node 专题
 
 ### Node 基础
 
 - [微服务 BFF 基础搭建](node/base/12_microservice-BFF-1.md)
 - [Node 系列之微服务](node/base/12_microservices.md)
-- [Node 清单 - HelloWorld](node/base/1_HelloWorld.md)
 - [初探 Node](node/base/1_explore-node.md)
+- [Node 清单 - HelloWorld](node/base/1_HelloWorld.md)
 - [NodeJS 应用场景](node/base/2_application-scenarios.md)
 - [BS 三层架构](node/base/BS-three.md)
 - [Node 基础](node/base/index.md)
-- [vscode进行debug调试](node/base/vscode-debug.md)
-- [Node专题](node/index.md)
+- [Node.js 权威指南笔记（一）](node/base/node-note-1.md)
+- [Node.js 权威指南笔记（二）](node/base/node-note-2.md)
+- [Node.js 权威指南笔记（三）](node/base/node-note-3.md)
+- [vscode 进行 debug 调试](node/base/vscode-debug.md)
+- [Node 专题
+  ](node/index.md)
+
 ### 框架/插件类
 
 - [Node 系列之 Nuxt](node/plugin/11_Nuxt.md)
@@ -946,12 +1045,13 @@
 - [Node 系列之 Express](node/plugin/3_express.md)
 - [Node 系列之 Koa](node/plugin/4_koa-document-details.md)
 - [搭建 Koa 服务器](node/plugin/4_setting-up-a-Koa-server.md)
-- [Prisma简述](node/plugin/Prisma.md)
 - [框架/插件类](node/plugin/index.md)
-- [log4js日志管理](node/plugin/log4js.md)
+- [log4js 日志管理](node/plugin/log4js.md)
 - [Mongodb 初体验](node/plugin/mongodb.md)
 - [Nacos+Node 实践](node/plugin/nacos.md)
+- [Prisma 简述](node/plugin/Prisma.md)
 - [编程范式](node/programming-paradigm.md)
+
 ### 项目实践
 
 - [文章管理系统实践（一）](node/project/2_node-cms-1.md)
@@ -970,16 +1070,25 @@
 - [Express 实现需要认证的接口](node/project/express-API.md)
 - [Express 的日志干崩了我的阿里云服务器？](node/project/express-log-error.md)
 - [Express 中间件机制](node/project/express-mid.md)
+- [Express + mongoDB 搭建 CMS](node/project/express-mongodb.md)
 - [Express 项目如何部署？](node/project/express-pub.md)
 - [项目实践](node/project/index.md)
+- [MongoDB 事务支持](node/project/mongodb-ACID.md)
+- [MongoDB 的安全性配置](node/project/mongodb-Auth.md)
+- [MongoDB 索引优化](node/project/mongodb-index.md)
+- [MongoDB 的分片功能](node/project/mongodb-sharding.md)
+- [CMS 使用 MySQL 和 MongoDB 的区别](node/project/mysql-mongodb.md)
 - [Node 服务端开发技巧总结](node/project/node-server.md)
+
 ## 其他类型
 
 - [Git 常见命令汇总](other/git-command.md)
 - [Git 原理](other/git.md)
-- [其他类型](other/index.md)
+- [其他类型
+  ](other/index.md)
 - [MAC 显示隐藏文件夹](other/mac-show-hide-file.md)
 - [Vitepress 常用用法汇总](other/vitepress.md)
+
 ## 性能优化
 
 - [性能优化](performance/index.md)
@@ -1001,6 +1110,7 @@
 - [用户体验优化](performance/perf-user.md)
 - [网站渲染性能优化](performance/perf-web.md)
 - [SSR 是什么？](performance/ssr.md)
+
 ## 协议相关专题
 
 - [知识清单 - 网络是怎么连接的](protocol/10_network-connect.md)
@@ -1018,17 +1128,24 @@
 - [知识清单 - TCP](protocol/34_TCP.md)
 - [知识清单 - IP](protocol/36_IP.md)
 - [知识清单 - IoT](protocol/38_IoT.md)
-- [协议相关专题](protocol/index.md)
-## React专题
+- [协议相关专题
+  ](protocol/index.md)
+
+## React 专题
 
 - [React 知识体系汇总](react/0_reactlist.md)
+
 ### 基础
 
+- [React 到底是什么？](react/base/0_react.md)
 - [React 清单 - props](react/base/10_base-props.md)
 - [React 清单 - 组件](react/base/11_base-comp.md)
 - [React 清单 - 单元测试](react/base/12_unit-test.md)
 - [初探 React](react/base/1_probe-into-react.md)
-- [React序章 - 脚手架](react/base/2_scaffolding.md)
+- [React 的调和算法](react/base/20_diff.md)
+- [什么是 React Fiber 架构？](react/base/21_diff-fiber.md)
+- [Fiber 渲染过程分析](react/base/22_diff-fiber-update.md)
+- [React 序章 - 脚手架](react/base/2_scaffolding.md)
 - [React 清单 - 生命周期](react/base/3_life-cycle.md)
 - [React 清单 - Hooks](react/base/4_Hooks.md)
 - [React 清单 - JSX](react/base/5_JSX.md)
@@ -1039,12 +1156,15 @@
 - [hooks 添加前/后置方法](react/base/effect-hooks-pre.md)
 - [基础](react/base/index.md)
 - [React 开发零散技术点汇总](react/base/react-other.md)
-- [React专题](react/index.md)
+- [React 专题
+  ](react/index.md)
+
 ### 插件类
 
 - [SSR 服务端渲染](react/plugin/13_SSR-server.md)
 - [插件类](react/plugin/index.md)
 - [React 与 Next.js 的对比](react/plugin/react-next.md)
+
 ### 项目实践
 
 - [React 高级 - 搭建网站](react/project/14_made-web.md)
@@ -1056,6 +1176,7 @@
 - [Next 搭建 SSR 网站](react/project/3_next-0.md)
 - [Hooks Use](react/project/hooks.md)
 - [项目实践](react/project/index.md)
+
 ## 书籍阅读
 
 - [前端技术架构与工程](readbook/1_前端技术架构与工程.md)
@@ -1063,18 +1184,33 @@
 - [操作系统本质](readbook/6_操作系统本质.md)
 - [前端 Serverless](readbook/7_前端Serverless.md)
 - [架构真意](readbook/8_架构真意.md)
-- [书籍阅读](readbook/index.md)
+- [书籍阅读
+  ](readbook/index.md)
+- [项目目录](README.md)
+
+## Shopify 专题
+
+- [给 Apps 添加自定义中间件](shopify/app-midware.md)
+- [创建 Shopify 应用](shopify/create-app.md)
+- [extension & function](shopify/extension-function.md)
+- [Shopify 专题](shopify/index.md)
+- [Shopify 开发的核心关键词](shopify/keywords.md)
+- [Login 登录](shopify/login.md)
+- [Shopify CLI 创建默认主题项目](shopify/new-theme.md)
+- [Shopify 发布应用的流程详解](shopify/publish-application.md)
+- [给 theme 配置环境变量](shopify/theme-env.md)
+
 ## 技能树 🌲
 
 - [计算机系统工程](skill-trees/0_top.md)
+- [算法](skill-trees/1-algo.md)
 - [前端开发](skill-trees/1-FE.md)
 - [服务端开发](skill-trees/1-RD.md)
-- [算法](skill-trees/1-algo.md)
+- [业务](skill-trees/10-business.md)
 - [财务](skill-trees/10-Finance.md)
 - [行政](skill-trees/10-HR.md)
 - [法务](skill-trees/10-Legal.md)
 - [销售](skill-trees/10-Sales.md)
-- [业务](skill-trees/10-business.md)
 - [运维](skill-trees/2-DevOps.md)
 - [测试](skill-trees/2-QA.md)
 - [产品](skill-trees/3-PM.md)
@@ -1085,6 +1221,9 @@
 - [CPO](skill-trees/CPO.md)
 - [CTO](skill-trees/CTO.md)
 - [技能树 🌲](skill-trees/index.md)
+- [计算机组成与设计](skill-trees/one_Computer-Composition-and-Design.md)
+- [操作系统导论](skill-trees/one_operating-system.md)
+
 ## 专题系列
 
 - [关于架构](special/3_architect.md)
@@ -1094,8 +1233,10 @@
 - [代码质量分析](special/code-quality-analysis.md)
 - [代码评审简述](special/code-review.md)
 - [DevOps](special/devops.md)
-- [专题系列](special/index.md)
+- [专题系列
+  ](special/index.md)
 - [Install package 相关](special/install-package.md)
+
 ### 项目实践
 
 - [自动化测试平台](special/project/auto-test.md)
@@ -1104,9 +1245,11 @@
 - [系统监控平台](special/project/system-monitoring-platform.md)
 - [可视化的实践](special/project/visualization.md)
 - [Runtime API Examples](test.md)
+
 ## 知行合一
 
 - [知行合一](think/index.md)
+
 ## 前端工程化
 
 ### 前端部分
@@ -1124,37 +1267,41 @@
 - [Vite 的简介](tools/fe/3_Vite.md)
 - [Rollup](tools/fe/4_Rollup.md)
 - [nvm](tools/fe/5_nvm.md)
-- [nrm的作用](tools/fe/6_nrm.md)
+- [nrm 的作用](tools/fe/6_nrm.md)
 - [nodemon](tools/fe/7_nodemon.md)
 - [Sass & Less 的简单对比](tools/fe/8_Sass-Less.md)
 - [前端部分](tools/fe/index.md)
 - [npm 包发布到私有 npm 服务器过程](tools/fe/npm-private-package.md)
 - [tailwindcss](tools/fe/tailwindcss.md)
 - [前端工程化](tools/index.md)
+
 ### 工具类
 
 - [工具类](tools/rd/index.md)
 - [jscpd](tools/rd/jscpd.md)
+
 ### 团队协作
 
-- [GitFlow](tools/team/12_GitFlow.md)
-- [Gitlab Flow](tools/team/12_gitLab-flow.md)
 - [husky 的作用](tools/team/12_gitflow-husky.md)
 - [Git 团队协作流程](tools/team/12_gitflow-team.md)
+- [GitFlow](tools/team/12_GitFlow.md)
+- [Gitlab Flow](tools/team/12_gitLab-flow.md)
 - [Prettier 代码格式化配置](tools/team/12_prettier-code-config.md)
 - [团队协作](tools/team/index.md)
+
 ## Typescript 专题
 
 - [实践：如何管理 `*.d.ts` 文件](ts/about-mgt-dts.md)
 - [简述 Typescript 的原理本质](ts/about-ts-key.md)
+
 ### TS 基础
 
-- [TS清单 - 数组](ts/base/10_array.md)
+- [TS 清单 - 数组](ts/base/10_array.md)
 - [TS 清单 - 类型推论](ts/base/11_type-inference.md)
 - [TS 清单 - 类型断言](ts/base/12_type-assertion.md)
-- [TS清单 - 类型别名](ts/base/13_type-alias.md)
-- [TS高级 - 交叉类型](ts/base/14_cross-type.md)
-- [TS高级 - 联合类型](ts/base/15_joint-type.md)
+- [TS 清单 - 类型别名](ts/base/13_type-alias.md)
+- [TS 高级 - 交叉类型](ts/base/14_cross-type.md)
+- [TS 高级 - 联合类型](ts/base/15_joint-type.md)
 - [TS 高级 - 混合类型](ts/base/16_mixed-type.md)
 - [TS 高级 - 命名空间](ts/base/17_namespace.md)
 - [TS 高级 - 多重泛型约束](ts/base/18_multiple-generic-constraints.md)
@@ -1173,10 +1320,12 @@
 - [TS 清单 - 枚举](ts/base/9_enum.md)
 - [TS 基础](ts/base/index.md)
 - [Typescript 专题](ts/index.md)
+
 ### TS 插件
 
 - [TypeScript 的实践方法](ts/plugin/1_effective-ts-1.md)
 - [TS 插件](ts/plugin/index.md)
+
 ### TS 实战
 
 - [配置 tsconfig](ts/project/23_config-tsconfig.md)
@@ -1184,18 +1333,21 @@
 - [组件封装](ts/project/25_component-package.md)
 - [代码检查工具](ts/project/26_tslint-eslint.md)
 - [TS 实战](ts/project/index.md)
+
 ## 可视化系列
 
-- [Konva](visualization/Konva.md)
 - [aceEditor](visualization/aceEditor.md)
 - [antv](visualization/antv.md)
 - [bpmn 流程引擎](visualization/bpmn.md)
 - [echarts](visualization/echarts.md)
 - [可视化系列](visualization/index.md)
+- [Konva](visualization/Konva.md)
+
 ### 具体实践
 
 - [具体实践](visualization/project/index.md)
 - [LogicFlow 实例](visualization/project/logicflow.md)
+
 ## VUE 专题
 
 ### VUE 系列基础
@@ -1210,7 +1362,9 @@
 - [VUE 系列基础](vue/base/index.md)
 - [简述 VUE 中 keep-alive](vue/base/vue-keepalive.md)
 - [VUE 开发零散技术点汇总](vue/base/vue-other-tech.md)
-- [VUE 专题](vue/index.md)
+- [VUE 专题
+  ](vue/index.md)
+
 ### VUE 系列插件
 
 - [VUE 全家桶之 ElementUI](vue/plugin/4_element-ui.md)
@@ -1223,6 +1377,7 @@
 - [Vue 3 全局 Loading 插件](vue/plugin/custom-plugin-vue3.md)
 - [VUE 系列插件](vue/plugin/index.md)
 - [Pinia 与 VUEX 的对比](vue/plugin/pinia-vuex.md)
+
 ### VUE 系列实战
 
 - [VUE 清单 - 搭建多页面项目](vue/project/11_build-multi-page-project.md)
