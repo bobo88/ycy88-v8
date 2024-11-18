@@ -12,73 +12,34 @@ head:
       content: V8程序
 ---
 
-<main class="home">
+# V8 程序
 
-::: tip ⭐️ <span style="color:#069;font-size:16px;">「ycy88」</span>公众号
-我把本站的部分精华内容复制到了<span style="color:#069;font-size:16px;">「ycy88」</span>公众号，开通了【**<span style="color:#069;font-size:16px;">团队管理</span>**】和【**<span style="color:#069;font-size:16px;">重塑认知</span>**】的专栏！
+## 欢迎关注：“ycy88” 公众号
+
+::: tip ⭐️ 「ycy88」公众号
+我把本站的部分精华内容发表到「ycy88」公众号，开通了【**团队管理**】和【**重塑认知**】的专栏！
 :::
 
 ![An image](/images/mp/ycy88-pb.jpg)
 
-  <header class="hero">
-    <!-- <img src="/images/yb.png" alt="V8程序" class="yb-img"> -->
-    <!-- <div class="yb-title">yb</div> -->
-    <!-- <h1 id="main-title" class="yb-title">V8程序</h1> -->
-    <!-- <p class="description">全方位涵盖技术团队规范、全栈技能、算法、主流技术和团队管理的关键元素。</p> -->
-    <p class="actions">
-      <a class="route-link action-button secondary" href="/node/" aria-label="Node系列">Node系列</a>
-      <a class="route-link action-button secondary" href="/vue/" aria-label="VUE系列">VUE系列</a>
-      <a class="route-link action-button secondary" href="/react/" aria-label="React系列">React系列</a>
-      <a class="route-link action-button secondary" href="/devices/" aria-label="跨端｜音视频">跨端｜音视频</a> <br/>
-      <a class="route-link action-button secondary" href="/keywords/" aria-label="规范｜团队">规范｜团队 </a>
-      <a class="route-link action-button secondary" href="/java/" aria-label="Java系列">Java系列</a>
-      <a class="route-link action-button secondary" href="/algorithm/" aria-label="数据结构与算法">数据结构与算法</a> 
-      <a class="route-link action-button secondary" href="/beyond-tech/" aria-label="技术之外">技术之外</a> <br/>
-      <a class="route-link action-button secondary" href="/mp/" aria-label="小程序系列">小程序系列</a>
-      <a class="route-link action-button secondary" href="/tools/" aria-label="前端工程化">前端工程化</a>
-      <a class="route-link action-button secondary" href="/architecture-design/" aria-label="架构设计">架构设计</a>
-      <a class="route-link action-button secondary" href="/dev-ops/" aria-label="运维CI/CD">运维CI/CD</a>
-    </p>
-  </header>
+## 本站主要版块
 
-::: tip 你我共勉
-别去做太多准备，那只会束缚你前进的决心和脚步。
+| 序号 | 版块名称                          | 版块描述                                                        |
+| ---- | --------------------------------- | --------------------------------------------------------------- |
+| 1    | [Node 系列](/node/)               | 深入研究和实践 Node.js 技术栈，拓展对 Node 生态系统的全面理解。 |
+| 2    | [VUE 系列](/vue/)                 | 探讨和实践 Vue.js 相关技术，提升前端开发效率和质量。            |
+| 3    | [React 系列](/react/)             | 深入了解 React 生态，掌握 React 和相关技术栈的使用。            |
+| 4    | [跨端｜音视频](/devices/)         | 讨论跨平台开发技术，重点涵盖音视频技术的实现和应用。            |
+| 5    | [规范｜团队](/keywords/)          | 分享团队管理技巧和规范流程，提升团队效率与协作。                |
+| 6    | [Java 系列](/java/)               | 探索 Java 语言的深度应用和常见的开发模式。                      |
+| 7    | [数据结构与算法](/algorithm/)     | 深入学习数据结构与算法，提升编程能力和解决问题的思维。          |
+| 8    | [技术之外](/beyond-tech/)         | 探索技术之外的领域，如个人成长、思维方式等。                    |
+| 9    | [小程序系列](/mp/)                | 研究小程序的开发及跨平台实现，涵盖常见的开发模式和工具。        |
+| 10   | [前端工程化](/tools/)             | 探讨前端工程化的相关工具与实践，提升开发效率与质量。            |
+| 11   | [架构设计](/architecture-design/) | 介绍软件架构设计的基本原理和实践，帮助构建可维护的系统。        |
+| 12   | [运维 CI/CD](/dev-ops/)           | 讲解运维和 CI/CD 工具，提升软件部署与持续集成的效率。           |
 
-保持进击，随时复盘，及时调整。 ~@yb
-:::
+## 版权信息
 
-  <div class="features">
-    <div class="feature">
-      <h2 class="tit">规范流程和最佳实践</h2>
-      <p>探讨技术团队中的规范流程和最佳实践，以提高开发效率和代码质量。</p>
-    </div>
-    <div class="feature">
-      <h2 class="tit">Node 系列</h2>
-      <p>深入研究和实践 Node.js 技术栈，拓展对 Node 生态系统的全面理解。</p>
-    </div>
-    <div class="feature">
-      <h2 class="tit">泛服务端</h2>
-      <p>解析全栈工程师的必经之路，聚焦设计模式、数据结构和数据库等核心概念。</p>
-    </div>
-    <div class="feature">
-      <h2 class="tit">算法</h2>
-      <p>探讨算法的关键思想，提供深入的算法理论和实际应用示例。</p>
-    </div>
-    <div class="feature">
-      <h2 class="tit">主流技术</h2>
-      <p>介绍 VUE、React、网络协议、TypeScript 等主流技术，涵盖跨端｜音视频、小程序开发以及 CI/CD 实践。</p>
-    </div>
-    <div class="feature">
-      <h2 class="tit">团队管理</h2>
-      <p>着眼于团队管理的重要性，讨论构建协作高效的技术团队的关键元素。</p>
-    </div>
-   
-  </div>
-
-  <!-- Copyright © www.ycy88.com All Rights Reserved. 备案号：粤ICP备2022114378号 -->
-  <div class="footer">
-    <p>Copyright © 2018-至今 www.ycy88.com All Rights Reserved. </p>
-    <p>备案号：<a class="route-link" href="http://beian.miit.gov.cn">粤ICP备2022114378号</a></p>
-  </div>
-  
-</main>
+Copyright © 2018-至今 [www.ycy88.com](http://www.ycy88.com) All Rights Reserved.  
+备案号：[粤 ICP 备 2022114378 号](http://beian.miit.gov.cn)
