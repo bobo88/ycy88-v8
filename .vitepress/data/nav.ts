@@ -53,7 +53,18 @@ export const nav = [
   //   ]
   // },
   {
-    text: "架构 | 技能树🌲",
+    text: "从零开始DE",
+    items: [
+      {
+        text: "前端专家",
+        link: "/from-zero-fe/",
+      },
+      { text: "后端专家", link: "/from-zero-rd/" },
+      { text: "产品专家", link: "/from-zero-pm/" },
+    ],
+  },
+  {
+    text: "架构 | 技能树",
     items: [
       { text: "架构设计💯", link: "/architecture-design/" },
       { text: "技能树🌲", link: "/skill-trees/" },
@@ -66,11 +77,14 @@ export const nav = [
     ],
   },
   {
-    text: "💖重塑认知💖",
-    link: "/beyond-tech/",
+    text: "重塑认知",
+    items: [
+      { text: "💖重塑认知💖", link: "/beyond-tech/" },
+      { text: "跨学科", link: "/ancient-modern/" },
+    ],
   },
-  {
-    text: "跨学科",
-    link: "/ancient-modern/",
-  },
+  // {
+  //   text: "跨学科",
+  //   link: "/ancient-modern/",
+  // },
 ];
