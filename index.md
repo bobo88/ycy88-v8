@@ -14,6 +14,8 @@ head:
 
 # V8 程序
 
+<h3 style="font-size: 30px;font-style:italic;background-image: linear-gradient(to right, #00c6ff, #0072ff, #6a1b9a, #ff0080);-webkit-background-clip: text;color: transparent; text-shadow: 0 0 10px rgba(0, 0, 255, 0.1), 0 0 20px rgba(0, 0, 255, 0.1); ">不要停止学习和成长。珍惜当下，专注行动。</h3>
+
 ## 欢迎关注：“ycy88” 公众号
 
 ::: tip ⭐️ 「ycy88」公众号
