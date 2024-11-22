@@ -18,10 +18,12 @@
 
 <!--
 
-::: tip xxxxxxx
+::: tip xxxxxxx  { collapse: true }
 
 
 :::
 
+
+<span style="color:#f60;font-weight:bold;font-style:italic;">   </span>
 
  -->
