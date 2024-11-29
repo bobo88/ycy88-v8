@@ -18,7 +18,7 @@
 
 <!--
 
-::: tip xxxxxxx  { collapse: true }
+::: tip xxxxxxx
 
 
 :::
