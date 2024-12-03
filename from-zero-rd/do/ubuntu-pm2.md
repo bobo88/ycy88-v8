@@ -77,3 +77,22 @@ yarn global add pm2
 ```
 
 这些步骤应该能够解决你遇到的问题，并使你能够使用 `pm2` 命令管理你的 Node.js 应用。
+
+### 5. 删除所有进程
+
+```bash
+pm2 delete all
+```
+
+### 6. 运行 nuxt 项目
+
+```bash
+# 打包项目
+yarn build
+
+# 启动项目
+pm2 start "yarn start" --name nuxt-ycy88
+
+# 重启项目
+pm2 restart nuxt-ycy88（这里也可以是进程id）
+```
