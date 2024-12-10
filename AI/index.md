@@ -47,3 +47,12 @@
 <!-- ![An image](/images/ai/ai.jpg) -->
 
 ![An image](/images/ai/ai-2.jpg)
+
+---
+
+- [AI 视频生成工具](https://ai-bot.cn/ai-video-generation-tools/)
+- [https://www.rendora.ai/](https://www.rendora.ai/)
+- [https://gitmind.cn/free-ai-video-generator.html](https://gitmind.cn/free-ai-video-generator.html)
+- [https://www.kapwing.com/](https://www.kapwing.com/)
+- [https://ttsmaker.cn/(文字转语音)](https://ttsmaker.cn/)
+- [https://pixabay.com/videos/](https://pixabay.com/videos/)
