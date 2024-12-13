@@ -201,3 +201,7 @@ watch(route, (newRoute) => {
 // 略...
 </style>
 ```
+
+## 3. 性能优化（最佳实践）
+
+> TODO
