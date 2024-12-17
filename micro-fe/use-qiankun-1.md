@@ -20,24 +20,24 @@ $ yarn add qiankun  // or npm i qiankun -S
 在主应用中注册微应用：
 
 ```js
-import { registerMicroApps, start } from 'qiankun'
+import { registerMicroApps, start } from "qiankun";
 
 registerMicroApps([
   {
-    name: 'react app', // app name registered
-    entry: '//localhost:7100',
-    container: '#yourContainer',
-    activeRule: '/yourActiveRule'
+    name: "react app", // app name registered
+    entry: "//localhost:7100",
+    container: "#yourContainer",
+    activeRule: "/yourActiveRule",
   },
   {
-    name: 'vue app',
-    entry: { scripts: ['//localhost:7100/main.js'] },
-    container: '#yourContainer2',
-    activeRule: '/yourActiveRule2'
-  }
-])
+    name: "vue app",
+    entry: { scripts: ["//localhost:7100/main.js"] },
+    container: "#yourContainer2",
+    activeRule: "/yourActiveRule2",
+  },
+]);
 
-start()
+start();
 ```
 
 当微应用信息注册完之后，一旦浏览器的 url 发生变化，便会自动触发 qiankun 的匹配逻辑，所有 activeRule 规则匹配上的微应用就会被插入到指定的 container 中，同时依次调用微应用暴露出的生命周期钩子。
@@ -45,13 +45,13 @@ start()
 如果微应用不是直接跟路由关联的时候，你也可以选择手动加载微应用的方式：
 
 ```js
-import { loadMicroApp } from 'qiankun'
+import { loadMicroApp } from "qiankun";
 
 loadMicroApp({
-  name: 'app',
-  entry: '//localhost:7100',
-  container: '#yourContainer'
-})
+  name: "app",
+  entry: "//localhost:7100",
+  container: "#yourContainer",
+});
 ```
 
 ### 微应用
@@ -66,7 +66,7 @@ loadMicroApp({
  * 通常我们可以在这里做一些全局变量的初始化，比如不会在 unmount 阶段被销毁的应用级别的缓存等。
  */
 export async function bootstrap() {
-  console.log('react app bootstraped')
+  console.log("react app bootstraped");
 }
 
 /**
@@ -76,9 +76,9 @@ export async function mount(props) {
   ReactDOM.render(
     <App />,
     props.container
-      ? props.container.querySelector('#root')
-      : document.getElementById('root')
-  )
+      ? props.container.querySelector("#root")
+      : document.getElementById("root")
+  );
 }
 
 /**
@@ -87,30 +87,30 @@ export async function mount(props) {
 export async function unmount(props) {
   ReactDOM.unmountComponentAtNode(
     props.container
-      ? props.container.querySelector('#root')
-      : document.getElementById('root')
-  )
+      ? props.container.querySelector("#root")
+      : document.getElementById("root")
+  );
 }
 
 /**
  * 可选生命周期钩子，仅使用 loadMicroApp 方式加载微应用时生效
  */
 export async function update(props) {
-  console.log('update props', props)
+  console.log("update props", props);
 }
 
 // 2. 配置微应用的打包工具
 // 除了代码中暴露出相应的生命周期钩子之外，为了让主应用能正确识别微应用暴露出来的一些信息，微应用的打包工具需要增加如下配置：
 // webpack
-const packageName = require('./package.json').name
+const packageName = require("./package.json").name;
 
 module.exports = {
   output: {
     library: `${packageName}-[name]`,
-    libraryTarget: 'umd',
-    jsonpFunction: `webpackJsonp_${packageName}`
-  }
-}
+    libraryTarget: "umd",
+    jsonpFunction: `webpackJsonp_${packageName}`,
+  },
+};
 ```
 
 ## 三、项目实践
@@ -129,47 +129,47 @@ $ vue create micro-main         // 生成一个 基座项目（VUE 3.x版本）
 
 ```js
 // 基座配置 1: micro-main/vue.config.js
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
   lintOnSave: false, // 关闭eslint检测
   devServer: {
     port: 8080, // 这里的端口是必须和父应用配置的子应用端口一致
     headers: {
       // 因为qiankun内部请求都是fetch来请求资源，所以子应用必须允许跨域
-      'Access-Control-Allow-Origin': '*'
-    }
+      "Access-Control-Allow-Origin": "*",
+    },
   },
   configureWebpack: {
     output: {
       // 资源打包路径
-      library: 'vueApp',
-      libraryTarget: 'umd'
-    }
-  }
-})
+      library: "vueApp",
+      libraryTarget: "umd",
+    },
+  },
+});
 ```
 
 ```js
 // 基座配置 2: micro-main/src/main.js
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-import { registerMicroApps, start } from 'qiankun'
+import { registerMicroApps, start } from "qiankun";
 
 // 在主应用中注册子应用
 registerMicroApps([
   {
-    name: 'vueApp', // 微应用的名称 要求唯一。有多个地方需要使用到它
-    entry: '//localhost:8081', // 通俗理解就是（微应用的访问地址）
-    container: '#vue', // 微应用挂载到主应用上的容器
-    activeRule: '/vue' // 微应用激活条件
-  }
-])
+    name: "vueApp", // 微应用的名称 要求唯一。有多个地方需要使用到它
+    entry: "//localhost:8081", // 通俗理解就是（微应用的访问地址）
+    container: "#vue", // 微应用挂载到主应用上的容器
+    activeRule: "/vue", // 微应用激活条件
+  },
+]);
 // 启动 qiankun
-start()
+start();
 
-createApp(App).use(router).mount('#base-app') // 注意：这里的ID名称 app 改为 base-app
+createApp(App).use(router).mount("#base-app"); // 注意：这里的ID名称 app 改为 base-app
 ```
 
 ```html
@@ -231,53 +231,53 @@ $ vue create micro-vue         // 生成一个 子应用项目（VUE 3.x版本�
 
 ```js
 // 子应用项目配置 1: micro-vue/vue.config.js
-const { defineConfig } = require('@vue/cli-service')
-const packageName = require('./package.json').name
+const { defineConfig } = require("@vue/cli-service");
+const packageName = require("./package.json").name;
 
 module.exports = defineConfig({
   lintOnSave: false,
   devServer: {
     port: 8081,
     headers: {
-      'Access-Control-Allow-Origin': '*'
-    }
+      "Access-Control-Allow-Origin": "*",
+    },
   },
   configureWebpack: {
     output: {
-      library: 'vueApp', // 基座配置 2 中的 「 name: 'vueApp', 」
-      libraryTarget: 'umd',
+      library: "vueApp", // 基座配置 2 中的 「 name: 'vueApp', 」
+      libraryTarget: "umd",
       // jsonpFunction: `webpackJsonp_${packageName}`
       // 注意 webpack 5要用下面的方式
-      chunkLoadingGlobal: `webpackJsonp_${packageName}`
-    }
-  }
-})
+      chunkLoadingGlobal: `webpackJsonp_${packageName}`,
+    },
+  },
+});
 ```
 
 ```js
 // 子应用项目配置 2: 新建 micro-vue/src/public-path.js 文件
 if (window.__POWERED_BY_QIANKUN__) {
   // + 后面的内容是有配置 publicPath 的时候需要使用，没有配置可以不用写
-  __webpack_public_path__ = window.__INJECTED_PUBLIC_PATH_BY_QIANKUN__ + 'vue/'
+  __webpack_public_path__ = window.__INJECTED_PUBLIC_PATH_BY_QIANKUN__ + "vue/";
 }
 ```
 
 ```js
 // 子应用项目配置 3: micro-vue/src/main.js
-import './public-path'
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import "./public-path";
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
 
 function render(props = {}) {
-  const { container } = props
+  const { container } = props;
   createApp(App)
     .use(router)
-    .mount(container ? container.querySelector('#app') : '#app') // 为了避免根id#app与其他DOM冲突，需要限制查找范围
+    .mount(container ? container.querySelector("#app") : "#app"); // 为了避免根id#app与其他DOM冲突，需要限制查找范围
 }
 
 if (!window.__POWERED_BY_QIANKUN__) {
-  render()
+  render();
 }
 
 /**
@@ -285,15 +285,15 @@ if (!window.__POWERED_BY_QIANKUN__) {
  * 通常我们可以在这里做一些全局变量的初始化，比如不会在 unmount 阶段被销毁的应用级别的缓存等。
  */
 export async function bootstrap() {
-  console.log('react app bootstraped')
+  console.log("react app bootstraped");
 }
 
 /**
  * 应用每次进入都会调用 mount 方法，通常我们在这里触发应用的渲染方法
  */
 export async function mount(props) {
-  console.log('props from main mount', props)
-  render(props)
+  console.log("props from main mount", props);
+  render(props);
 }
 
 /**
@@ -305,7 +305,7 @@ export async function unmount() {}
  * 可选生命周期钩子，仅使用 loadMicroApp 方式加载微应用时生效
  */
 export async function update(props) {
-  console.log('update props', props)
+  console.log("update props", props);
 }
 ```
 
@@ -382,7 +382,7 @@ start({ sandbox : { experimentalStyleIsolation: true } });
 
 ```css
 /* 使用qiankun自带的样式沙箱隔离方案会生成如下代码 */
-div[data-qiankun='vueApp'] .common-blue {
+div[data-qiankun="vueApp"] .common-blue {
   color: green;
 }
 ```
@@ -411,9 +411,9 @@ div[data-qiankun='vueApp'] .common-blue {
 </template>
 
 <script setup>
-const mainBox = document.getElementById('base-app')
+const mainBox = document.getElementById("base-app");
 const showTc = () => {
-  let popUpBox = document.createElement('div')
+  let popUpBox = document.createElement("div");
   let htmlCont = `
       <style>
         .pop-up {
@@ -452,10 +452,10 @@ const showTc = () => {
           <p class="pop-up-desc">一些奇奇怪怪的描述</p>
         </div>
       </div>
-    `
-  popUpBox.innerHTML = htmlCont
-  mainBox.appendChild(popUpBox)
-}
+    `;
+  popUpBox.innerHTML = htmlCont;
+  mainBox.appendChild(popUpBox);
+};
 </script>
 ```
 
@@ -478,12 +478,12 @@ const showTc = () => {
 </template>
 
 <script setup>
-const mainBox = document.getElementById('base-app')
+const mainBox = document.getElementById("base-app");
 const showTc = () => {
   // ...
-}
+};
 const showTc2 = () => {
-  let popUpBox = document.createElement('div')
+  let popUpBox = document.createElement("div");
   let htmlCont = `
       <div class="pop-up" id="pop-up-box">
         <div class="pop-up-cont">
@@ -491,12 +491,12 @@ const showTc2 = () => {
           <p class="pop-up-desc">一些奇奇怪怪的描述</p>
         </div>
       </div>
-    `
+    `;
   // 增加别名前缀
-  popUpBox.setAttribute('class', 'vueapp-space')
-  popUpBox.innerHTML = htmlCont
-  mainBox.appendChild(popUpBox)
-}
+  popUpBox.setAttribute("class", "vueapp-space");
+  popUpBox.innerHTML = htmlCont;
+  mainBox.appendChild(popUpBox);
+};
 </script>
 ```
 
@@ -543,9 +543,9 @@ const showTc2 = () => {
 TODO...
 
 ```js
-legacySandBox // 基于 Proxy API 来实现
-proxySandBox // 基于 Proxy API 来实现
-snapshotSandBox // 不支持 Proxy API 的低版本浏览器中，会降级为 snapshotSandBox
+legacySandBox; // 基于 Proxy API 来实现
+proxySandBox; // 基于 Proxy API 来实现
+snapshotSandBox; // 不支持 Proxy API 的低版本浏览器中，会降级为 snapshotSandBox
 ```
 
 ### 3、预加载
@@ -560,8 +560,8 @@ snapshotSandBox // 不支持 Proxy API 的低版本浏览器中，会降级为 s
  */
 
 start({
-  prefetch: 'all'
-})
+  prefetch: "all",
+});
 ```
 
 ### 4、跨域问题
@@ -604,3 +604,4 @@ DEMO 源码：<a href="https://github.com/bobo88/project-basis/tree/main/qiankun
 - [基于 qiankun 的微前端最佳实践 -（同时加载多个微应用）](https://tehub.com/a/8xrFr58LyQ)
 - [Vue+微前端(QianKun)落地实施和最后部署上线总结](https://juejin.cn/post/6973156414210441247)
 - [前端微应用框架(qiankun)调研](https://www.cnblogs.com/weichen913/p/17677981.html)
+- [基于 qiankun 的微前端最佳实践（万字长文） - 从 0 到 1 篇](https://juejin.cn/post/6844904158085021704)
