@@ -192,7 +192,7 @@ export default router;
 
 ### 5. 运行效果如下
 
-![An image](/images/from-zero/fe/qiankun-3.png)
+![An image](/images/from-zero/fe/qiankun-3.jpg)
 
 ## 二、子应用
 
@@ -305,10 +305,10 @@ export default router;
 yarn serve
 ```
 
-![An image](/images/from-zero/fe/qiankun-4.png)
+![An image](/images/from-zero/fe/qiankun-4.jpg)
 
 ## 三、主应用加载子应用
 
 > 点击主应用中的菜单，加载对应的子应用。
 
-![An image](/images/from-zero/fe/qiankun-5.png)
+![An image](/images/from-zero/fe/qiankun-5.jpg)

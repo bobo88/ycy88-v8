@@ -2,6 +2,8 @@
 
 ::: tip 样式隔离的分类
 
+> 注意：可以实现双重样式隔离的，即 **主应用配置** 和 **子应用配置** 同时设置。
+
 1. **主应用污染子应用**：样式严格隔离，样式不会污染到子应用。
 2. **子应用污染主应用**：配置命名空间，样式不会污染到主应用。
 
@@ -26,11 +28,11 @@ start({
 
 **主应用的样式隔离配置为严格模式后，主应用的样式将不会污染到子应用。**
 
-![An image](/images/from-zero/fe/qiankun-styles.png)
+![An image](/images/from-zero/fe/qiankun-styles.jpg)
 
 查看页面样式效果，你会发现如下图所示：
 
-![An image](/images/from-zero/fe/qiankun-styles-4.png)
+![An image](/images/from-zero/fe/qiankun-styles-4.jpg)
 
 - 你看到的 `#shadow-root (open)` 表示当前元素被 Shadow DOM 封装了。
   - `open` 表示该 Shadow DOM 是公开的，可以通过 JavaScript 访问。
@@ -46,7 +48,7 @@ start({
 
 ::: danger 不设置样式隔离的情况
 
-![An image](/images/from-zero/fe/qiankun-styles-3.png)
+![An image](/images/from-zero/fe/qiankun-styles-3.jpg)
 
 :::
 
@@ -100,4 +102,4 @@ module.exports = {
 
 **子应用所有样式都会被添加上 `.user-mgt-space` 前缀，从而避免样式冲突。**
 
-![An image](/images/from-zero/fe/qiankun-styles-2.png)
+![An image](/images/from-zero/fe/qiankun-styles-2.jpg)
