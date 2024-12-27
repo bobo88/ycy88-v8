@@ -62,6 +62,7 @@ export const nav = [
       { text: "后端专家", link: "/from-zero-rd/" },
       { text: "产品专家", link: "/from-zero-pm/" },
       { text: "公司发展", link: "/from-zero-to-build-company/" },
+      { text: "经济学原理", link: "/from-zero-economics/" },
     ],
   },
   {

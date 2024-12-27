@@ -92,14 +92,6 @@
 - [人性 - 规律 - 社会运行法则](ancient-modern/1-bottom-logic.md)
 - [思考：原生家庭对人的影响](ancient-modern/1-original-family.md)
 - [君子不器，成己达人，知白守黑](ancient-modern/1-own-master.md)
-
-### 社会经济学
-
-- [社会经济学概述](ancient-modern/economics/0_topic.md)
-- [经济学本质](ancient-modern/economics/essence.md)
-- [社会经济学](ancient-modern/economics/index.md)
-- [经济学中的核心关键词和概念](ancient-modern/economics/keywords.md)
-- [经济学的 10 个基本原理](ancient-modern/economics/top-10.md)
 - [💙 跨学科](ancient-modern/index.md)
 
 ### 法家思想
@@ -134,6 +126,9 @@
 - [洛克的社会身份理论](ancient-modern/social-psychology/9.md)
 - [人性的规律](ancient-modern/social-psychology/human-nature.md)
 - [人性的弱点（一）](ancient-modern/social-psychology/human-weakness-1.md)
+- [人性的弱点（二）](ancient-modern/social-psychology/human-weakness-2.md)
+- [人性的弱点（三）](ancient-modern/social-psychology/human-weakness-3.md)
+- [人性的弱点（四）](ancient-modern/social-psychology/human-weakness-4.md)
 - [社会心理学](ancient-modern/social-psychology/index.md)
 - [别陷入自证](ancient-modern/social-psychology/self-justification.md)
 - [认怂的力量](ancient-modern/social-psychology/the-power-of-give-up.md)
@@ -176,6 +171,10 @@
 
 - [阳明心学概述](ancient-modern/yangming-mind/0_topic.md)
 - [阳明心学](ancient-modern/yangming-mind/index.md)
+- [《中华人民共和国民法典》（部分节选）](ancient-modern/中华人民共和国民法典.md)
+- [《中华人民共和国治安管理处罚法》（部分节选）](ancient-modern/中华人民共和国治安管理处罚法.md)
+- [《中华人民共和国物业管理条例》（部分节选）](ancient-modern/中华人民共和国物业管理条例.md)
+- [《中华人民共和国物权法》（部分节选）](ancient-modern/中华人民共和国物权法.md)
 - [Runtime API Examples](api-examples.md)
 
 ## 💯 架构设计
@@ -293,8 +292,11 @@
 - [突破认知才是成长的关键](beyond-tech/breakthrough-cognition.md)
 - [辩论到底是什么？](beyond-tech/debate.md)
 - [爱因斯坦：发现问题比解决问题更重要！](beyond-tech/discover-problems.md)
+- [鸡蛋是从哪里来的？](beyond-tech/eggs.md)
+- [别再瞎忙了，用农民的智慧重新审视成长！](beyond-tech/farmer.md)
 - [前瞻性思维（Forward Thinking）](beyond-tech/forward-thinking.md)
 - [习惯是如何养成的？](beyond-tech/How-are-habits-formed.md)
+- [人类的无知，源于什么？](beyond-tech/ignorant.md)
 - [💖 重塑认知 💖](beyond-tech/index.md)
 - [重要的是行动的开始，而不是开始的时间](beyond-tech/just-do.md)
 - [你用对了学习方法吗？](beyond-tech/learn-methods.md)
@@ -355,12 +357,14 @@
 - [我好像抓住了实现阶层跨越的本质？](beyond-tech/mental-model/how-to-up.md)
 - [思维模型](beyond-tech/mental-model/index.md)
 - [学习的本质](beyond-tech/mental-model/learn-essence.md)
+- [如何选择平台？](beyond-tech/platform.md)
 
 ### 产品
 
 - [产品经理基本功](beyond-tech/pm/base.md)
 - [产品](beyond-tech/pm/index.md)
 - [产品工具类汇总](beyond-tech/pm/tools.md)
+- [别再当老好人了！掌握这招让你轻松说“不”](beyond-tech/say-no.md)
 - [潜台词我不说，你懂吗？](beyond-tech/subtext.md)
 
 ### 教育
@@ -377,6 +381,7 @@
 - [物理的本质](beyond-tech/teach/physical.md)
 - [由「编程本质」引发的思考](beyond-tech/think-life.md)
 - [团结就是力量！](beyond-tech/unite-is-power.md)
+- [视频文案](beyond-tech/videos.md)
 
 ### 工作思考
 
@@ -533,6 +538,300 @@
   ](errors/index.md)
 - [node-sass 报错汇总](errors/node-sass.md)
 - [yarn & git 相关报错](errors/yarn-git.md)
+
+## 经济学原理
+
+- [社会经济学概述](from-zero-economics/0_topic.md)
+- [经济学书籍推荐](from-zero-economics/books.md)
+- [经济学本质](from-zero-economics/essence.md)
+- [经济学原理](from-zero-economics/index.md)
+- [经济学中的核心关键词和概念](from-zero-economics/keywords.md)
+- [经济学的 10 个基本原理](from-zero-economics/top-10.md)
+
+### 切入点
+
+- ["打折"的深层含义](from-zero-economics/topic/1.md)
+- [切入点](from-zero-economics/topic/index.md)
+
+## 从零开始 DE 前端专家
+
+### 1. 核心技术
+
+- [CSS](from-zero-fe/1/1.1-css.md)
+- [HTML](from-zero-fe/1/1.1-html.md)
+- [JS](from-zero-fe/1/1.1-js.md)
+- [SEO](from-zero-fe/1/1.1-seo.md)
+- [TS](from-zero-fe/1/1.1-ts.md)
+- [Angular 框架](from-zero-fe/1/1.2-Angular.md)
+- [React 虚拟 DOM 的设计模式](from-zero-fe/1/1.2-React-design-patterns.md)
+- [React 框架](from-zero-fe/1/1.2-React.md)
+- [VUE 框架](from-zero-fe/1/1.2-VUE.md)
+- [Element UI](from-zero-fe/1/1.3-ElementUI.md)
+- [UView](from-zero-fe/1/1.3-UView.md)
+- [Vant UI](from-zero-fe/1/1.3-VantUI.md)
+- [Flutter](from-zero-fe/1/1.4-Flutter.md)
+- [React Native](from-zero-fe/1/1.4-ReactNative.md)
+- [Taro](from-zero-fe/1/1.4-taro.md)
+- [uni-app](from-zero-fe/1/1.4-uniapp.md)
+- [Grunt](from-zero-fe/1/1.5-Grunt.md)
+- [Gulp](from-zero-fe/1/1.5-Gulp.md)
+- [Parcel](from-zero-fe/1/1.5-Parcel.md)
+- [Rollup](from-zero-fe/1/1.5-Rollup.md)
+- [Vite](from-zero-fe/1/1.5-Vite.md)
+- [Webpack](from-zero-fe/1/1.5-Webpack.md)
+- [npm](from-zero-fe/1/1.6-npm.md)
+- [pnpm](from-zero-fe/1/1.6-pnpm.md)
+- [yarn](from-zero-fe/1/1.6-yarn.md)
+- [1. 核心技术](from-zero-fe/1/index.md)
+
+### 2. 进阶能力
+
+- [性能优化](from-zero-fe/2/2.1-perf.md)
+- [性能监控](from-zero-fe/2/2.2-monitor.md)
+- [模块化开发](from-zero-fe/2/2.3-modules.md)
+- [代码规范化](from-zero-fe/2/2.4-code.md)
+- [CI/CD](from-zero-fe/2/2.5-cicd.md)
+- [多页应用（MPA）](from-zero-fe/2/2.6-mpa.md)
+- [单页应用（SPA）](from-zero-fe/2/2.6-spa.md)
+- [微前端架构（qiankun、iframe）](from-zero-fe/2/2.7-micro-fe.md)
+- [前端状态管理方案的原理与本质解析](from-zero-fe/2/2.8-state-mgt-list.md)
+- [状态管理](from-zero-fe/2/2.8-state-mgt.md)
+- [前端安全问题](from-zero-fe/2/2.9-safe.md)
+- [2. 进阶能力](from-zero-fe/2/index.md)
+
+### 3. 前后端协作
+
+- [API 联调](from-zero-fe/3/3.1-api.md)
+- [服务端基础](from-zero-fe/3/3.2-rd-base.md)
+- [3. 前后端协作](from-zero-fe/3/index.md)
+
+### 4. 可视化与新兴技术
+
+- [可视化](from-zero-fe/4/4.1-view.md)
+- [PWA](from-zero-fe/4/4.2-pwa.md)
+- [WebAssembly](from-zero-fe/4/4.3-WebAssembly.md)
+- [Edge](from-zero-fe/4/4.4-Edge.md)
+- [4. 可视化与新兴技术](from-zero-fe/4/index.md)
+
+### 5. 跨平台与多端开发
+
+- [Web 与移动端](from-zero-fe/5/5.1-media.md)
+- [桌面端：Electron](from-zero-fe/5/5.2-electron.md)
+- [小程序](from-zero-fe/5/5.3-mp.md)
+- [5. 跨平台与多端开发](from-zero-fe/5/index.md)
+
+### 6. 工具与生态
+
+- [开发工具](from-zero-fe/6/6.1-devtools.md)
+- [版本控制与协作](from-zero-fe/6/6.2-gitflow.md)
+- [6. 工具与生态](from-zero-fe/6/index.md)
+
+### 7. 软技能
+
+- [博客](from-zero-fe/7/7.1-blog.md)
+- [开源](from-zero-fe/7/7.2-open-source.md)
+- [团队管理](from-zero-fe/7/7.3-team-mgt.md)
+- [学习能力](from-zero-fe/7/7.4-learn.md)
+- [7. 软技能](from-zero-fe/7/index.md)
+
+### 前端实践
+
+- [httpOnly](from-zero-fe/do/httpOnly.md)
+- [前端实践](from-zero-fe/do/index.md)
+- [前端实现自动键入字段的中间件](from-zero-fe/do/middleware.md)
+- [从零开始 DE 前端专家](from-zero-fe/index.md)
+- [技能清单](from-zero-fe/list.md)
+
+## 从零开始 DE 产品专家
+
+### 1. 产品策略与规划
+
+- [1. 产品策略与规划](from-zero-pm/1/index.md)
+
+### 2. 产品设计与用户体验
+
+- [产品经理必会的 3 大流程：业务流程、功能流程、页面流程](from-zero-pm/2/flow-chart.md)
+- [2. 产品设计与用户体验](from-zero-pm/2/index.md)
+
+### 3. 产品开发与跨部门协作
+
+- [3. 产品开发与跨部门协作](from-zero-pm/3/index.md)
+
+### 4. 产品上线与运营管理
+
+- [4. 产品上线与运营管理](from-zero-pm/4/index.md)
+
+### 5. 数据分析与决策支持
+
+- [5. 数据分析与决策支持](from-zero-pm/5/index.md)
+
+### 6. 市场与竞争分析
+
+- [6. 市场与竞争分析](from-zero-pm/6/index.md)
+
+### 7. 创新与趋势把握
+
+- [7. 创新与趋势把握](from-zero-pm/7/index.md)
+- [从零开始 DE 产品专家](from-zero-pm/index.md)
+- [技能清单](from-zero-pm/list.md)
+
+## 从零开始 DE 后端专家
+
+### 1. 处理客户端请求
+
+- [1.1 请求协议与方法](from-zero-rd/1/1.1-0.md)
+- [1）HTTP 协议](from-zero-rd/1/1.1-1.md)
+- [2）HTTPS](from-zero-rd/1/1.1-2.md)
+- [3）非 HTTP 协议](from-zero-rd/1/1.1-3.md)
+- [1.2 请求路由与解析](from-zero-rd/1/1.2-0.md)
+- [1）路由机制](from-zero-rd/1/1.2.1.md)
+- [2）请求体解析](from-zero-rd/1/1.2.2.md)
+- [3）请求头解析](from-zero-rd/1/1.2.3.md)
+- [完整的 Express 路由配置示例](from-zero-rd/1/1.2.4.md)
+- [MVC 模型与 Service 层](from-zero-rd/1/1.2.5.md)
+- [1.3 请求验证与过滤](from-zero-rd/1/1.3-0.md)
+- [1.4 速率限制与缓存](from-zero-rd/1/1.4-0.md)
+- [Express-rate-limit 实现速率限制功能](from-zero-rd/1/1.4.1.md)
+- [1. 处理客户端请求](from-zero-rd/1/index.md)
+
+### 2. 执行业务逻辑
+
+- [2.1 业务流程设计](from-zero-rd/2/2.1-0.md)
+- [1）后端规则逻辑分类](from-zero-rd/2/2.1-1.md)
+- [2）研发流程和交付物](from-zero-rd/2/2.1-2.md)
+- [3）MVC 模型](from-zero-rd/2/2.1-3.md)
+- [2.2 中间件设计与使用](from-zero-rd/2/2.2-0.md)
+- [1）Go 语言中间件](from-zero-rd/2/2.2-1.md)
+- [2）手写中间件（Express）](from-zero-rd/2/2.2-2.md)
+- [2.3 业务逻辑与算法](from-zero-rd/2/2.3-0.md)
+- [1）业务逻辑](from-zero-rd/2/2.3-1.md)
+- [2）算法](from-zero-rd/2/2.3-2.md)
+- [2.4 事务与一致性](from-zero-rd/2/2.4-0.md)
+- [1）事务](from-zero-rd/2/2.4-1.md)
+- [2）一致性](from-zero-rd/2/2.4-2.md)
+- [3）乐观锁与悲观锁](from-zero-rd/2/2.4-3.md)
+- [2. 执行业务逻辑](from-zero-rd/2/index.md)
+
+### 3. 与数据库进行数据交互
+
+- [3.1 数据库设计与建模](from-zero-rd/3/3.1-0.md)
+- [1）关系型数据库](from-zero-rd/3/3.1-1.md)
+- [2）NoSQL 数据库](from-zero-rd/3/3.1-2.md)
+- [3.2 数据库查询与优化](from-zero-rd/3/3.2-0.md)
+- [3.3 数据库事务与锁管理](from-zero-rd/3/3.3-0.md)
+- [3.4 数据库扩展与高可用性](from-zero-rd/3/3.4-0.md)
+- [3.5 数据安全与备份](from-zero-rd/3/3.5-0.md)
+- [3. 与数据库进行数据交互](from-zero-rd/3/index.md)
+
+### 4. 返回响应数据
+
+- [4.1 响应格式设计](from-zero-rd/4/4.1-0.md)
+- [4.2 响应优化与压缩](from-zero-rd/4/4.2-0.md)
+- [4.3 响应安全性与错误处理](from-zero-rd/4/4.3-0.md)
+- [4.4 性能与延迟优化](from-zero-rd/4/4.4-0.md)
+- [4. 返回响应数据](from-zero-rd/4/index.md)
+
+### 5. 安全性
+
+- [5.1 认证与授权](from-zero-rd/5/5.1-0.md)
+- [5.2 数据加密与安全通信](from-zero-rd/5/5.2-0.md)
+- [5.3 防止常见漏洞](from-zero-rd/5/5.3-0.md)
+- [5.4 日志与审计](from-zero-rd/5/5.4-0.md)
+- [5. 安全性](from-zero-rd/5/index.md)
+
+### 6. 可维护性与可扩展性
+
+- [6.1 模块化设计与服务解耦](from-zero-rd/6/6.1-0.md)
+- [6.2 代码质量与测试](from-zero-rd/6/6.2-0.md)
+- [6.3 错误处理与监控](from-zero-rd/6/6.3-0.md)
+- [6.4 版本控制与发布管理](from-zero-rd/6/6.4-0.md)
+- [6. 可维护性与可扩展性](from-zero-rd/6/index.md)
+
+### 7. 部署与运维
+
+- [7.1 容器化与虚拟化](from-zero-rd/7/7.1-0.md)
+- [7.2 自动化配置与部署](from-zero-rd/7/7.2-0.md)
+- [7.3 高可用性与负载均衡](from-zero-rd/7/7.3-0.md)
+- [7.4 故障恢复与数据备份](from-zero-rd/7/7.4-0.md)
+- [7. 部署与运维](from-zero-rd/7/index.md)
+
+### 8. 开发与调试工具
+
+- [8.1 开发工具](from-zero-rd/8/8.1-0.md)
+- [8.2 性能调优工具](from-zero-rd/8/8.2-0.md)
+- [8.3 日志管理与分析工具](from-zero-rd/8/8.3-0.md)
+- [8. 开发与调试工具](from-zero-rd/8/index.md)
+
+### 项目实践
+
+- [限流的分类](from-zero-rd/do/current-limit.md)
+- [高并发的应对策略](from-zero-rd/do/High-concurrency.md)
+- [项目实践](from-zero-rd/do/index.md)
+- [IP 限流方案](from-zero-rd/do/ip-set.md)
+- [多端登录、二次校验敏感信息、账户修改密码后强制下线](from-zero-rd/do/jwt-black-2.md)
+- [JWT 黑名单机制和实现](from-zero-rd/do/jwt-black.md)
+- [JWT Refresh Token 无感刷新机制](from-zero-rd/do/jwt-refresh.md)
+- [jwt 的 token 失效机制](from-zero-rd/do/jwt.md)
+- [日志管理概述](from-zero-rd/do/log-mgt-0.md)
+- [RabbitMQ 和 Kafka 消息队列系统](from-zero-rd/do/log-mgt-1.md)
+- [日志管理实践](from-zero-rd/do/log-mgt.md)
+- [微服务](from-zero-rd/do/micro-server.md)
+- [后端实现自动键入字段的中间件](from-zero-rd/do/middleware.md)
+- [OAuth](from-zero-rd/do/oauth.md)
+- [支付](from-zero-rd/do/pay.md)
+- [敏感操作二次验证技术实现](from-zero-rd/do/repeat-psw-code.md)
+- [敏感操作二次验证设计方案](from-zero-rd/do/repeat-psw.md)
+- [socket.io 前后端实践](from-zero-rd/do/socket.io.md)
+- [第三方登录](from-zero-rd/do/thrid-login.md)
+- [Ubuntu 系统上安装 nvm](from-zero-rd/do/ubuntu-install-nvm.md)
+- [Ubuntu 官方推荐的 Yarn 安装方式](from-zero-rd/do/ubuntu-install-yarn.md)
+- [Ubuntu 获取你的局域网 IP 地址](from-zero-rd/do/ubuntu-ip.md)
+- [ubuntu 系统无法识别 pm2 命令](from-zero-rd/do/ubuntu-pm2.md)
+- [ubuntu 如何显示目录树 tree 结构](from-zero-rd/do/ubuntu-tree.md)
+- [项目运行报错（部分汇总）](from-zero-rd/do/ubuntu-yarndev.md)
+- [从零开始 DE 后端专家](from-zero-rd/index.md)
+- [技能清单](from-zero-rd/list.md)
+
+## 从零开始 DE 公司发展
+
+### 1. 市场与业务模型
+
+- [1. 市场与业务模型](from-zero-to-build-company/1/index.md)
+- [盈利模式](from-zero-to-build-company/1/Profit-Model.md)
+
+### 2. 法律与合规
+
+- [2. 法律与合规](from-zero-to-build-company/2/index.md)
+
+### 3. 资金与财务
+
+- [3. 资金与财务](from-zero-to-build-company/3/index.md)
+
+### 4. 团队与人才
+
+- [4. 团队与人才](from-zero-to-build-company/4/index.md)
+
+### 5. 运营与执行
+
+- [5. 运营与执行](from-zero-to-build-company/5/index.md)
+
+### 6. 营销与推广
+
+- [6. 营销与推广](from-zero-to-build-company/6/index.md)
+
+### 7. 技术与创新
+
+- [7. 技术与创新](from-zero-to-build-company/7/index.md)
+
+### 8. 风险与应对
+
+- [8. 风险与应对](from-zero-to-build-company/8/index.md)
+
+### 9. 成长与扩展
+
+- [9. 成长与扩展](from-zero-to-build-company/9/index.md)
+- [从零开始 DE 公司发展](from-zero-to-build-company/index.md)
+- [公司发展](from-zero-to-build-company/list.md)
 
 ## 前端规范
 
@@ -781,6 +1080,7 @@
 - [职业画像的判断](keywords/team-mgt/cognition-judgment-of-professional-portraits.md)
 - [管理能力的思考](keywords/team-mgt/cognition-thinking-about-management-ability.md)
 - [团队管理](keywords/team-mgt/index.md)
+- [面试官的通用话术：如何高效评估应聘者](keywords/team-mgt/interview.md)
 - [述职参考建议](keywords/team-mgt/other-report-work.md)
 - [如何做好项目管理？](keywords/team-mgt/pm-mgt.md)
 - [如何做好一个职业导师](keywords/team-mgt/team-career-mentor.md)
@@ -947,7 +1247,6 @@
 ## 微前端
 
 - [微前端，解决了什么问题？](micro-fe/0_micro-fe.md)
-- [微前端「qiankun」的实践](micro-fe/10_micro-frontend-qiankun.md)
 - [Module Federation（MF）](micro-fe/10_micro-frontend-webpack-5-module-federation.md)
 - [qiankun 具体项目实践](micro-fe/11_qiankun-project.md)
 - [团队标准工程搭建实践](micro-fe/12_rapid-plat-0.md)
@@ -965,12 +1264,17 @@
 - [微前端安全性-跨域攻击](micro-fe/safe-1.md)
 - [微前端安全性-数据隔离](micro-fe/safe-2.md)
 - [微前端安全性-身份认证](micro-fe/safe-3.md)
+- [集成方案-路由管理-子应用上报](micro-fe/solution-1-onRouteReady.md)
 - [集成方案-路由管理](micro-fe/solution-1.md)
 - [集成方案-状态管理](micro-fe/solution-2.md)
 - [集成方案-样式隔离](micro-fe/solution-3.md)
 - [集成方案-组件通信](micro-fe/solution-4.md)
 - [集成方案-共享数据管理](micro-fe/solution-5.md)
 - [集成方案-版本控制和发布管理](micro-fe/solution-6.md)
+- [微前端「qiankun」的实践](micro-fe/use-qiankun-1.md)
+- [微前端「qiankun」的实践 2](micro-fe/use-qiankun-2.md)
+- [微前端「qiankun」的实践 3](micro-fe/use-qiankun-3-hidden.md)
+- [Qiankun 微前端项目](micro-fe/use-qiankun-readme.md)
 
 ## 小程序专题
 
@@ -1075,8 +1379,13 @@
 - [项目实践](node/project/index.md)
 - [MongoDB 事务支持](node/project/mongodb-ACID.md)
 - [MongoDB 的安全性配置](node/project/mongodb-Auth.md)
+- [MongoDB CMS Database](node/project/mongodb-cms-1.md)
+- [MongoDB CMS API](node/project/mongodb-cms-2.md)
+- [如何实现【用户登录注册】的双重加密？](node/project/mongodb-cms-3.md)
+- [MongoDB compass 如何建立数据库？](node/project/mongodb-compass.md)
 - [MongoDB 索引优化](node/project/mongodb-index.md)
 - [MongoDB 的分片功能](node/project/mongodb-sharding.md)
+- [MongoDB 数据库的基本操作流程](node/project/mongodb.md)
 - [CMS 使用 MySQL 和 MongoDB 的区别](node/project/mysql-mongodb.md)
 - [Node 服务端开发技巧总结](node/project/node-server.md)
 
