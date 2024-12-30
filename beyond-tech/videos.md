@@ -1141,3 +1141,13 @@ MECE 原则的魔力在哪里？
 ## 90. 骨子里的自信
 
 > TODO
+
+## 91. 本质
+
+- http://www.360doc.com/content/23/0213/22/78357527_1067532929.shtml
+- https://www.usmart.hk/zh-cn/news-detail/7006233942739239137
+- https://finance.sina.cn/chanjing/gsxw/2022-02-15/detail-ikyamrna0941677.d.html
+
+## 92. 真相
+
+## 93. 吸引力法则
