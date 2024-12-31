@@ -38,7 +38,6 @@ export const nav = [
       { text: "跨端｜音视频", link: "/devices/" },
       { text: "Shopify", link: "/shopify/" },
       { text: "可视化系列", link: "/visualization/" },
-      { text: "人工智能", link: "/AI/" },
     ],
   },
   // {
@@ -61,8 +60,10 @@ export const nav = [
       },
       { text: "后端专家", link: "/from-zero-rd/" },
       { text: "产品专家", link: "/from-zero-pm/" },
+      { text: "AI", link: "/AI/" },
       { text: "公司发展", link: "/from-zero-to-build-company/" },
       { text: "经济学原理", link: "/from-zero-economics/" },
+      { text: "English", link: "/from-zero-English/" },
     ],
   },
   {

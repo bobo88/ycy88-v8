@@ -11,12 +11,14 @@
     "docs:preview": "vitepress preview ."
   },
   "devDependencies": {
+    "@vite-pwa/vitepress": "^0.5.3",
     "markdown-it-task-lists": "^2.1.1",
     "vitepress": "1.0.0-rc.45"
   },
   "dependencies": {
     "echarts": "^5.5.0",
     "flowchart.ts": "^3.0.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "vite-plugin-pwa": "^0.21.1"
   }
 }
