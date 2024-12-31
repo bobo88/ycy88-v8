@@ -119,7 +119,8 @@ export default withPwa(
     // PWA 配置
     pwa: {
       // @ts-ignore
-      registerType: "autoUpdate", // 自动更新 Service Worker
+      // registerType: "autoUpdate", // 自动更新 Service Worker
+      registerType: "prompt", // 手动触发更新
       manifest: {
         name: "V8程序",
         short_name: "V8",
@@ -139,6 +140,7 @@ export default withPwa(
         ],
       },
       workbox: {
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024, // 允许最大文件大小为 6 MiB
         // Workbox 选项 (可选)
         runtimeCaching: [
           {
