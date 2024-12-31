@@ -607,7 +607,7 @@
 
 ### 4. 可视化与新兴技术
 
-- [可视化](from-zero-fe/4/4.1-view.md)
+- [可视化](from-zero-fe/4/4.1-view-0.md)
 - [PWA](from-zero-fe/4/4.2-pwa.md)
 - [WebAssembly](from-zero-fe/4/4.3-WebAssembly.md)
 - [Edge](from-zero-fe/4/4.4-Edge.md)
