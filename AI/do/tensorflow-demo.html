@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot with TensorFlow.js</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f4f4f9;
+      }
+      .chat-container {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .chat-messages {
+        height: 300px;
+        overflow-y: auto;
+        border: 1px solid #eee;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+      }
+      .message {
+        margin-bottom: 10px;
+      }
+      .user {
+        color: blue;
+      }
+      .bot {
+        color: green;
+      }
+      input,
+      button {
+        padding: 10px;
+        font-size: 16px;
+        margin: 5px 0;
+      }
+      input {
+        width: 80%;
+      }
+      button {
+        width: 15%;
+        cursor: pointer;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Load the qna model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"></script>
+  </head>
+  <body>
+    <div class="chat-container">
+      <h2>Chatbot</h2>
+      <div class="chat-messages" id="chat-messages"></div>
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Type your message here..."
+      />
+      <button id="send-button">Send</button>
+    </div>
+
+    <script>
+      let model;
+
+      // Load the Universal Sentence Encoder model
+      async function loadModel() {
+        qna.load().then((model) => {
+          // Find the answers
+          model.findAnswers(question, passage).then((answers) => {
+            console.log("Answers: ", answers);
+          });
+        });
+      }
+      loadModel();
+
+      const chatMessages = document.getElementById("chat-messages");
+      const userInput = document.getElementById("user-input");
+      const sendButton = document.getElementById("send-button");
+
+      // Predefined bot responses
+      const botResponses = [
+        "Hello! How can I help you today?",
+        "I'm here to assist you. Please provide more details.",
+        "Goodbye! Have a nice day.",
+        "I'm sorry, I didn't quite understand that. Can you elaborate?",
+      ];
+
+      // Add message to chat
+      function addMessage(text, sender) {
+        const messageDiv = document.createElement("div");
+        messageDiv.className = `message ${sender}`;
+        messageDiv.textContent = `${
+          sender === "user" ? "You" : "Bot"
+        }: ${text}`;
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight; // Auto-scroll to the bottom
+      }
+
+      // Calculate cosine similarity
+      function cosineSimilarity(vecA, vecB) {
+        const dotProduct = vecA.reduce((sum, a, idx) => sum + a * vecB[idx], 0);
+        const normA = Math.sqrt(vecA.reduce((sum, a) => sum + a * a, 0));
+        const normB = Math.sqrt(vecB.reduce((sum, b) => sum + b * b, 0));
+        return dotProduct / (normA * normB);
+      }
+
+      // Get bot response using USE model
+      async function getBotResponse(userText) {
+        const sentences = [userText, ...botResponses];
+        const embeddings = await model.embed(sentences);
+        const embeddingsArray = await embeddings.array();
+        const userEmbedding = embeddingsArray[0];
+        const responseEmbeddings = embeddingsArray.slice(1);
+
+        let maxScore = 0;
+        let bestResponse = botResponses[3]; // Default response for low similarity
+
+        responseEmbeddings.forEach((responseEmbedding, idx) => {
+          const score = cosineSimilarity(userEmbedding, responseEmbedding);
+          if (score > maxScore) {
+            maxScore = score;
+            bestResponse = botResponses[idx];
+          }
+        });
+
+        return bestResponse;
+      }
+
+      // Handle user input
+      sendButton.addEventListener("click", async () => {
+        const userText = userInput.value.trim();
+        if (userText) {
+          addMessage(userText, "user");
+          userInput.value = "";
+          const botReply = await getBotResponse(userText);
+          addMessage(botReply, "bot");
+        }
+      });
+
+      // Allow "Enter" key to send message
+      userInput.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+          sendButton.click();
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script>
+      const headers = new Headers();
+      headers.append("Content-Type", "application/json");
+      headers.append("Authorization", "Bearer sk-xxxxx");
+      const body = JSON.stringify({
+        model: "gpt-3.5-turbo",
+        messages: [{ role: "user", content: "你好" }],
+      });
+      const requestOptions = { method: "POST", headers, body };
+      fetch("https://api.openai-proxy.com/v1/chat/completions", requestOptions)
+        .then((response) => response.text())
+        .then((result) => console.log(result))
+        .catch((error) => console.log("error", error));
+    </script>
+  </head>
+</html>
