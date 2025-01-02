@@ -22,3 +22,4 @@
 
 - [https://www.tensorflow.org/js/models](https://www.tensorflow.org/js/models)
 - [Tensorflow.js 启航：https://pzfqk98jn1.feishu.cn/wiki/DyvPw9JQWix8ZYknqbfcKVJhnNf](https://pzfqk98jn1.feishu.cn/wiki/DyvPw9JQWix8ZYknqbfcKVJhnNf)
+- [https://chatui.io/](https://chatui.io/)
